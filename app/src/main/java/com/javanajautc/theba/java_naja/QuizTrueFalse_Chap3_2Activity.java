@@ -1,4 +1,4 @@
-package com.example.theba.java_naja;
+package com.javanajautc.theba.java_naja;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -104,7 +104,7 @@ public class QuizTrueFalse_Chap3_2Activity extends AppCompatActivity {
 
     private void updateQuiz(){
 
-        if (mScore == 27) {
+        if (mScore == 25) {
 
             mQuizNumber = 3;
 
@@ -113,7 +113,7 @@ public class QuizTrueFalse_Chap3_2Activity extends AppCompatActivity {
             newpost.put("UserScore", mScore);
             current_user_db_score.updateChildren(newpost);
 
-        } else if (mScore == 28) {
+        } else if (mScore == 26) {
 
             mQuizNumber = 4;
 
@@ -122,7 +122,7 @@ public class QuizTrueFalse_Chap3_2Activity extends AppCompatActivity {
             newpost.put("UserScore", mScore);
             current_user_db_score.updateChildren(newpost);
 
-        } else if (mScore == 29) {
+        } else if (mScore == 27) {
 
             mQuizNumber = 5;
 
@@ -130,15 +130,15 @@ public class QuizTrueFalse_Chap3_2Activity extends AppCompatActivity {
             Map newpost = new HashMap();
             newpost.put("UserScore", mScore);
             current_user_db_score.updateChildren(newpost);
-        } else if (mScore >= 30) {
+        } else if (mScore >= 28) {
 
                 current_user_db_score = FirebaseDatabase.getInstance().getReference().child("Users").child(user_id);
                 Map newpost = new HashMap();
                 newpost.put("UserScore", mScore);
                 current_user_db_score.updateChildren(newpost);
             Intent intent = new Intent(QuizTrueFalse_Chap3_2Activity.this, Chap3Activity.class);
-            finish();
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            finish();
             startActivity(intent);
 
         } else {

@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tool="http://schemas.android.com/tools"
     xmlns:tools="http://schemas.android.com/apk/res-auto"
-    package="com.example.theba.java_naja">
+    package="com.javanajautc.theba.java_naja">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -282,6 +282,12 @@
         <activity android:name=".QuizTrueFalse_Chap6Activity" />
         <activity android:name=".QuizTrueFalse_Chap7Activity" />
         <activity android:name=".QuizTrueFalse_Chap8Activity"></activity>
+
+        <activity
+            android:name=".CertificateActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="sensorLandscape" />
+
     </application>
 
 </manifest>

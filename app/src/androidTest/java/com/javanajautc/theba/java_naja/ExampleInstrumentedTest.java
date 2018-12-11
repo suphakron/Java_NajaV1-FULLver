@@ -1,4 +1,4 @@
-package com.example.theba.java_naja;
+package com.javanajautc.theba.java_naja;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -15,12 +15,12 @@ import static org.junit.Assert.*;
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
 @RunWith(AndroidJUnit4.class)
-public class exampleInstrumentedTest {
+public class javanajautcInstrumentedTest {
     @Test
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.theba.java_naja", appContext.getPackageName());
+        assertEquals("com.javanajautc.theba.java_naja", appContext.getPackageName());
     }
 }

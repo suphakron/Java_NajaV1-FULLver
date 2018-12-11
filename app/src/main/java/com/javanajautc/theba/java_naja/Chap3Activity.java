@@ -1,4 +1,4 @@
-package com.example.theba.java_naja;
+package com.javanajautc.theba.java_naja;
 
 import android.content.Intent;
 import android.content.res.Resources;
@@ -354,7 +354,7 @@ public class Chap3Activity extends AppCompatActivity
                                 button_chap3_10.setEnabled(false);
                                 button_chap3_10.getBackground().setColorFilter(Color.parseColor("#e3e3e3"), PorterDuff.Mode.MULTIPLY);
                                 button_chap3_10.setTextColor(Color.parseColor("#80000000"));
-                            }else if (mScore == 22){
+                            }else if (mScore >= 22 && mScore < 25){
                                 button_chap3_1.getBackground().setColorFilter(Color.parseColor("#aee663"), PorterDuff.Mode.MULTIPLY);
                                 button_chap3_2.setEnabled(true);
                                 button_chap3_2.getBackground().setColorFilter(Color.parseColor("#aee663"), PorterDuff.Mode.MULTIPLY);
@@ -383,7 +383,7 @@ public class Chap3Activity extends AppCompatActivity
                                 button_chap3_10.setEnabled(false);
                                 button_chap3_10.getBackground().setColorFilter(Color.parseColor("#e3e3e3"), PorterDuff.Mode.MULTIPLY);
 
-                            }else if (mScore == 25){
+                            }else if (mScore >= 25 && mScore < 28){
                                 button_chap3_1.getBackground().setColorFilter(Color.parseColor("#aee663"), PorterDuff.Mode.MULTIPLY);
                                 button_chap3_2.setEnabled(true);
                                 button_chap3_2.getBackground().setColorFilter(Color.parseColor("#aee663"), PorterDuff.Mode.MULTIPLY);
@@ -412,7 +412,7 @@ public class Chap3Activity extends AppCompatActivity
                                 button_chap3_10.setEnabled(true);
                                 button_chap3_10.getBackground().setColorFilter(Color.parseColor("#bebcbc"), PorterDuff.Mode.MULTIPLY);
 
-                            }else if (mScore >= 30){
+                            }else if (mScore >= 28){
                                 button_chap3_1.getBackground().setColorFilter(Color.parseColor("#aee663"), PorterDuff.Mode.MULTIPLY);
                                 button_chap3_2.setEnabled(true);
                                 button_chap3_2.getBackground().setColorFilter(Color.parseColor("#aee663"), PorterDuff.Mode.MULTIPLY);

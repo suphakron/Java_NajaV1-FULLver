@@ -1,4 +1,4 @@
-package com.example.theba.java_naja;
+package com.javanajautc.theba.java_naja;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -104,7 +104,7 @@ public class QuizTrueFalse_Chap5Activity extends AppCompatActivity {
 
     private void updateQuiz(){
 
-        if (mScore == 59) {
+        if (mScore == 53) {
 
             mQuizNumber = 0;
 
@@ -113,7 +113,7 @@ public class QuizTrueFalse_Chap5Activity extends AppCompatActivity {
             newpost.put("UserScore", mScore);
             current_user_db_score.updateChildren(newpost);
 
-        } else if (mScore == 60) {
+        } else if (mScore == 54) {
 
             mQuizNumber = 1;
 
@@ -122,7 +122,7 @@ public class QuizTrueFalse_Chap5Activity extends AppCompatActivity {
             newpost.put("UserScore", mScore);
             current_user_db_score.updateChildren(newpost);
 
-        } else if (mScore == 61) {
+        } else if (mScore == 55) {
 
             mQuizNumber = 2;
 
@@ -131,7 +131,7 @@ public class QuizTrueFalse_Chap5Activity extends AppCompatActivity {
             newpost.put("UserScore", mScore);
             current_user_db_score.updateChildren(newpost);
 
-        } else if (mScore == 62) {
+        } else if (mScore == 56) {
 
             mQuizNumber = 3;
 
@@ -140,7 +140,7 @@ public class QuizTrueFalse_Chap5Activity extends AppCompatActivity {
             newpost.put("UserScore", mScore);
             current_user_db_score.updateChildren(newpost);
 
-        } else if (mScore == 63) {
+        } else if (mScore == 57) {
 
             mQuizNumber = 4;
 
@@ -149,7 +149,7 @@ public class QuizTrueFalse_Chap5Activity extends AppCompatActivity {
             newpost.put("UserScore", mScore);
             current_user_db_score.updateChildren(newpost);
 
-        } else if (mScore == 64) {
+        } else if (mScore == 58) {
 
             mQuizNumber = 5;
 
@@ -158,7 +158,7 @@ public class QuizTrueFalse_Chap5Activity extends AppCompatActivity {
             newpost.put("UserScore", mScore);
             current_user_db_score.updateChildren(newpost);
 
-        }   else if (mScore >= 65) {
+        }   else if (mScore >= 59) {
 
             current_user_db_score = FirebaseDatabase.getInstance().getReference().child("Users").child(user_id);
             Map newpost = new HashMap();

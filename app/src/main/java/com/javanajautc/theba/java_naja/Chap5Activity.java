@@ -1,4 +1,4 @@
-package com.example.theba.java_naja;
+package com.javanajautc.theba.java_naja;
 
 import android.content.Intent;
 import android.content.res.Resources;
@@ -122,7 +122,7 @@ public class Chap5Activity extends AppCompatActivity
                             mProgress.setProgress(mScore);
                             tv.setText(Score + " %");
 
-                            if (mScore == 51){
+                            if (mScore == 46){
                                 button_chap5_1.getBackground().setColorFilter(Color.parseColor("#bebcbc"), PorterDuff.Mode.MULTIPLY);
                                 button_chap5_2.setEnabled(false);
                                 button_chap5_2.getBackground().setColorFilter(Color.parseColor("#e3e3e3"), PorterDuff.Mode.MULTIPLY);
@@ -136,7 +136,8 @@ public class Chap5Activity extends AppCompatActivity
                                 button_chap5_5.setEnabled(false);
                                 button_chap5_5.getBackground().setColorFilter(Color.parseColor("#e3e3e3"), PorterDuff.Mode.MULTIPLY);
                                 button_chap5_5.setTextColor(Color.parseColor("#80000000"));
-                            } else if (mScore == 52){
+
+                            } else if (mScore == 47){
                                 button_chap5_1.getBackground().setColorFilter(Color.parseColor("#aee663"), PorterDuff.Mode.MULTIPLY);
                                 button_chap5_2.setEnabled(true);
                                 button_chap5_2.getBackground().setColorFilter(Color.parseColor("#bebcbc"), PorterDuff.Mode.MULTIPLY);
@@ -150,7 +151,8 @@ public class Chap5Activity extends AppCompatActivity
                                 button_chap5_5.setEnabled(false);
                                 button_chap5_5.getBackground().setColorFilter(Color.parseColor("#e3e3e3"), PorterDuff.Mode.MULTIPLY);
                                 button_chap5_5.setTextColor(Color.parseColor("#80000000"));
-                            } else if (mScore == 53){
+
+                            } else if (mScore == 48){
                                 button_chap5_1.getBackground().setColorFilter(Color.parseColor("#aee663"), PorterDuff.Mode.MULTIPLY);
 
                                 button_chap5_2.setEnabled(true);
@@ -163,7 +165,8 @@ public class Chap5Activity extends AppCompatActivity
                                 button_chap5_5.setEnabled(false);
                                 button_chap5_5.getBackground().setColorFilter(Color.parseColor("#e3e3e3"), PorterDuff.Mode.MULTIPLY);
                                 button_chap5_5.setTextColor(Color.parseColor("#80000000"));
-                            } else if (mScore == 54){
+
+                            } else if (mScore >= 49 && mScore < 59){
                                 button_chap5_1.getBackground().setColorFilter(Color.parseColor("#aee663"), PorterDuff.Mode.MULTIPLY);
                                 button_chap5_2.setEnabled(true);
                                 button_chap5_2.getBackground().setColorFilter(Color.parseColor("#aee663"), PorterDuff.Mode.MULTIPLY);
@@ -174,7 +177,8 @@ public class Chap5Activity extends AppCompatActivity
                                 button_chap5_5.setEnabled(false);
                                 button_chap5_5.getBackground().setColorFilter(Color.parseColor("#e3e3e3"), PorterDuff.Mode.MULTIPLY);
                                 button_chap5_5.setTextColor(Color.parseColor("#80000000"));
-                            }else if (mScore == 58){
+
+                            }else if (mScore >= 59){
                                 button_chap5_1.getBackground().setColorFilter(Color.parseColor("#aee663"), PorterDuff.Mode.MULTIPLY);
 
                                 button_chap5_2.setEnabled(true);
@@ -187,20 +191,7 @@ public class Chap5Activity extends AppCompatActivity
                                 button_chap5_5.setEnabled(true);
                                 button_chap5_5.getBackground().setColorFilter(Color.parseColor("#bebcbc"), PorterDuff.Mode.MULTIPLY);
 
-                            }else if (mScore >= 65){
-                                button_chap5_1.getBackground().setColorFilter(Color.parseColor("#aee663"), PorterDuff.Mode.MULTIPLY);
-
-                                button_chap5_2.setEnabled(true);
-                                button_chap5_2.getBackground().setColorFilter(Color.parseColor("#aee663"), PorterDuff.Mode.MULTIPLY);
-                                button_chap5_3.setEnabled(true);
-                                button_chap5_3.getBackground().setColorFilter(Color.parseColor("#aee663"), PorterDuff.Mode.MULTIPLY);
-                                button_chap5_4.setEnabled(true);
-                                button_chap5_4.getBackground().setColorFilter(Color.parseColor("#aee663"), PorterDuff.Mode.MULTIPLY);
-
-                                button_chap5_5.setEnabled(true);
-                                button_chap5_5.getBackground().setColorFilter(Color.parseColor("#aee663"), PorterDuff.Mode.MULTIPLY);
-
-                            }else {
+                            } else {
                                 button_chap5_1.setEnabled(false);
                                 button_chap5_1.getBackground().setColorFilter(Color.parseColor("#e3e3e3"), PorterDuff.Mode.MULTIPLY);
                                 button_chap5_1.setTextColor(Color.parseColor("#80000000"));

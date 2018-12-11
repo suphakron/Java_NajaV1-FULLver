@@ -1,4 +1,4 @@
-package com.example.theba.java_naja;
+package com.javanajautc.theba.java_naja;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -13,6 +13,7 @@ import android.support.annotation.RequiresApi;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Html;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -21,6 +22,7 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.Toolbar;
 
 import com.google.android.gms.common.SignInButton;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -70,7 +72,9 @@ public class EditProfileActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_profile);
 
-        getSupportActionBar().setTitle("แก้ไขข้อมูลส่วนตัว");
+        String title = "แก้ไขข้อมูลส่วนตัว";
+        //getSupportActionBar().setTitle("แก้ไขข้อมูลส่วนตัว");
+        getSupportActionBar().setTitle(Html.fromHtml("<font color='#ffffff'>"+ title +"</font>"));
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         mAuth = FirebaseAuth.getInstance();
@@ -180,16 +184,16 @@ public class EditProfileActivity extends AppCompatActivity {
                 //userConPwd = ConfirmPassword.getText().toString();
 
                 //if(userPwd.equals(userConPwd)) {
-                    //setting rule can update data
-                    //***adding info user***
+                //setting rule can update data
+                //***adding info user***
 
-                    Map newPost = new HashMap();
-                    newPost.put("Email", userEmail);
-                    newPost.put("FName", userFname);
-                    newPost.put("LName", userLname);
-                    newPost.put("image-src", imgLocation);
-                    //newPost.put("Password", userPwd);
-                    current_user_db.updateChildren(newPost);
+                Map newPost = new HashMap();
+                newPost.put("Email", userEmail);
+                newPost.put("FName", userFname);
+                newPost.put("LName", userLname);
+                newPost.put("image-src", imgLocation);
+                //newPost.put("Password", userPwd);
+                current_user_db.updateChildren(newPost);
 
                 filepath.putFile(resultUri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                     @Override
@@ -203,10 +207,10 @@ public class EditProfileActivity extends AppCompatActivity {
                     }
                 });
 
-                    Intent intent = new Intent(EditProfileActivity.this,LoginActivity.class);
-                    Toast.makeText(EditProfileActivity.this,"ทำการบันทึกประวัติของคุณแล้ว",Toast.LENGTH_LONG).show();
-                    startActivity(intent);
-                    intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                Intent intent = new Intent(EditProfileActivity.this,LoginActivity.class);
+                Toast.makeText(EditProfileActivity.this,"ทำการบันทึกประวัติของคุณแล้ว",Toast.LENGTH_LONG).show();
+                startActivity(intent);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 
                 /*} else {
                     Toast.makeText(EditProfileActivity.this,"รหัสผ่านไม่ตรงกัน กรุณาตรวจสอบ",Toast.LENGTH_LONG).show();

@@ -1,4 +1,4 @@
-package com.example.theba.java_naja;
+package com.javanajautc.theba.java_naja;
 
 import android.content.Intent;
 import android.content.res.Resources;
@@ -122,7 +122,7 @@ public class Chap4Activity extends AppCompatActivity
                             mProgress.setProgress(mScore);
                             tv.setText(Score + " %");
 
-                            if (mScore == 28){
+                            if (mScore >= 28 && mScore < 30){
                                 button_chap4_1.getBackground().setColorFilter(Color.parseColor("#bebcbc"), PorterDuff.Mode.MULTIPLY);
                                 button_chap4_2.setEnabled(false);
                                 button_chap4_2.getBackground().setColorFilter(Color.parseColor("#e3e3e3"), PorterDuff.Mode.MULTIPLY);
@@ -137,7 +137,7 @@ public class Chap4Activity extends AppCompatActivity
                                 button_chap4_5.getBackground().setColorFilter(Color.parseColor("#e3e3e3"), PorterDuff.Mode.MULTIPLY);
                                 button_chap4_5.setTextColor(Color.parseColor("#80000000"));
 
-                            } else if (mScore == 30){
+                            } else if (mScore >= 30 && mScore < 32){
                                 button_chap4_1.getBackground().setColorFilter(Color.parseColor("#aee663"), PorterDuff.Mode.MULTIPLY);
                                 button_chap4_2.setEnabled(true);
                                 button_chap4_2.getBackground().setColorFilter(Color.parseColor("#bebcbc"), PorterDuff.Mode.MULTIPLY);
@@ -151,7 +151,8 @@ public class Chap4Activity extends AppCompatActivity
                                 button_chap4_5.setEnabled(false);
                                 button_chap4_5.getBackground().setColorFilter(Color.parseColor("#e3e3e3"), PorterDuff.Mode.MULTIPLY);
                                 button_chap4_5.setTextColor(Color.parseColor("#80000000"));
-                            } else if (mScore == 32){
+
+                            } else if (mScore >= 32 && mScore < 34){
                                 button_chap4_1.getBackground().setColorFilter(Color.parseColor("#aee663"), PorterDuff.Mode.MULTIPLY);
 
                                 button_chap4_2.setEnabled(true);
@@ -165,7 +166,7 @@ public class Chap4Activity extends AppCompatActivity
                                 button_chap4_5.getBackground().setColorFilter(Color.parseColor("#e3e3e3"), PorterDuff.Mode.MULTIPLY);
                                 button_chap4_5.setTextColor(Color.parseColor("#80000000"));
 
-                            } else if (mScore == 34){
+                            } else if (mScore >= 34 && mScore < 36){
                                 button_chap4_1.getBackground().setColorFilter(Color.parseColor("#aee663"), PorterDuff.Mode.MULTIPLY);
 
                                 button_chap4_2.setEnabled(true);
@@ -179,7 +180,7 @@ public class Chap4Activity extends AppCompatActivity
                                 button_chap4_5.getBackground().setColorFilter(Color.parseColor("#e3e3e3"), PorterDuff.Mode.MULTIPLY);
                                 button_chap4_5.setTextColor(Color.parseColor("#80000000"));
 
-                            } else if (mScore == 38){
+                            } else if (mScore >= 36 && mScore < 46){
                                 button_chap4_1.getBackground().setColorFilter(Color.parseColor("#aee663"), PorterDuff.Mode.MULTIPLY);
 
                                 button_chap4_2.setEnabled(true);
@@ -191,7 +192,7 @@ public class Chap4Activity extends AppCompatActivity
                                 button_chap4_5.setEnabled(true);
                                 button_chap4_5.getBackground().setColorFilter(Color.parseColor("#bebcbc"), PorterDuff.Mode.MULTIPLY);
 
-                            }else if (mScore >= 51){
+                            }else if (mScore >= 46){
                                 button_chap4_1.getBackground().setColorFilter(Color.parseColor("#aee663"), PorterDuff.Mode.MULTIPLY);
 
                                 button_chap4_2.setEnabled(true);

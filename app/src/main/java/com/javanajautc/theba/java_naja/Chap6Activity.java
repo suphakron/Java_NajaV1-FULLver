@@ -1,4 +1,4 @@
-package com.example.theba.java_naja;
+package com.javanajautc.theba.java_naja;
 
 import android.content.Intent;
 import android.content.res.Resources;
@@ -122,7 +122,7 @@ public class Chap6Activity extends AppCompatActivity
                             mProgress.setProgress(mScore);
                             tv.setText(Score + " %");
 
-                            if (mScore == 65){
+                            if (mScore == 59){
                                 button_chap6_1.getBackground().setColorFilter(Color.parseColor("#bebcbc"), PorterDuff.Mode.MULTIPLY);
                                 button_chap6_2.setEnabled(false);
                                 button_chap6_2.getBackground().setColorFilter(Color.parseColor("#e3e3e3"), PorterDuff.Mode.MULTIPLY);
@@ -133,7 +133,7 @@ public class Chap6Activity extends AppCompatActivity
                                 button_chap6_4.setEnabled(false);
                                 button_chap6_4.getBackground().setColorFilter(Color.parseColor("#e3e3e3"), PorterDuff.Mode.MULTIPLY);
                                 button_chap6_4.setTextColor(Color.parseColor("#80000000"));
-                            } else if (mScore == 66){
+                            } else if (mScore == 62){
                                 button_chap6_1.getBackground().setColorFilter(Color.parseColor("#aee663"), PorterDuff.Mode.MULTIPLY);
                                 button_chap6_2.setEnabled(true);
                                 button_chap6_2.getBackground().setColorFilter(Color.parseColor("#bebcbc"), PorterDuff.Mode.MULTIPLY);
@@ -144,7 +144,7 @@ public class Chap6Activity extends AppCompatActivity
                                 button_chap6_4.setEnabled(false);
                                 button_chap6_4.getBackground().setColorFilter(Color.parseColor("#e3e3e3"), PorterDuff.Mode.MULTIPLY);
                                 button_chap6_4.setTextColor(Color.parseColor("#80000000"));
-                            } else if (mScore == 67){
+                            } else if (mScore == 65){
                                 button_chap6_1.getBackground().setColorFilter(Color.parseColor("#aee663"), PorterDuff.Mode.MULTIPLY);
 
                                 button_chap6_2.setEnabled(true);
@@ -164,7 +164,7 @@ public class Chap6Activity extends AppCompatActivity
                                 button_chap6_4.setEnabled(true);
                                 button_chap6_4.getBackground().setColorFilter(Color.parseColor("#bebcbc"), PorterDuff.Mode.MULTIPLY);
 
-                            } else if (mScore >= 83){
+                            } else if (mScore >= 76){
                                 button_chap6_1.getBackground().setColorFilter(Color.parseColor("#aee663"), PorterDuff.Mode.MULTIPLY);
 
                                 button_chap6_2.setEnabled(true);

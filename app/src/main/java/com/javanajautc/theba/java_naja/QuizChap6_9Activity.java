@@ -1,4 +1,4 @@
-package com.example.theba.java_naja;
+package com.javanajautc.theba.java_naja;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -146,7 +146,7 @@ public class QuizChap6_9Activity extends AppCompatActivity {
 
     private void updateQuiz(){
 
-        if (mScore >= 74){
+        if (mScore >= 68){
 
             user_Score = String.valueOf(mScore);
 
@@ -155,7 +155,7 @@ public class QuizChap6_9Activity extends AppCompatActivity {
             newpost.put("UserScore",mScore);
             current_user_db_score.updateChildren(newpost);
 
-            Intent intent = new Intent(QuizChap6_9Activity.this, Chap6_3Activity.class);
+            Intent intent = new Intent(QuizChap6_9Activity.this, Chap6_4Activity.class);
             finish();
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);

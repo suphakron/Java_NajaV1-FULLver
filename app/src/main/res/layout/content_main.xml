@@ -50,7 +50,7 @@
                 android:layout_marginRight="7dp"
                 android:layout_weight="2"
                 android:drawableTop="@drawable/selector_chap1"
-                android:text="บทที่ 1 \nภาษาคอมพิวเตอร์และการพัฒนาโปรแกรม" />
+                android:text="@string/Content1_1Leader" />
 
 
             <Button
@@ -62,7 +62,7 @@
                 android:layout_marginRight="15dp"
                 android:layout_weight="2"
                 android:drawableTop="@drawable/selector_chap2"
-                android:text="บทที่ 2 \nพื้นฐานภาษาจาวา" />
+                android:text="@string/Content2_1Leader" />
 
         </LinearLayout>
 
@@ -87,7 +87,7 @@
                 android:layout_marginRight="7dp"
                 android:layout_weight="2"
                 android:drawableTop="@drawable/selector_chap3"
-                android:text="บทที่  3 \nคำสั่งควบคุมโปรแกรม" />
+                android:text="@string/Content3_1Leader" />
 
 
             <Button
@@ -99,7 +99,7 @@
                 android:layout_marginRight="15dp"
                 android:layout_weight="2"
                 android:drawableTop="@drawable/selector_chap4"
-                android:text="บทที่ 4 \nเมธอด" />
+                android:text="@string/Content4_1Leader" />
 
         </LinearLayout>
 
@@ -124,7 +124,7 @@
                 android:layout_marginRight="7dp"
                 android:layout_weight="2"
                 android:drawableTop="@drawable/selector_chap5"
-                android:text="บทที่ 5 \nข้อมูลชนิดอาร์เรย์และสตริง" />
+                android:text="@string/Content5_1Leader" />
 
 
             <Button
@@ -136,7 +136,7 @@
                 android:layout_marginRight="15dp"
                 android:layout_weight="2"
                 android:drawableTop="@drawable/selector_chap6"
-                android:text="บทที่ 6 \nคลาสและการเขียนโปรแกรมเชิงวัตถุเบื้องต้น" />
+                android:text="@string/Content6_1Leader" />
 
         </LinearLayout>
 
@@ -161,7 +161,7 @@
             android:layout_marginRight="7dp"
             android:layout_weight="2"
             android:drawableTop="@drawable/selector_chap7"
-            android:text="บทที่ 7 \nวิธีการเชิงวุตถุและการออกแบบคลาส" />
+            android:text="@string/Content7_1Leader" />
 
 
         <Button
@@ -173,7 +173,7 @@
             android:layout_marginRight="7dp"
             android:layout_weight="2"
             android:drawableTop="@drawable/selector_chap8"
-            android:text="บทที่ 8 \nการจัดการข้อผิดพลาดและการประมวลผลไฟล์" />
+            android:text="@string/Content8_1Leader" />
 
     </LinearLayout>
 

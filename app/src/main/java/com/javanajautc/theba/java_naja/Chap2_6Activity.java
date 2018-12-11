@@ -1,4 +1,4 @@
-package com.example.theba.java_naja;
+package com.javanajautc.theba.java_naja;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -37,7 +37,7 @@ public class Chap2_6Activity extends AppCompatActivity {
         Nextpage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                    Intent Next = new Intent(Chap2_6Activity.this, QuizChap2_6Activity.class);
+                Intent Next = new Intent(Chap2_6Activity.this, QuizChap2_6Activity.class);
                 startActivity(Next);
                 overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }

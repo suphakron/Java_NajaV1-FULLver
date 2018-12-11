@@ -1,4 +1,4 @@
-package com.example.theba.java_naja;
+package com.javanajautc.theba.java_naja;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -104,7 +104,7 @@ public class QuizTrueFalse_Chap3_1Activity extends AppCompatActivity {
 
     private void updateQuiz(){
 
-        if (mScore == 23) {
+        if (mScore == 22) {
 
             mQuizNumber = 0;
 
@@ -113,7 +113,7 @@ public class QuizTrueFalse_Chap3_1Activity extends AppCompatActivity {
             newpost.put("UserScore", mScore);
             current_user_db_score.updateChildren(newpost);
 
-        } else if (mScore == 24) {
+        } else if (mScore == 23) {
 
             mQuizNumber = 1;
 
@@ -122,7 +122,7 @@ public class QuizTrueFalse_Chap3_1Activity extends AppCompatActivity {
             newpost.put("UserScore", mScore);
             current_user_db_score.updateChildren(newpost);
 
-        } else if (mScore == 25) {
+        } else if (mScore == 24) {
 
             mQuizNumber = 2;
 

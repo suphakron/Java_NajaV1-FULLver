@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".CertificateActivity">
+
+    <RelativeLayout
+        android:layout_alignStart="@id/Certificate_Background"
+        android:layout_alignLeft="@id/Certificate_Background"
+        android:layout_alignEnd="@id/Certificate_Background"
+        android:layout_alignRight="@id/Certificate_Background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <ImageView
+            android:id="@+id/Certificate_Background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/back_certificate" />
+
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:layout_above="@id/blockX1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:textAlignment="center"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logo_utc"
+            android:id="@+id/logo_utc"
+            android:layout_marginRight="20dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+            <ImageView
+                android:textAlignment="center"
+                android:layout_centerInParent="true"
+                android:src="@drawable/logo_ct"
+                android:id="@+id/logo_ct"
+                android:layout_marginLeft="20dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/blockcenter"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:id="@+id/blockX1"
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:layout_above="@id/blockcenter"
+            android:layout_centerInParent="true" />
+
+        <me.grantland.widget.AutofitTextView
+            android:id="@+id/Cert_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/Certificate_Background"
+            android:layout_alignLeft="@id/Certificate_Background"
+            android:layout_alignTop="@id/blockX1"
+            android:layout_alignEnd="@id/Certificate_Background"
+            android:layout_alignRight="@id/Certificate_Background"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:maxLines="1"
+            android:textColor="@color/colorDarkness"
+            android:text="@string/cert_line1"
+            android:textSize="62sp" />
+
+        <me.grantland.widget.AutofitTextView
+            android:id="@+id/Cert_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Cert_1"
+            android:layout_alignStart="@id/Certificate_Background"
+            android:layout_alignLeft="@id/Certificate_Background"
+            android:layout_alignEnd="@id/Certificate_Background"
+            android:layout_alignRight="@id/Certificate_Background"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="105dp"
+            android:layout_marginRight="105dp"
+            android:maxLines="1"
+            android:textColor="@color/colorDarkness"
+            android:text="@string/cert_line2"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <me.grantland.widget.AutofitTextView
+            android:id="@+id/Cert_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Cert_2"
+            android:layout_alignStart="@id/Certificate_Background"
+            android:layout_alignLeft="@id/Certificate_Background"
+            android:layout_alignEnd="@id/Certificate_Background"
+            android:layout_alignRight="@id/Certificate_Background"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="115dp"
+            android:layout_marginRight="115dp"
+            android:maxLines="1"
+            android:textColor="@color/colorDarkness"
+            android:text="ชื่อ - นามสกุล"
+            android:textAlignment="center"
+            android:textSize="32sp" />
+
+        <me.grantland.widget.AutofitTextView
+            android:id="@+id/Cert_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Cert_2"
+            android:layout_alignStart="@id/Certificate_Background"
+            android:layout_alignLeft="@id/Certificate_Background"
+            android:layout_alignEnd="@id/Certificate_Background"
+            android:layout_alignRight="@id/Certificate_Background"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorDarkness"
+            android:textAlignment="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:maxLines="2"
+            android:text="@string/cert_line3"
+            android:textSize="28sp" />
+
+        <me.grantland.widget.AutofitTextView
+            android:id="@+id/Cert_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Cert_3"
+            android:layout_alignStart="@id/Certificate_Background"
+            android:layout_alignLeft="@id/Certificate_Background"
+            android:layout_alignEnd="@id/Certificate_Background"
+            android:layout_alignRight="@id/Certificate_Background"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorDarkness"
+            android:textAlignment="textStart"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="260dp"
+            android:maxLines="1"
+            android:text="@string/cert_line5"
+            android:textSize="18sp"
+            tools:ignore="RtlCompat" />
+
+        <me.grantland.widget.AutofitTextView
+            android:id="@+id/text_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Cert_3"
+            android:layout_alignStart="@id/Certificate_Background"
+            android:layout_alignLeft="@id/Certificate_Background"
+            android:layout_alignEnd="@id/Certificate_Background"
+            android:layout_alignRight="@id/Certificate_Background"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorDarkness"
+            android:textAlignment="textStart"
+            android:layout_marginLeft="165dp"
+            android:layout_marginRight="20dp"
+            android:maxLines="1"
+            android:text="@string/cert_line5"
+            android:textSize="18sp"
+            tools:ignore="RtlCompat" />
+
+        <me.grantland.widget.AutofitTextView
+            android:id="@+id/Cert_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Cert_4"
+            android:layout_alignStart="@id/Certificate_Background"
+            android:layout_alignLeft="@id/Certificate_Background"
+            android:layout_alignEnd="@id/Certificate_Background"
+            android:layout_alignRight="@id/Certificate_Background"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="105dp"
+            android:layout_marginRight="105dp"
+            android:maxLines="2"
+            android:textColor="@color/colorDarkness"
+            android:text="@string/cert_line6"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/Cert_4"
+            android:layout_marginTop="-10dp"
+            android:layout_alignStart="@id/Certificate_Background"
+            android:layout_alignLeft="@id/Certificate_Background"
+            android:layout_alignEnd="@id/Certificate_Background"
+            android:layout_alignRight="@id/Certificate_Background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:textAlignment="center"
+                android:layout_centerInParent="true"
+                android:src="@drawable/signature_orboy2"
+                android:id="@+id/Signature_orboy"
+                android:layout_marginTop="-10dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+        </LinearLayout>
+
+        <!--<me.grantland.widget.AutofitTextView
+            android:layout_below="@id/Cert_3"
+            android:layout_alignStart="@id/Certificate_Background"
+            android:layout_alignEnd="@id/Certificate_Background"
+            android:textSize="15sp"
+            android:layout_marginTop="-22dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/cert_line4"
+            android:layout_alignLeft="@id/Certificate_Background"
+            android:layout_alignRight="@id/Certificate_Background" />-->
+
+    </RelativeLayout>
+</LinearLayout>
