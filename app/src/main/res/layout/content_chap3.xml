@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    tools:showIn="@layout/app_bar_chap3">
+
+    <ScrollView
+        android:id="@+id/mScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="15"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+
+            <Button
+                android:id="@+id/img_Button1"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="7.5dp"
+                android:layout_weight="3"
+                android:drawableTop="@drawable/selector_button3_1"
+                android:text="บทที่ 3.1 \n ตัวดำเนินการทางตรรกศาสตร์ " />
+
+
+            <Button
+                android:id="@+id/img_Button2"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7.5dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="3"
+                android:drawableTop="@drawable/selector_button3_2"
+                android:text="บทที่ 3.2 \n การเลือกทำแบบทางเดียว (if Statement)" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+
+            <Button
+                android:id="@+id/img_Button3"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="7.5dp"
+                android:layout_weight="3"
+                android:drawableTop="@drawable/selector_button3_3"
+                android:text="บทที่ 3.3 \n คำสั่งเลือกทำอย่างใดอย่างหนึ่ง (if - else)" />
+
+
+            <Button
+                android:id="@+id/img_Button4"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="7.5dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="3"
+                android:drawableTop="@drawable/selector_button3_4"
+                android:text="บทที่ 3.4 \n การใช้คำสั่ง if-else-if " />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+
+            <Button
+                android:id="@+id/img_Button5"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="7.5dp"
+                android:layout_weight="3"
+                android:drawableTop="@drawable/selector_button3_5"
+                android:text="บทที่ 3.5 \n การเลือกทำแบบ switch " />
+
+
+            <Button
+                android:id="@+id/img_Button6"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7.5dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="3"
+                android:drawableTop="@drawable/selector_button3_6"
+                android:text="บทที่ 3.6 \n การควบคุมการทำซ้ำด้วยคำสั่ง for " />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+
+            <Button
+                android:id="@+id/img_Button7"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="7.5dp"
+                android:layout_weight="3"
+                android:drawableTop="@drawable/selector_button3_7"
+                android:text="บทที่ 3.7 \n ลูป WHILE " />
+
+
+            <Button
+                android:id="@+id/img_Button8"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7.5dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="3"
+                android:drawableTop="@drawable/selector_button3_8"
+                android:text="บทที่ 3.8 \n ลูป do-while " />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+
+            <Button
+                android:id="@+id/img_Button9"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="7.5dp"
+                android:layout_weight="3"
+                android:drawableTop="@drawable/selector_button3_9"
+                android:text="บทที่ 3.9 \n ลูปซ้อนลูป (Nested Loops)  " />
+
+
+            <Button
+                android:id="@+id/img_Button10"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7.5dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="3"
+                android:drawableTop="@drawable/selector_button3_10"
+                android:text="บทที่ 3.10 \n คำสั่ง break และ continue " />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+
+    </LinearLayout>
+ </ScrollView>
+</LinearLayout>

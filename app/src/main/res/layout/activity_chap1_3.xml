@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chap1_1Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="15">
+
+            <TextView
+                android:layout_weight="7.2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:orientation="vertical"
+                android:weightSum="7">
+
+                <TextView
+                    android:id="@+id/Leader"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="0.5"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    android:text="@string/Content1_1Leader"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
+                    android:textColor="#000000"
+                    android:text="@string/Content1_3Header" />
+
+                <TextView
+                    android:id="@+id/Body1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:lineSpacingExtra="5sp"
+                    android:text="@string/Content1_3Body_1"
+                    android:paddingBottom="15dp"
+                    android:textColor="#000000" />
+
+                <ImageView
+                    android:id="@+id/Pic1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/picchapter1_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    />
+
+                <TextView
+                    android:id="@+id/Body2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:layout_weight="0"
+                    android:lineSpacingExtra="5sp"
+                    android:paddingTop="15dp"
+                    android:text="@string/Content1_3Body_2"
+                    android:textColor="#000000" />
+
+                <Button
+                    android:id="@+id/Next_Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:drawableTop="@android:drawable/ic_media_ff"
+                    android:text="หน้าหลัก"
+                    android:textColor="#d78c01" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2" />
+
+            </LinearLayout>
+            <TextView
+                android:layout_weight="7.2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

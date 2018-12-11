@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_HOME"
+            android:icon="@drawable/home"
+            android:title="หน้าหลัก" />
+        <item
+            android:id="@+id/nav_Editprofile"
+            android:icon="@drawable/brain_health"
+            android:title="แก้ไขข้อมูลส่วนตัว" />
+        <item
+            android:id="@+id/nav_Achievement"
+            android:icon="@drawable/podium"
+            android:title="ความสำเร็จ" />
+        <item
+            android:id="@+id/nav_Setting"
+            android:icon="@drawable/repairing_service"
+            android:title="ตั้งค่า" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/information"
+                android:title="ความช่วยเหลือ" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/text_box"
+                android:title="ความคิดเห็น" />
+        </menu>
+    </item>
+
+    <item android:title="Signout">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="ออกจากระบบ" />
+        </menu>
+    </item>
+
+</menu>

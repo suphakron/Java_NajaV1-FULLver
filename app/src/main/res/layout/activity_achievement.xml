@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AchievementActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingTop="15dp"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginRight="-5dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="22sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/but_chap1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingTop="15dp"
+                android:layout_marginLeft="-5dp"
+                android:layout_marginRight="-5dp"
+                android:text="@string/Chapter1"
+                android:textAlignment="center"
+                android:textColor="@color/colorDarkness"
+                android:background="@drawable/backwithborder2"
+                android:textStyle="bold"
+                android:textSize="22sp"/>
+
+                <TextView
+                    android:id="@+id/block1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp" />
+
+                <ImageView
+                    android:id="@+id/achievement_check"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_toLeftOf="@id/block1" />
+
+                <TextView
+                    android:id="@+id/Score_show"
+                    android:text="0/3"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_height="55dp" />
+
+            <TextView
+                android:id="@+id/but_chap2"
+                android:layout_below="@id/but_chap1"
+                android:text="@string/Chapter2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingTop="15dp"
+                android:layout_marginLeft="-5dp"
+                android:layout_marginRight="-5dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorDarkness"
+                android:textStyle="bold"
+                android:textSize="22sp"/>
+
+                <TextView
+                    android:id="@+id/block2"
+                    android:layout_below="@id/but_chap1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp" />
+
+                <ImageView
+                    android:id="@+id/achievement_check2"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_below="@id/but_chap1"
+                    android:layout_toLeftOf="@id/block2" />
+
+            <TextView
+                android:id="@+id/but_chap3"
+                android:layout_below="@id/but_chap2"
+                android:text="@string/Chapter3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingTop="15dp"
+                android:layout_marginLeft="-5dp"
+                android:layout_marginRight="-5dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorDarkness"
+                android:background="@drawable/backwithborder2"
+                android:textStyle="bold"
+                android:textSize="22sp"/>
+
+                <TextView
+                    android:id="@+id/block3"
+                    android:layout_below="@id/but_chap1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp" />
+
+                <ImageView
+                    android:id="@+id/achievement_check3"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_below="@id/but_chap2"
+                    android:layout_toLeftOf="@id/block3" />
+
+            <TextView
+                android:layout_below="@id/but_chap3"
+                android:id="@+id/but_chap4"
+                android:text="@string/Chapter4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingTop="15dp"
+                android:layout_marginLeft="-5dp"
+                android:layout_marginRight="-5dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorDarkness"
+                android:textStyle="bold"
+                android:textSize="22sp"/>
+
+                <TextView
+                    android:id="@+id/block4"
+                    android:layout_below="@id/but_chap3"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp" />
+
+                <ImageView
+                    android:id="@+id/achievement_check4"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_below="@id/but_chap3"
+                    android:layout_toLeftOf="@id/block4" />
+
+            <TextView
+                android:id="@+id/but_chap5"
+                android:layout_below="@id/but_chap4"
+                android:text="@string/Chapter5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingTop="15dp"
+                android:layout_marginLeft="-5dp"
+                android:layout_marginRight="-5dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorDarkness"
+                android:background="@drawable/backwithborder2"
+                android:textStyle="bold"
+                android:textSize="22sp"/>
+
+                <TextView
+                    android:id="@+id/block5"
+                    android:layout_below="@id/but_chap4"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp" />
+
+                <ImageView
+                    android:id="@+id/achievement_check5"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_below="@id/but_chap4"
+                    android:layout_toLeftOf="@id/block5" />
+
+            <TextView
+                android:id="@+id/but_chap6"
+                android:layout_below="@id/but_chap5"
+                android:text="@string/Chapter6"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingTop="15dp"
+                android:layout_marginLeft="-5dp"
+                android:layout_marginRight="-5dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorDarkness"
+                android:textStyle="bold"
+                android:textSize="22sp"/>
+
+                <TextView
+                    android:id="@+id/block6"
+                    android:layout_below="@id/but_chap5"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp" />
+
+                <ImageView
+                    android:id="@+id/achievement_check6"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_below="@id/but_chap5"
+                    android:layout_toLeftOf="@id/block6" />
+
+            <TextView
+                android:id="@+id/but_chap7"
+                android:layout_below="@id/but_chap6"
+                android:text="@string/Chapter7"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingTop="15dp"
+                android:layout_marginLeft="-5dp"
+                android:layout_marginRight="-5dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorDarkness"
+                android:background="@drawable/backwithborder2"
+                android:textStyle="bold"
+                android:textSize="22sp"/>
+
+                <TextView
+                    android:id="@+id/block7"
+                    android:layout_below="@id/but_chap6"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp" />
+
+                <ImageView
+                    android:id="@+id/achievement_check7"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_below="@id/but_chap6"
+                    android:layout_toLeftOf="@id/block7" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

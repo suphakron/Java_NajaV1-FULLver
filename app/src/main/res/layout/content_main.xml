@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    tools:showIn="@layout/app_bar_main">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+
+            <Button
+                android:background="@null"
+                android:id="@+id/img_Button1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="7dp"
+                android:layout_weight="2"
+                android:drawableTop="@drawable/selector_chap1"
+                android:text="บทที่ 1 \nภาษาคอมพิวเตอร์และการพัฒนาโปรแกรม" />
+
+
+            <Button
+                android:background="@null"
+                android:id="@+id/img_Button2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="2"
+                android:drawableTop="@drawable/selector_chap2"
+                android:text="บทที่ 2 \nพื้นฐานภาษาจาวา" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+
+            <Button
+                android:background="@null"
+                android:id="@+id/img_Button3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="7dp"
+                android:layout_weight="2"
+                android:drawableTop="@drawable/selector_chap3"
+                android:text="บทที่  3 \nคำสั่งควบคุมโปรแกรม" />
+
+
+            <Button
+                android:background="@null"
+                android:id="@+id/img_Button4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="2"
+                android:drawableTop="@drawable/selector_chap4"
+                android:text="บทที่ 4 \nเมธอด" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+
+            <Button
+                android:background="@null"
+                android:id="@+id/img_Button5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="7dp"
+                android:layout_weight="2"
+                android:drawableTop="@drawable/selector_chap5"
+                android:text="บทที่ 5 \nข้อมูลชนิดอาร์เรย์และสตริง" />
+
+
+            <Button
+                android:background="@null"
+                android:id="@+id/img_Button6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="2"
+                android:drawableTop="@drawable/selector_chap6"
+                android:text="บทที่ 6 \nคลาสและการเขียนโปรแกรมเชิงวัตถุเบื้องต้น" />
+
+        </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+
+        <Button
+            android:background="@null"
+            android:id="@+id/img_Button7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="7dp"
+            android:layout_weight="2"
+            android:drawableTop="@drawable/selector_chap7"
+            android:text="บทที่ 7 \nวิธีการเชิงวุตถุและการออกแบบคลาส" />
+
+
+        <Button
+            android:background="@null"
+            android:id="@+id/img_Button8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="7dp"
+            android:layout_weight="2"
+            android:drawableTop="@drawable/selector_chap8"
+            android:text="บทที่ 8 \nการจัดการข้อผิดพลาดและการประมวลผลไฟล์" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0" />
+
+</LinearLayout>

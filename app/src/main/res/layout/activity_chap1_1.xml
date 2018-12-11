@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    app:layout_scrollFlags="scroll|enterAlways"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:id="@+id/mScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="15">
+
+            <TextView
+                android:layout_weight="7.2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:orientation="vertical"
+                android:weightSum="7">
+
+                <TextView
+                    android:id="@+id/Leader"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:text="@string/Content1_1Leader"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
+                    android:text="@string/Content1_1Header"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/Body1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:lineSpacingExtra="5sp"
+                    android:text="@string/Content1_1Body_1"
+                    android:textColor="#000000" />
+
+                <ImageView
+                    android:id="@+id/Pic1"
+                    android:layout_width="match_parent"
+                    android:layout_height="124dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/picchapter1_1" />
+
+                <TextView
+                    android:id="@+id/Body2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:lineSpacingExtra="5sp"
+                    android:text="@string/Content1_1Body_2"
+                    android:textColor="#000000" />
+
+                <ImageView
+                    android:id="@+id/Pic2"
+                    android:layout_width="match_parent"
+                    android:layout_height="225dp"
+                    android:layout_gravity="center"
+                    android:paddingTop="10dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/picchapter1_2" />
+
+                <Button
+                    android:id="@+id/Next_Button"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right"
+                    android:background="@drawable/circle"
+                    android:drawableTop="@android:drawable/ic_menu_send"
+                    android:singleLine="false" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_weight="7.2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,1522 @@
+<resources>
+    <string name="app_name">Java Naja</string>
+    <string name="facebook_app_id">230233111178824</string>
+    <string name="fb_login_protocol_scheme">fb230233111178824</string>
+
+    <string name="edit_picProfile">แก้ไขรูปโปรไฟล์</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings"></string>
+    <string name="title_activity_chap1">บทที่ 1 ภาษาคอมพิวเตอร์และการพัฒนาโปรแกรม</string>
+    <string name="title_activity_chap2">บทที่ 2 พื้นฐานภาษาจาวา</string>
+    <string name="title_activity_chap3">บทที่  3 คำสั่งควบคุมโปรแกรม</string>
+    <string name="title_activity_chap4">บทที่ 4 เมธอด (Methods) </string>
+    <string name="title_activity_chap5">บทที่ 5 ข้อมูลอาร์เรย์และสตริง</string>
+    <string name="title_activity_chap6">บทที่ 6 คลาสและการเขียนโปรแกรมเชิงวัตถุเบื้องต้น</string>
+    <string name="title_activity_chap7">บทที่ 7 วิธีการเชิงวัตถุและการออกแบบคลาส</string>
+    <string name="title_activity_chap8">บทที่ 8 การจัดการข้อผิดพลาดและประมวลผลไฟล์</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="score">0</string>
+    <string name="Chapter1">บทที่ 1</string>
+    <string name="Chapter2">บทที่ 2</string>
+    <string name="Chapter3">บทที่ 3</string>
+    <string name="Chapter4">บทที่ 4</string>
+    <string name="Chapter5">บทที่ 5</string>
+    <string name="Chapter6">บทที่ 6</string>
+    <string name="Chapter7">บทที่ 7</string>
+    <string name="Chapter8">บทที่ 8</string>
+    <string name="before_test">แบบทดสอบก่อนเรียน</string>
+    <string name="after_test">แบบทดสอบหลังเรียน</string>
+    <string name="point1">หน่วยที่ 1</string>
+    <string name="point2">หน่วยที่ 2</string>
+    <string name="point3">หน่วยที่ 3</string>
+    <string name="point4">หน่วยที่ 4</string>
+    <string name="point5">หน่วยที่ 5</string>
+    <string name="point6">หน่วยที่ 6</string>
+    <string name="point7">หน่วยที่ 7</string>
+    <string name="point8">หน่วยที่ 8</string>
+
+    <!--CHAPTER 1-1-->
+    <string name="Content1_1Leader">บทที่ 1\nภาษาคอมพิวเตอร์และการพัฒนาโปรแกรม</string>
+    <string name="Content1_1Header">1.1 โปรแกรมภาษา</string>
+    <string name="Content1_1Body_1">\t\t โปรแกรมคอมพิวเตอร์ไม่ว่าจะเขียนด้วยภาษาระดับต่ำหรือภาษาระดับสูงจะต้องแปลงภาษาให้เป็นรหัสภาษาเครื่องคอมพิวเตอร์ก่อนภาษาคอมพิวเตอร์เป็นการนำชุดคำสั่งแต่ละคำสั่งมาต่อกันให้ทำงาน\n\t\t
+        ภาษาคอมพิวเตอร์ที่ใช้รหัสนีโมนิกหรือรหัสเลขฐานสองในการเขียนโปรแกรม เรียกว่า ภาษาแอสเซมบลี (Assembly Language)\n\t\t
+        การเขียนโปรแกรมด้วยภาษาแอสเซมบลีจะต้องใช้ตัวแปลให้เป็นภาษาเครื่องตัวแปลนี้เรียกว่า แอสเซมเบลอร์ (Assembler)</string>
+    <string name="Content1_1Body_2">\t\t การเขียนโปรแกรมด้วยภาษาระดับสูงจะมีตัวแปลสองประเภท คือ อินเทอร์พรีเตอร์
+        (Interpreter) การทำงานของตัวอินเทอร์พรีเตอร์จะแปลความหมายของทีละคำสั่ง
+        และอีกคำสั่งคือ คอมไพเลอร์ (Compiler) การทำงานจะแปลโปรแกรมต้นฉบับทั้งหมด
+        และโปรแกรมจะทำงานได้เร็วขึ้นเพราะไม่ต้องแปลคำสั่งถัดไปอีก</string>
+
+    <!--CHAPTER 1-2-->
+    <string name="Content1_2Header">1.2 ภาษาจาวา</string>
+    <string name="Content1_2Body_1">\t\t ภาษาจาวา (JAVA)
+        พัฒนาโดยบริษัท Sun microsystem
+        โดยพัฒนาให้เป็นภาษาใช้ในการเขียนโปรแกรมเชิงวัตถุ
+        (Object-Oriented Programming)
+        สามารถทำงานบนเครื่องที่ต่างกันได้โดยไม่ต้องคอมไพใหม่ เรียกว่า
+        Platform independent</string>
+    <string name="Content1_2Body_2">
+        Write Once, run anywhere\n(เขียนครั้งเดียวรันได้ทุกแพลตฟอร์ม)</string>
+
+    <!--CHAPTER 1-3-->
+    <string name="Content1_3Header">1.3 ชุดพัฒนาภาษาจาวา</string>
+    <string name="Content1_3Body_1">\t\t สำหรับชุดพัฒนาโปรเกรมภาษาจาวา มี 3 รุ่น คือ
+		\n\t\t J2SE หรือ Java 2 Standard Edition
+		\n\t\t J2EE หรือ Java 2 Enterprise Edition
+		\n\t\t J2ME หรือ Java 2 Micro Edition </string>
+    <string name="Content1_3Body_2">\t\t ขั้นตอนในการพัฒนาโปรแกรม \n\t\t\t\t
+    1. เขียนโปรแกรมต้นฉบับด้วยเอดิเตอร์ ให้มีนามสกุล .java เช่น Hello.java \n\t\t\t\t
+    2. คอมไพล์โปรแกรมโดยใช้โปรแกรมชื่อ java.exe \n\t\t\t\t
+    3. จะได้ผลลัพธ์ออกมาเป็นไบต์โค้ด มีนามสกุลเป็น .class \n\t\t\t\t
+    4. รันโปรแกรมโดยใช้ตัวอินเทอร์พรีเตอร์ชื่อ java.exe โปรแกรมจะทำงานตามที่เขียนไว้</string>
+
+    <string name="Content2_1Leader"> บทที่ 2 \n พื้นฐานภาษาจาวา </string>
+    <string name="Content2_1Header"> 2.1 โครงสร้างภาษาจาวา </string>
+    <string name="Content2_1Body_1"> \t\t ภาษาจาวาจะมีแนวคิดการเขียนโปรแกรมแบบเชิงวัตถุโปรแกรมจะเริ่มขึ้นโดยการสร้างคลาสขึ้นมาก่อน จากนั้นเขียนคำสั่งต่างๆ ลงไป </string>
+    <string name="Content2_1Body_2"> \t\t หากกต้องการสร้างโปรแกรมต้นฉบับ หรือ source code จะต้องเขียนให้อยู่ในโครงสร้างพื้นฐานของภาษาจาวา ดังนี้ \n </string>
+    <string name="Content2_1Body_3"> \n\t\t 1. Class Simple มีการใช้คำสั่ง System.out.println ทางจอภาพ \n
+\t\t 2. คำสั่งจะปิดด้วยเครื่องหมายเซมิโคลอน ( ; ) \n
+\t\t 3. คลาสจะเริ่มต้นด้วยคำว่า public ตามด้วยคำสั่งว่า class และชื่อคลาส \n
+\t\t 4. Public จะต้องเขียนไว้หน้าคลาสเสมอ \n </string>
+    <string name="Content2_1Body_4"> \n\t คือ เมธอด (Method) ของคลาส \n
+\t\t - main หมายถึง เมธอดหลัก ซึ่งจะทำงานทุกครั้งที่ class ถูกเรียกใช้งาน \n
+\t\t - public จะถูกเขียนนำหน้าการประกาศเมธอก main เสมอ \n
+\t\t - static หมายถึง การประกาศว่าเมธอดสามารถทำงานได้โดยไม่ต้องสร้างออบเจ็กต์ (Object) \n
+\t\t - void หมายถึง เมธอดจะไม่มีการคืนค่ากลับหลังจบการทำงาน \n
+\t\t - วงเล็บ () ด้านหลังชื่อ Method หมายถึง อาร์กิวเมนต์หรือตัวแปร เพื่อใช้ในการส่งข้อมูลเข้าสู่เมธอด \n  </string>
+    <string name="content2_1pic1"> \t public class Simple{ \n
+\t\t public static void main (String[ ] args){ \n
+\t\t\t System.out.println(“Programming is great fun!”); \n
+\t\t\t } \n
+\t\t }  </string>
+    <string name="content2_1pic2"> \t public static void main(String[ ] args) </string>
+
+    <!--CHAPTER 2-2-->
+    <string name="Content2_2Header"> 2.2 เมธอดแสดงผลทางจอภาพพื้นฐาน </string>
+    <string name="Content2_2Body_1"> \t\t การแสดงผลทางจอภาพในภาษาจาวา จะใช้เมธอด print และ println ในการแสดงผลทางจอภาพโดยเมธอดทั้งสองนี้จะถูกบรรจุในออบเจ็กต์ชื่อ
+out ออบเจ็กต์นี้จะถูกเก็บในชื่อคลาส System การใช้เมธอดที่อยู่ในออบเจ็กต์ต่างๆ จะใช้เครื่องหมาย (.) ในการอ้างอิง </string>
+    <string name="Content2_2Body_2"> \t\t มีรูปแบบการใช้งาน ดังนี้ โดย (data) คือข้อมูลที่จะแสดงออกทางหน้าจอ </string>
+    <string name="Content2_2Body_3"> \t\t - การใช้เมธอด print หลังจากแสดงผลข้อมูล จะไม่ขึ้นบรรทัดใหม่ \n
+\t\t - การใช้เมธอด println จะทำให้โปรแกรมขึ้นบรรทัดใหม่หลังจากพิมพ์ข้อมูลที่แสดงผลแล้ว </string>
+    <string name="Content2_2Body_4"> \t\t ตัวอย่างที่ 2.1 การใช้เมธอด print และ println หลังจาการทำเมธอด print การแสดงผลเมธอดจะยังอยู่ในบรรทัดเดิม ส่วน println
+จะทำให้การแสดงผงในเมธอดแสดงผลขึ้นบรรทัดใหม่ ดังนั้น โปรแกรมนี้จะแสดงผลทางเอาต์พุตจำนวนสองบรรทัด </string>
+    <string name="Content2_2Body_5"> \n\t\t ตัวอย่างที่ 2.1 TcCom.java </string>
+    <string name="Content2_2Body_6"> \n\t\t ผลลัพธ์ </string>
+    <string name="Content2_2Body_7"> \n\t\t การแสดงผลด้วยเมธอด print หรือ println สามารถใช้ escape sequence สำหรับควบคุมการแสดงผลได้ จะเริ่มต้นด้วยเครื่องหมาย แบ็กสแลช (\) แล้วตามด้วยตัวอักขระควบคุมหนึ่งตัว ดังตาราง </string>
+    <string name="Content2_2Body_8"> \n ตารางที่ 2.1 ตารางแสดง escape sequence ในภาษาจาวา</string>
+    <string name="Content2_2Body_9"> \n ตัวอย่างที่ 2.2 Tabs.java จะเป็นการใช้อักขระควบคุมการแสดงผลร่วมกับเมธอด print </string>
+    <string name="Content2_2Body_10"> \n\t\t ผลลัพธ์ </string>
+    <string name="content2_2pic1"> \t public class TcCom{ \n
+\t\t public static void main(String[ ] args){ \n
+\t\t\t System.out.print(“We are ”); \n
+\t\t\t System.out.println(“Technology Computer”); \n
+\t\t\t System.out.print(“We are ”); \n
+\t\t\t System.out.print(“Computer Software”); \n
+\t\t\t } \n
+\t\t }  </string>
+    <string name="content2_2pic2"> Program is TcCom \n
+These are our top sellers: Computer Software \n \n
+Process completed </string>
+    <string name="content2_2pic3"> \t Public class Tabs{ \n
+\t\t Public static void main(String[ ] args) { \n
+\t\t\t System.out.print(“These are our top sellers: ＼n”); \n
+\t\t\t System.out.print(“ ＼t Computer games\n ＼tCoffee  ＼n”); \n
+\t\t\t System.out.println(“ ＼t Aspirin”); \n
+\t\t\t } \n
+\t\t }  </string>
+    <string name="content2_2pic4"> \t These are our top sellers : \n
+\t\t Computer games \n
+\t\t Coffee \n
+\t\t Aspirin \n
+\t Process comleted. </string>
+
+    <!--CHAPTER 2-3-->
+    <string name="Content2_3Header"> 2.3 ชนิดของข้อมูล ตัวแปรและค่าคงที่ </string>
+    <string name="Content2_3Body_1"> \t\t ตัวแปร คือ ชื่อที่กำหนดขึ้นสำหรับเก็บข้อมูล หากระบบต้องการเก็บข้อมูลที่รับเข้าจากอินพุตต่างๆ จะต้องจองพื้นที่หน่วยความจำคอมพิวเตอร์สำหรับเก็บข้อมูล </string>
+    <string name="Content2_3Body_2"> \t\t การกำหนดค่าตัวแปรแต่ละตัวต้องกำหนดด้วยว่าจะให้ตัวแปรนั้นเก็บข้อมูลชนิดใด รูปแบบการประกาศตัวแปรในภาษาจาวา ดังนี้ </string>
+    <string name="Content2_3Body_3"> \n รูปแบบ </string>
+    <string name="Content2_3Body_4"> \n\t ถ้าหากมีตัวแปรหลายตัวจะใช้เครื่องหมาย , คั่น ดังตัวอย่าง \n
+\t int x; \t\t //ประกาศตัวแปร x สำหรับเก็บเลขจำนวนเต็ม \n
+\t int x,y; \t\t //ประกาศตัวแปร x และ y สำหรับเก็บเลขจำนวนเต็ม \n </string>
+    <string name="Content2_3Body_5"> \t\t เมื่อประกาศตัวแปรขึ้นมาแล้วสามารถใช้เครื่องหมาย = ในการกำหนดค่าได้อีก รูปแบบดังนี้ \n </string>
+    <string name="Content2_3Body_6"> รูปแบบ </string>
+    <string name="Content2_3Body_7"> \t\t ข้อมูลที่กำหนดกับชนิดตัวแปรจะต้องเป็นข้อมูลประเภทเดียวกัน ชนิดข้อมูลในภาษาวา ดังนี้ \n
+\t\t 1. ข้อมูลแบบพื้นฐาน (primitive data type) \n
+\t\t 2. ข้อมูลแบบอ้างอิง (reference data type) \n </string>
+    <string name="Content2_3Body_8"> \t\t ข้อมูลทั้งสองประเภทนี้จะต่างกันตรงที่การอ้างถึงตำแหน่งหน่วยความจำที่ใช้เก็บข้อมูลจริง สำหรับข้อมูลแบบพื้นฐานในภาษาจาวาแบ่งออกเป็น 4 กลุ่ม ดังนี้ </string>
+    <string name="Content2_3Body_9"> \t\t 1. ข้อมูลชนิดตรรกะ (Logical) \n
+\t\t 2. ข้อมูลชนิดอักขระ (Textual) \n
+\t\t 3. ข้อมูลชนิดจำนวนเต็ม (Integer) \n
+\t\t 4. ข้อมูลชนิดเลขทศนิยม (Floating point) \n </string>
+    <string name="Content2_3Body_10"> ข้อมูลแบบตรรกะ (Logical) </string>
+    <string name="Content2_3Body_11"> \t\t ข้อมูลประเภทนี้จะมีค่าแบบ Boolean โดยมีค่าเพียงสองค่า คือ true (จริง)กับ false (เท็จ) ดังตัวอย่าง \n </string>
+    <string name="Content2_3Body_12"> \n\t\t - เป็นการประกาศตัวแปรชื่อ check ให้เป็นข้อมูลแบบบูลีนและกำหนดให้เป็นจริง \n
+\t\t - ส่วน no_check ถูกกำหนดให้เป็นตัวแปรแบบบูลีนและกำหนดให้เป็นเท็จ \n </string>
+    <string name="Content2_3Body_13"> ข้อมูลแบบตัวอักขระ (Textual)</string>
+    <string name="Content2_3Body_14"> \t\t ตัวอักขระเป็นข้อมูลที่มีความยาวไม่เกิน 1 ตัวอักษร การเก็บข้อมูลประเภทนี้จะใช้คำว่า char ในภาษาจาวา การเก็บข้อมูลอักขระลงหน่วยความจำ จะใช้รหัสแบบ Unicode เป็นรหัสที่มีขนาด 16 บิต
+การกำหนดข้อมูลที่เป็นตัวอักขระจะต้องเขียนอยู่ใน ‘ ’ (single quote) หรือ กำหนดค่ารหัส Unicode โดยตรงก็ได้ ใช้สัญลักษณ์ ⧵u นำหน้าแล้วตามด้วยเลขฐานสิบหกของรหัสนั้น ดังตัวอย่าง \n </string>
+    <string name="Content2_3Body_15">\t\t ตัวอย่าง </string>
+    <string name="Content2_3Body_16"> \n ข้อมูลจำนวนจริง (Integer) </string>
+    <string name="Content2_3Body_17"> \t\t ข้อมูลแบบจำนวนเต็มมี 4 ประเภท คือ byte, short, int และ long แต่ละประเภทจะต่างกันตรงที่ขาดของหน่วยความจำ ทำให้แต่ละประเภทเก็บข้อมูลได้ในช่วงที่ต่างกัน \n
+\t\t การประกาศตัวแปรสำหรับเก็บข้อมูลจำนวนเต็มจะต้องเลือกชนิดข้อมูลที่เหมาะสมตัวแปร เพื่อไม่ให้ใช้พื้นที่หน่วยความจำเกินความจำเป็น สำหรับขนาดและช่วงที่เก็บข้อมูล ดังตาราง 2.2 \n </string>
+    <string name="Content2_3Body_18"> ตัวอย่าง </string>
+    <string name="Content2_3Body_19"> \n\t\t จากตัวอย่างด้านบน เมื่อประกาศตัวแปรเลขจำนวนเต็ม สามารถกำหนดค่าให้กับตัวแปรได้ แต่ถ้าตัวแปรนั้นเป็นชนิด long จะต้องใส่ l หรือ L ตามหลัง และยังสามารถกำหนดเป็นเลขฐานสิบหกได้
+โดยใช้ 0x (ศูนย์เอ็กซ์) นำหน้าตัวเลขขั้น \n </string>
+    <string name="Content2_3Body_20"> ข้อมูลชนิดเลขทศนิยม (Floating-Point) </string>
+    <string name="Content2_3Body_21"> \t\t ข้อมูลประเภทนี้ใช้สำหรับเก็บเลขจำนวนจริง (Real number) ในภาษาจาวามี 2 ชนิด คือ \n
+\t\t 1. float จะใช้หน่วยความจำในการเก็บ 32 บิต \n
+\t\t 1. double จะใช้หน่วยความจำ 64 บิต \n
+\t\t ในภาษาจาวาเมื่อกำหนดข้อมูลที่เป็นเลขทศนิยมจะให้มีข้อมูลเป็นชนิด double แต่ถ้าเขียนข้อมูลชนิด float จะต้องมี f หรือ F ตามหลัง ตัวอย่างเช่น \n </string>
+    <string name="Content2_3Body_22"> \n ตารางที่ 2.2 ข้อมูลแบบพื้นฐานในภาษาจาวา </string>
+    <string name="Content2_3Body_23"> การกำหนดชื่อและคีย์เวิร์ด </string>
+    <string name="Content2_3Body_24"> \t\t ในการเขียนโปรแกรมจะต้องมีการกำหนดชื่อให้ส่วนต่างๆ เช่น กำหนดชื่อให้กับตัวแปร ชื่อของคลาส ชื่อของเมธอด หรือชื่อของค่าคงที่ การกำหนดชื่อมีกฎการตั้งดังนี้ \n
+\t\t 1. ต้องขึ้นต้นด้วยตัวอักขระ A – Z , a – z, $ (dollar sign) หรือ _ เท่านั้น \n
+\t\t 2. ต่อมาอาจเป็นตัวเลขหรือตัวอักขระตามข้อ 1 ก็ได้ \n
+\t\t 3. ตัวพิมพ์ใหญ่และตัวพิมพ์เล็กมีความหมายต่างกัน \n
+\t\t 4. ต้องไม่เว้นวรรคระหว่างการตั้งชื่อ \n
+\t\t 5. ต้องไม่ซ้ำกับคีย์เวิร์ดที่จาวารู้จัก \n </string>
+    <string name="Content2_3Body_25"> ค่าคงที่ </string>
+    <string name="Content2_3Body_26"> \t\t การประกาศค่าคงที่ซึ่งมีค่าคงเดิมตลอดทั้งโปแกรม จะใช้คำว่า final ไว้หน้าการประกาศชื่อ โดยมีรูปแบบดังนี้ </string>
+    <string name="Content2_3Body_27"> \n การเขียนคอมเมนต์ในภาษาจาวา </string>
+    <string name="Content2_3Body_28"> \t\t การเขียนโปรแกรมอาจต้องมีข้อความสำหรับอธิบายส่วนต่างๆ ของโปรแกรม โดยข้อความเหล่านี้ไม่มีผลต่อการทำงานของโปรแกรม ใช้เพียงอธิบายให้ผู้อ่านเข้าใจในโปรแกรมได้ง่าย ในภาษาจาวามีคอมเมนต์ 3 ประเภท คือ \n
+\t\t 1. คอมเมนต์บรรทัดเดียว เขียนโดยใช้ // หมายความว่าข้อความที่ตามมาจนจบบรรทัดเป็นคำอธิบาย \n
+\t\t 2. คอมเมนต์แบบหลายบรรทัด เขียนโดยใช้เครื่องหมาย /* และจบด้วย */ ใช้เขียนอธิบายตั้งแต่หนึ่งบรรทัดขึ้นไป \n
+\t\t 3. คอมเมนต์แบบเอกสารประกอบโปรแกรม จะสร้างเป็นเอกสาร HTML เรียกว่า Documentation Comment การเขียนจะเริ่มด้วยเครื่องหมาย /** และจบด้วยเครื่องหมาย */ \n </string>
+    <string name="content2_3pic1"> \t\t dataType variableName[,variablaName]; \n
+\t หรือ \n
+\t\t ชนิดข้อมูล ตัวแปร; </string>
+    <string name="content2_3pic2"> \t\t boolean check = true; \n
+\t\t boolean no_check = false;  </string>
+    <string name="content2_3pic3"> \t Char x,y; \t //ประกาศตัวแปร x และ y สำหรับเก็บอักขระ \n
+\t x = “A”; \t //เก็บตัวอักขระ A ลงในตัวแปร x \n
+\t y = ‘\u0041’; \t //เก็บรหัสอักขระของตัว A ลงในตัวแปร y </string>
+    <string name="content2_3pic4"> \t int x; \t //ประกาศตัวแปร x เป็นข้อมูลชนิด int \n
+\t long m; \t //ประกาศตัวแปร m เป็นข้อมูลชนิด long \n
+\t x = 3; \t //กำหนดให้ x เก็บข้อมูลที่มีค่าเป็น 3 \n
+\t m = 32l; \t //กำหนดค่า 32 ให้กับ m ซึ่งเป็นข้อมูลชนิด long \n
+\t x = 0x1FE; \t //กำหนดค่าเลขฐานสิบหก 1FE ให้กับตัวแปร x  </string>
+    <string name="content2_3pic5"> \t double m = 3.12; \t //กำหนดให้ m เก็บเลขทศนิยม 3.12 \n
+\t float x = 1.23f; \t //กำหนดให้ x เก็บเลข 1.23 ซึ่งเป็นตัวเลขชนิด float  </string>
+    <string name="content2_3pic6"> \t\t final int MAX_DATA = 100; \n
+\t\t final double Pi = 3.141; </string>
+    <string name="Content2_3Body_29"> ตัวอย่างเช่น </string>
+
+    <!--CHAPTER 2-4-->
+    <string name="Content2_4Header"> 2.4 ตัวตำเนินการทางคณิตศาสตร์ </string>
+    <string name="Content2_4Body_1"> \t\t นิพจน์ของภาษาคอมพิวเตอร์จะใช้ตัวดำเนินการเป็นตัวเชื่อมตัวแปร ค่าคงที่ให้ได้ผลลัพธ์ตามที่ต้องการ ตัวดำเนินการที่มีการใช้มากที่สุดในภาษาจาวา ดังตาราง 2.4 \n </string>
+    <string name="Content2_4Body_2"> ตารางที่ 2.4 ตัวดำเนินการทางคณิตศาสตร์ </string>
+    <string name="Content2_4Body_3"> \t\t ในตารางที่ 2.4 เป็นตัวดำเนินการใช้ในการคำนวณทางคณิตศาสตร์ทั่วไป ตัวดำเนินการหารแบบ MOD จะใช้สัญลักษณ์ % จะกระทำกับตัวเลขที่เป็นจำนวนเต็ม ผลลัพธ์ที่ได้เป็นเศษของการหาร ส่วนตัวตัวดำเนินการ
++ และ - สามารถกระทำกับตัวถูกดำเนินการตัวเดียวได้ เช่น -5, +4 เรียกการใช้ตัวดำเนินการแบบนี้ว่า unary \n </string>
+    <string name="Content2_4Body_4"> ตัวอย่าง นิพจน์ที่ใช้ในตัวการดำเนินการทางคณิตศาสตร์ </string>
+    <string name="Content2_4Body_5"> \n การหารเลขจำนวนเต็ม </string>
+    <string name="Content2_4Body_6"> \t\t การเขียนนิพจน์หารเลขจำนวนเต็มด้วยเลขจำนวนเต็ม ผลลัพธ์ที่ได้จะเป็นเลขจำนวนเต็ม โดยเศษที่ได้จากการหารจะถูกตัดทิ้งไป พิจารณาการเขียนนิทานต่อไปนี้ \n </string>
+    <string name="Content2_4Body_7"> \n\t\t จากสเตตเมนต์ด้านบนการหารค่า 17 ด้วย 3 จะได้ผลลัพธ์เป็น 5 แต่ตัวแปร parts ถูกประกาศเป็น double จะททำให้โปรแกรมแสดงสด 5.0 ออกมา แต่ถ้าประกาศตัวแปร
+parts เป็น int parts; จะแสดงผลลัพธ์เป็น 5 แต่ถ้าเขียนสเตตเมนต์การหารดังต่อไปนี้ \n </string>
+    <string name="Content2_4Body_8"> \n\t\t เป็นการหารเลขทศนิยม 17.0 ด้วยเลขจำนวนเต็ม 3 จะแสดงผลลัพธ์เป็น 5.66666666666667 \n </string>
+    <string name="Content2_4Body_9"> ลำดับของตัวดำเนินการทางคณิตศาสตร์ </string>
+    <string name="Content2_4Body_10"> \t\t การเขียนนิพจน์ทางคณิตศาสตร์อาจมีการใช้ตัวดำเนินการหลายๆ ตัวประกอบกันอยู่ในนิพจน์ผู้เขียนโปรแกรมจะต้องคำนึงถึงลำดับการทำงานของตัวดำเนินการ
+ว่า ตัวดำเนินการตัวใดทำก่อน ตัวตำเนินการตัวใดทำหลัง ตัวอย่างเช่น \n </string>
+    <string name="Content2_4Body_11"> \n\t\t การเขียนนิพจน์ดังกล่าวจะได้คำตอบเป็น 14 เนื่องจากเครื่องหมาย/ มีลำดับการทำก่อนเครื่องหมาย + ดังนั้น โปรแกรมจะนำ 6 ไปหารได้ 3 ก่อน คำตอบเป็น 2 แล้วนำไปบวกกับ 12 ผลลัพธ์เป็น 14 \n </string>
+    <string name="Content2_4Body_12"> ตารางที่ 2.5 ลำดับความสำคัญของตัวดำเนินการทางคณิตศาสตร์ </string>
+    <string name="Content2_4Body_13"> \t\t ตารางที่ 2.5 เป็นลำดับความสำคัญของตัวดำเนินการทางคณิตศาสตร์ จากมากไปน้อยตัวดำเนินการที่อยู่ลำดับเดียวกันจะเรียงความสำคัญจากซ้ายไปขวา \n </string>
+    <string name="Content2_4Body_14"> ตัวตำเนินการแบบย่อ (Shortcut Operator) </string>
+    <string name="Content2_4Body_15"> \t\t การเขียนนิพจน์ทางคณิตศาสตร์ทั่วไป จะนำการกระทำทางด้านซ้ายมือมาใส่ให้กับตัวแปรทางด้านซ้ายมือ ดังตัวอย่างเช่น ถ้าต้องการเพิ่มตัวแปร x ขึ้นหนึ่งค่าสามารถเขียนได้ดังนี้ \n </string>
+    <string name="Content2_4Body_16"> \n\t\t หรือถ้าหากต้องการนำตัวแปร x คูณกับ 10 แล้วเก็บในตัวแปร x จะเขียนดังนี้ \n </string>
+    <string name="Content2_4Body_17"> \n\t\t การเขียนนิพจน์ในสองตัวอย่างที่ผ่านมาสามารถเขียนใหม่โดยใช้ตัวดำเนินการแบบย่อ ได้ดังนี้ \n </string>
+    <string name="Content2_4Body_18"> \n\t\t ในภาษาจาวามีการใช้ตัวดำเนินการแบบย่อ 5 ตัว ดังตารางที่ 2.6 \n </string>
+    <string name="Content2_4Body_19"> ตารางที่ 2.6 ตัวดำเนินการแบบย่อ </string>
+    <string name="Content2_4Body_20"> ตัวดำเนินการเพิ่มค่าและลดค่า </string>
+    <string name="Content2_4Body_21"> \t\t การเปลี่ยนค่าของตัวแปรโดยการเพิ่มค่าหรือลดค่าครั้งละหนึ่งค่า ถูกใช้มากในการเขียนโปรแกรมคอมพิวเตอร์ จึงมีตัวดำเนินการเมค่า (increment operator)
+โดยใช้เครื่องหมาย ++ และตัวดำเนินการลดค่า (decrement operator) โดยใช้เครื่องหมาย – \n
+\t\t ตัวดำเนินการทั้งสองสามารถใช้ได้ทั้งหน้าแลหลังตัวแปร ตัวอย่างเช่น \n </string>
+    <string name="Content2_4Body_22"> \n\t\t การใช้ตัวดำเนินการเพิ่มค่าและลดค่าหากเขียนเป็นนิพจน์ โดยทีการส่งค่าให้กับตัวแปรทางซ้ายมือด้วย
+ตำแหน่งของตัวดำเนินการจะมีผลกับกรทำงานของโปรแกรม โดยการใส่ตัวดำเนินการด้านหน้าและหลังตัวแปรผลลัพธ์ไม่เหมือนกัน ตัวอย่างเช่น \n </string>
+    <string name="Content2_4Body_23"> \n\t\t เป็นการเพิ่มค่า x ขึ้นหนึ่งค่าก่อนแล้วจึงใส่ตัวแปร y ผลลัพธ์ที่ได้ทำให้ตัวแปร x และ y มีค่าเท่ากัน ถ้าหากเขียนเป็น \n </string>
+    <string name="Content2_4Body_24"> \n\t\t เป็นการนำค่า x ไปให้กับ y ก่อนแล้วเพิ่มค่า x ผลลัพธ์ที่ได้จะทำให้ตัวแปร x และ y มีค่าไม่เท่ากัน \n </string>
+    <string name="Content2_4Body_25"> การเปลี่ยนประเภทของข้อมูล </string>
+    <string name="Content2_4Body_26"> \t\t การเปลี่ยนนิพจน์ทางคณิตศาสตร์ บางครั้งข้อมูลในนิพจน์จะต่างประเภทกัน หรือเป็นข้อมูลที่มีขนาดต่างกัน คอมไพเลอร์ภาษาจาวาสามารถแปลงข้อมูลให้มีรูปแบบสอดคล้องกันได้ \n
+\t\t การแปลงประเภทข้อมูลมี 2 รูปแบบ ดังนี้ \n
+\t\t 1. การแปลงข้อมูลให้มีขนาดใหญ่ขึ้น ( widening conversion) \n
+\t\t 2. การแปลงข้อมูลให้มีขนาดเล็กลง (narrowing conversion) \n </string>
+    <string name="Content2_4Body_27"> \t\t โดยทั่วไปจะเป็นการแปลงข้อมูลให้มีขนากใหญ่ขึ้น เช่น ถ้ามีข้อมูลแบบ 8 byte เป็นข้อมูลแบบ 8 บิต นำไปบวกกับข้อมูลแบบ
+short เป็นข้อมูลแบบ 16 บิต คอมไพเลอร์จะแปลงข้อมูลแบบ 8 บิต ให้เป็น 16 บิต โดยเติมไบต์สูงให้เป็นค่า 0 ทั้งหมดลงไป ผลบวกจะเป็นข้อมูลแบบ short \n </string>
+    <string name="Content2_4Body_28"> \t\t ในภาษาจาวาสามารถแปลงข้อมูลแบบจำนวนเต็มให้เป็นข้อมูลแบบเลขทศนิยมได้ \n </string>
+    <string name="Content2_4Body_29"> \t\t ตัวอย่าง </string>
+    <string name="Content2_4Body_30"> \n\t\t การเขียนโปรแกรมด้านบนเป็นการนำค่า double ที่มี่ค่าเป็น 2.5 เก็บลงตัวแปร int
+แม้ว่าตัวแปรทั้งสองมีขนาดเท่ากัน แต่ไม่สามารถทำได้ ถ้าคอมไพล์แล้ว จะแจ้งข้อผิดพลาดว่า “possible loss of precision.” \n </string>
+    <string name="Content2_4Body_31"> \t\t ตัวอย่าง </string>
+    <string name="Content2_4Body_32"> \n\t\t ถ้าเขียนโปรแกรมดังด้านบน โปรแกรมจะทำงานได้ เนื่องจากนำข้อมูลจากตัวแปรที่เล็กกว่าไปใส่ขนาดที่ใหญ่กว่า \n </string>
+    <string name="Content2_4Body_33"> \t\t ตัวอย่าง </string>
+    <string name="Content2_4Body_34"> \n\t\t ถ้าเขียนโปรแกรมดังด้านบนจะทำได้ โปรแกรมจะแปลงเลข 10 ไปเก็บเป็นเลขทศนิยม จะเอาต์พุตออกมาเป็น 10.0 \n </string>
+    <string name="Content2_4Body_35"> การแปลงขนาดข้อมูลโดยใช้ Cast Operators </string>
+    <string name="Content2_4Body_36"> \t\t ในภาษาจาวาสามารถแปลงประเภทข้อมูลที่มีขนาดใหญ่ให้มีขนาดข้อมูลเล็กลง โดยใช้
+Cast Operators จะเขียนประเภทของข้อมูลที่ต้องการไว้ในวงเล็บ แล้วนำไปไว้ด้านหน้าของตัวแปรที่ต้องการ ตัวอย่างเช่น \n </string>
+    <string name="Content2_4Body_37"> \n\t\t จะส่งกลับข้อมูลที่อยู่ใน number โดยแปลงให้เป็นเลขจำนวนเต็มประเภท int ก่อนแล้วเก็บไว้ในตัวแปร x โดยตัวแปร x ต้องประกาศเป็น int ด้วย เช่น \n </string>
+    <string name="Content2_4Body_38"> \n\t\t ตัวอย่าง </string>
+    <string name="Content2_4Body_39"> \n\t\t การเขียนโปรแกรมบางครั้งมีความจำเป็นต้องเปลี่ยนประเภทของข้อมูล พิจารณาตัวอย่างดังนี้ \n </string>
+    <string name="Content2_4Body_40"> \n\t\t จากโปรแกรมด้านบนการหารเลขจำนวนเต็ม 10 ด้วยค่า 4
+ผลลัพธ์จะต้องเป็น 2.5 และเก็บในตัวแปร piesPerPerson แต่การหารดังกล่าวในภาษาจาวาคำตอบจะเป็น 2.0 เนื่องจากคอมไพเลอร์จะมองว่าเป็นการหารเลขจำนวนเต็มด้วยจำนวนเต็ม</string>
+    <string name="content2_4pic1"> \t amount = 4 + 8; \t //เก็บค่า 12 ลงตัวแปร amount \n
+\t total = total + tax; \t //เก็บค่า total บวกกับ tax ลงในตัวแปร total \n
+\t sale = price – discount; \t //เก็บค่า price ที่ลบด้วย discount ลงในตัวแปร sale \n
+\t markup = 12 *0.25; \t //เก็บค่า 3 ลงในตัวแปร markup \n
+\t points = 100 / 20; \t //เก็บค่า 5 ลงในตัวแปร points \n
+\t leftover = 17 % 3; \t //เก็บค่าเศษจาการหารคือ 2 ลงในตัวแปร leftover  </string>
+    <string name="content2_4pic2"> \t double parts; \t //ประกาศตัวแปร parts เก็บเลขทศนิยม \n
+\t parts = 17/3; \t //เก็บค่า 17 หารด้วย 3 ลงในตัวแปร part \n
+\t System.out.println(parts); \t //แสดงผลค่า parts  </string>
+    <string name="content2_4pic3"> \t\t double parts; \n
+\t\t parts = 17.0 / 3; \n
+\t\t System.out.println(parts); </string>
+    <string name="content2_4pic4"> \t\t outcome = 12 + 6 / 3;  </string>
+    <string name="content2_4pic5"> \t\t x = x + 1; </string>
+    <string name="content2_4pic6"> \t\t x = x * 10;  </string>
+    <string name="content2_4pic7"> \t\t x += 1; \t และ \t\t x *= 10; </string>
+    <string name="content2_4pic8"> \t x++; \t หลังประมวลผลจะได้เป็น \t x = x+1; \n
+\t ++x; \t หลังประมวลผลจะได้เป็น \t x = x+1; \n
+\t x****; \t หลังประมวลผลจะได้เป็น \t x = x-1; \n
+\t ****x; \t หลังประมวลผลจะได้เป็น \t x = x-1;  </string>
+    <string name="content2_4pic9"> \t\t y = ++x;  </string>
+    <string name="content2_4pic10"> \t\t y = x++;  </string>
+    <string name="content2_4pic11"> \t int x; \t //ประกาศตัวแปร x เป็นจำนวนเต็มขนาด 4 ไบต์ \n
+\t double y = 2.5; \t //ประกาศตัวแปร y เก็บเลขทศนิยมขนาด 4 ไบต์ \n
+\t x = y; \t // นำค่าตัวแปร y ไปใส่ใน x </string>
+    <string name="content2_4pic12"> \t int x; \t //ประกาศตัวแปร x เก็บเลขจำนวนเต็ม 4 ไบต์ \n
+\t short y = 2; \t //ประกาศตัวแปร y เก็บค่า 2 ขนาด 2 ไบต์ \n
+\t x = y \t //นำตัวแปร y ไปใส่ในตัวแปร x  </string>
+    <string name="content2_4pic13"> \t\t double x; \n
+\t\t int y = 10; \n
+\t\t x = y; \n
+\t\t System.out.println(x);  </string>
+    <string name="content2_4pic14"> \t\t x = (int)number;  </string>
+    <string name="content2_4pic15"> \t x = (long) 3.7; \t //ส่งค่าเลข 3 ซึ่งเป็นจำนวนเมแบบ long ให้กับตัวแปร x \n
+\t number = (int)72.567 \t //ส่งค่า 72 ให้กับตัวแปร number \n
+\t value = (float)x; \t //ทำค่า x ให้เป็นแบบ float แล้วส่งให้ตัวแปร value  </string>
+    <string name="content2_4pic16"> \t double x,y \t //ประกาศตัวแปร x และ y เป็นแบบ double \n
+\t x = (double)5 / 4; \t //x มีค่าเท่ากับ 5.0 / 4 ซึ่งเท่ากับ 1.25 \n
+\t y = (double)(5 / 4); \t //y มีค่าเท่ากับ (double)(1) ซึ่งเท่ากับ 1.0  </string>
+    <string name="content2_4pic17"> \t\t int pies = 10, people = 4; \n
+\t\t double piesPerPerson \n
+\t\t piesPerPerson = pies / people;  </string>
+
+    <!--CHAPTER 2-5-->
+    <string name="Content2_5Header"> 2.5 คลาสสตริง (String Class) </string>
+    <string name="Content2_5Body_1"> \t\t ข้อความสตริงในภาษาจาวาจะต่างจากภาษาปาสคาลหรือภาษาซี
+โดยภาษาจาวาจะมองเป็นภาษาข้อมูลแบบอ้างอิง การเก็บข้อมูลสตริงลงในตัวแปรจะไม่เก็บข้อมูลลงหน่วยความจำจริงๆ แต่จะอ้างไปที่หน่วยความจำที่เก็บสตริงนั้น \n </string>
+    <string name="Content2_5Body_2"> \t\t การประมวลผลกับสตริงนั้น จาวาจะมองเป็นออบเจ็กต์ของคลาส String สามารถประกาศตัวแปรได้ดังนี้ </string>
+    <string name="Content2_5Body_3"> \t\t ถ้าเป็นข้อมูลแบบพื้นฐานทั่วไป เช่น ประกาศตัวแปร number เป็นข้อมูลประเภท int แล้วมีการเขียนสเตตเมนต์ ต่อไปนี้ \n </string>
+    <string name="Content2_5Body_4"> \n\t\t เป็นการนำค่า 25 ไปเก็บในหน่วยความจำชื่อ number \n </string>
+    <string name="Content2_5Body_5"> \t\t ออบเจ็กต์ของสตริงนี้สามารถนำตัวดำเนินการ + มาเป็นตัวเชื่อมข้อความสตริงสองข้อความเข้าด้วยกันได้ ตัวอย่างเช่น \n </string>
+    <string name="Content2_5Body_6"> \n\t\t สเตตเมนต์ด้านบนจะรวมคำว่า “Bill” กับเว้นวรรค และคำว่า “Smith” ทำให้ตัวแปร fullName ชี้ไปยังออบเจ็กต์ที่เก็บคำว่า “Bill Smith” \n </string>
+    <string name="Content2_5Body_7"> \t\t ถ้าหากนำตัวดำเนินการ + ไปรวมข้อความสรติงกับตัวเลขจะทำให้ได้ข้อมูลทั้งหมดเป็นสตริง ดังตัวอย่าง \n </string>
+    <string name="Content2_5Body_8"> \n\t\t ตัวอย่างโปรแกรมที่ 2.3 StringDemo เป็นตัวอย่างการใช่งานคลาส String </string>
+    <string name="Content2_5Body_9"> \n\t\t ผลลัพธ์ </string>
+    <string name="Content2_5Body_10"> \n\t\t การสร้างตัวแปรเก็บข้อมูลสตริงทำโดยสร้างตัวแปรแบบอ้างอิงขึ้นมา โดยเป็นออบเจ็กต์ของคลาส String
+ในคลาสนี้มีเมธอดต่างๆ ให้ใช้ได้มาก การเรียกใช้เมธอดทำได้โดยเรียกตัวแปรอ้างอิงขึ้นมาตามด้วยเครื่องหมายจุด (.) เพื่อระบุว่าเรียกใช้เมธอดในคลาส และตามด้วยเมธอดที่ต้องการเรียกใช้ ดังรูปแบบ \n </string>
+    <string name="Content2_5Body_11"> \t\t รูปแบบ </string>
+    <string name="Content2_5Body_12"> \t\t ในตารางที่ 2.7 เป็นตัวอย่างเมธอดที่สามารถให้ออบเจ็กต์ในคลาส String เรียกใช้สำหรับรายละเอียดต่างๆ การเรียกใช้เมธอดใดนั้นเขียนปีแกรมจะต้องทราบว่าเมธอดนั้นมีการส่งอาร์กิวเมนต์เข้าไปหรือไม่
+และเมื่อเรียกใช้จะมีค่าใช้ออกมา \n </string>
+    <string name="Content2_5Body_13"> \t\t ตารางที่ 2.7 ตัวอย่างเมธอดในคลาส String </string>
+    <string name="Content2_5Body_14"> \n\t\t ตัวอย่าง </string>
+    <string name="Content2_5Body_15"> \n\t\t จากการทำงานสเตตเมนต์ด้านบน จะทำให้ตัวแปร letter เก็บตัวอักขระ “m” \n </string>
+    <string name="Content2_5Body_16"> \t\t ตัวอย่าง </string>
+    <string name="Content2_5Body_17"> \n\t\t หลังทำสเตตเมนต์จะทำให้ตัวแปร stringSize เก็บค่า 6 ซึ่งคือความยาวของตัวอักขระที่ name อ้างถึง </string>
+    <string name="content2_5pic1"> \t\t Number = 25;  </string>
+    <string name="content2_5pic2"> \t String firetName,lastName,fullName; \t //ประกาศตัวแปรจำนวน 3 ตัวไว้เก็บสตริง \n
+\t friftName = “Bill” \t //กำหนดค่าเริ่มต้นให้กับ friftName \n
+\t lastName = “Smith” \t //กำหนดคาเริ่มต้นให้กับ lastName \n
+\t fuiiName = “firsName + “” + lastName”  </string>
+    <string name="content2_5pic3"> \t “number ” +3 + 4; \t จะได้เป็น “number 34” \n
+\t “number ”+ (3 +4);\t จะได้เป็น “number 7. เนื่องจากจะรวม 3 กับ 4 แบบตัวเลขก่อน \n
+\t “number ”+ 3 * 4; \t จะได้เป็น “number 12” \n
+\t 3 + 4 + “number” \t จะได้เป็น “number”  </string>
+    <string name="content2_5pic4"> \t public class StringDemo \n
+\t\t { \n
+\t\t public static void main (String[] args) \n
+\t\t\t { \n
+\t\t\t String greeting = “Good morning”; \t //กำหนดค่า Good morning ให้กับ greeting \n
+\t\t\t String name = “Computer”; \t //กำหนดค่า Computer ให้กับ name \n
+\t\t\t System.out.println(greeting + name); \t //ใช้ตัวดำเนินการ + รวมสตริงทั้งสอง \n
+\t\t\t } \n
+\t\t } </string>
+    <string name="content2_5pic5"> \t Good morning Computer \n
+\t Process completed </string>
+    <string name="content2_5pic6"> \t char letter; \t //ประกาศตัวแปร letter เป็น char \n
+\t String name = “Herman” \n
+\t letter = name.charAt(3); \t //เรียกเมธอด charAt() เพื่ออ่านตัวอักขระตัวที่ 4 </string>
+    <string name="content2_5pic7"> \t int stringSize; \t //ประกาศตัวแปร int stringSize เป็นเลขจำนวนเต็ม \n
+\t String name = “Herman” \n
+\t stringSize = name.length(); \t //เรียกเมธอด length() เพื่อหาความยาอักขระ </string>
+
+    <!--CHAPTER 2-6-->
+    <string name="Content2_6Header"> 2.6 เมธอดรับข้อมูลพื้นฐาน </string>
+    <string name="Content2_6Body_1"> \t\t การเขียนโปรแกรมคอมพิวเตอร์แบบพื้นฐานจะเริ่มจากการรับข้อมูลทางคีย์บอร์ดและแสดงผลข้อมูลออกทางจอภาพ \n
+\t\t สำหรับการรับข้อมูลทางคีย์บอร์ดในภาษาจาวาจะต้องสร้างออบเจ็กต์ของคลาส Scanner เริ่มจากการประกาศตัวแปรออบเจ็กต์ก่อน
+การประกาศตัวแปรออบเจ็กต์จะคล้ายกับการประกาศตัวแปรทั่วไปตัวอย่างเช่น \n </string>
+    <string name="Content2_6Body_2"> \n\t\t จะประกาศตัวแปรออบเจ็กต์ชื่อ keyboard อยู่ในคลาส Scanner เพื่อใช้เป็นตัวแปรออบเจ็กต์ในการรับข้อมูลทางแป้นพิมพ์
+จากนั้นสร้างออบเจ็กต์ขึ้นมาโดนใช้คีย์เวิร์ดคำว่า new จะทำให้คอมพิวเตอร์จองหน่วยความจำเพื่อให้ตัวแปรออบเจ็กต์นั้นอ้างถึงได้ รูปแบบดังนี้ </string>
+    <string name="Content2_6Body_3"> \n\t\t รูปแบบ </string>
+    <string name="Content2_6Body_4"> \n\t\t ดังนั้น ถ้าจะให้ตัวแปร keyboard รับค่าทางแป้นพิมพ์จะต้องสร้างออบเจ็กต์ขึ้นมาโดยให้มีอาร์กิวเมนต์เป็น System.in เขียนได้ดังนี้ \n </string>
+    <string name="Content2_6Body_5"> \n\t\t ในภาษาจาวาจะยอมให้เขียนทั้งสองขั้นตอนนี้พร้อมกันได้ ซึ่งเขียนได้เป็น </string>
+    <string name="Content2_6Body_6"> \t\t ตารางที่ 2.8 ตัวอย่างเมธอดในคลาส Scanner </string>
+    <string name="Content2_6Body_7"> \t\t ตัวอย่าง ถ้าหากต้องรับข้อมูลเลขจำนวนเต็ม สามารถเขียนส่วนของโปรแกรมได้ดังนี้ \n </string>
+    <string name="Content2_6Body_8"> \n การใช้ import </string>
+    <string name="Content2_6Body_9"> \t\t ในภาษาจาวาคลาสต่างๆ ที่ผู้เขียนโปรแกรมสามารถเรียกใช้งานได้จะถูกรวมเอาไว้เป็นแพ็กเกจซึ่งผู้เขียนจะต้องทราบว่าคลาสที่ใช้งานนั้นอยู่ในแพ็กเกจใด
+โดนจะต้องใช้คำสั่ง import ไว้ที่ส่วนหัวของโปรแกรม เช่น การใช้คลาส scanner จะต้องเขียนดังนี้ \n </string>
+    <string name="Content2_6Body_10"> \n\t\t เป็นการเรียกใช้ Scanner ที่เก็บอยู่ใน util โดย util นี้เก็บอยู่ในแพ็กเกจหลักชื่อ java \n </string>
+    <string name="Content2_6Body_11">  ตัวอย่างที่ 2.7 </string>
+    <string name="Content2_6Body_12"> \t\t calnum.java เป็นการเขียนโปรแกรมให้คอมพิวเตอร์ทำงานเป็นเครื่องคิดเลขอย่างง่าย โดยจะ รับตัวเลขจำนวนเต็มทางคีย์บอร์ดเข้าไปสองค่า จากนั้นแสดงผลบวกออกมา \n </string>
+    <string name="Content2_6Body_13"> \n ผลลัพธ์ </string>
+    <string name="content2_6pic1"> \t\t Scanner keyboard; </string>
+    <string name="content2_6pic2"> \t\t ตัวแปรออบเจ็กต์ = new ชื่อคลาส(อาร์กิวเมนต์ </string>
+    <string name="content2_6pic3"> \t\t keyboard = new Scanner(System.in); </string>
+    <string name="content2_6pic4"> \t int number; \t //ประกาศตัวแปร number สำหรับเก็บเลขจำนวนเต็ม \n
+\t Scanner keyboard = new Scanner(Syatem.in); \n
+\t Syatem.out.print(“Enter an integer value: ”); \n
+\t number = keyboard.nextlnt(); \t //เรียกเมธอด nextlnt() เพื่อรับข้อมูลสตริง </string>
+    <string name="content2_6pic5"> \t\t import java.util.Scanner; </string>
+    <string name="content2_6pic6"> import java.utill.Scanner; \t //เรียกใช้คลาส Scanner \n
+public class calnum { \n
+\t public static void main(String[] args) { \n
+\t int x,y; \t //ประกาศตัวแปร x และ y สำหรับเก็บค่าเลขจำนวนเต็ม \n
+\t Scanner in = new Scanner(System.in); \t //สร้งออบเจ็กต์ in สำหรับรับข้อมูล \n
+\t System.out.print(“Input Number 1 : ”); \n
+\t x = in.nextln(); \t //รับตัวเลขจำนวนเต็มมาเก็บในตัวแปร x \n
+\t System.out. print(“Input Number : ”); \n
+\t y = in.nextln(); \t //รับตัวเลขจำนวนเต็มมาเก็บในตัวแปร y \n
+\t System.out. println(x + “+” + y + “=” +(x+y) ); \t //แสดงผลการบวก \n
+\t\t } \n
+\t\t\t } </string>
+
+
+    <!--CHAPTER 3-1-->
+    <string name="Content3_1Leader">บทที่  3 \nคำสั่งควบคุมโปรแกรม</string>
+    <string name="Content3_1Header">3.1 ตัวดำเนินการทางตรรกศาสตร์ </string>
+    <string name="Content3_1Body_1"> \t\t ตัวดำเนินการประเภทนี้จะให้ผลลัพธ์ออกมาเป็นค่าทางลอจิก คือเป็นจริง (True) หรือเป็นเท็จ (False) อย่างใดอย่างหนึ่งเท่านั้น ตัวดำเนินการประเภทนี้แบ่งออกเป็นตัวดำเนินการแบบสัมพันธ์ ตัวดำเนินการทางตรรกศาสตร์ และตัวดำเนินการระดับบิต \n </string>
+    <string name="Content3_1Body_2">ตัวดำเนินการแบบสัมพันธ์ (Relational Operators) </string>
+    <string name="Content3_1Body_3"> \t\t ตัวดำเนินการประเภทนี้จะถูกดำเนินการสองค่ามาเปรียบเทียบกัน ผลลัพธ์ที่ได้จะเป็นจริงหรือเท็จในภาษาจาวามีตัวดำเนินการประเภทนี้ 6 ตัว ดังตาราง \n </string>
+    <string name="Content3_1Body_4">ตารางที่ 3.1 ตัวดำเนินการแบบสัมพันธ์ </string>
+    <string name="Content3_1Body_5"> \t\t ข้อควรระวัง: เครื่องหมายเท่ากับตัวเดียว (=) หมายความว่าเป็นการนำค่าทางด้านขวามือไปใส่ในตัวแปรทางซ้ายมือ แต่เท่ากับสองตัว (==) จะเป็นการนำนิพจน์ทั้งสองด้านมาเปรียบเทียบกัน </string>
+    <string name="Content3_1Body_6"> \n ตัวดำเนินการทางตรรกศาสตร์ (Logical Operators) \n </string>
+    <string name="Content3_1Body_7">ตารางที่ 3.2 ตัวดำเนินการทางตรรกศาสตร์ </string>
+    <string name="Content3_1Body_8"> \t ตัวดำเนินการทางตรรกศาสตร์ใช้ในการเปรียบเทียบและตัดสินใจ โดยผลลัพธ์ที่ได้จะเป็น 2 กรณี คือ จริง (True) กับ เท็จ (False) ตัวดำเนินการมี 4 ชนิด คือ AND, OR, NOT, และ Exclusive-OR </string>
+    <string name="Content3_1Body_9"> \n\t\t ตัวดำเนินการ ＆＆ (AND) </string>
+    <string name="Content3_1Body_10"> จะได้ผลลัพธ์เป็นจริงก็ต่อเมื่อค่าที่นำมา ＆＆ กันเป็นจริงทั้งคู่ นอกนั้นเป็นเท็จ </string>
+    <string name="Content3_1Body_11"> \n\t\t ตัวดำเนินการ | | (OR) </string>
+    <string name="Content3_1Body_12">จะได้ผลลัพธ์เป็นจริงก็ต่อเมื่อ ค่าใดค่าหนึ่งเป็นจริง และจะได้ผลลัพธ์เป็นเท็จ ถ้าค่าที่นำมา | | กันเป็นเท็จทั้งคู่ </string>
+    <string name="Content3_1Body_13"> \n\t\t ตัวดำเนินการ ! (NOT) </string>
+    <string name="Content3_1Body_14">จะใช้เปลี่ยนค่าความจริงเป็นตรงกันข้าม </string>
+    <string name="Content3_1Body_15"> \n\t\t ตัวดำเนินการ ^ ( Exclusive-OR) </string>
+    <string name="Content3_1Body_16">จะได้ผลลัพธ์เป็นจริงก็ต่อเมื่อ ค่าใดค่าหนึ่งเป็นจริง และจะได้ผลลัพธ์ออกมาเป็นเท็จก็ต่อเมื่อค่าที่นำมา ^ กันเป็นจริงทั้งคู่และเป็นเท็จทั้งคู่ </string>
+    <string name="Content3_1Body_17"> \n\t\t โปรแกรมที่ 3.1 TeatLogic.java</string>
+    <string name="Content3_1Body_18"> \t\t แสดงการใช้ตัวดำเนินการเปรียบเทียบและตัวดำเนินการทางตรรกศาสตร์ \n </string>
+    <string name="Content3_1Body_19">  Public class TastLogic { \n
+\t public static void main (String[] args) { \n
+\t\t int x = 6, y = 9; \n
+\t\t System.out.println(x > y); \t //แสดงผลการเปรียบเทียบว่า x มากกว่า y หรือไม่ \n
+\t\t System.out.println(x〈 y; \t //แสดงผลการเปรียบเทียบว่า x น้อยกว่า y หรือไม่ \n
+\t\t System.out.println(x >= y); \n
+\t\t System.out.println(x == y); \n
+\t\t System.out.println(x != 6); \n
+\t\t System.out.println((x〈 y) ＆＆  (y > 3)); \t //แสดงผลค่าของนิพจน์สองนิพจน์ //ที่นำมา AND กัน \n
+\t\t System.out.println((x == 5)||(y > 2)); \n
+\t\t System.out.println(!(x > y)); \n
+\t\t\t } \n
+\t\t }  </string>
+    <string name="Content3_1Body_20"> \n ผลลัพธ์ </string>
+    <string name="Content3_1Body_21"> \t false \n
+\t true \n
+\t false \n
+\t false \n
+\t false \n
+\t true \n
+\t true \n
+\t false \n\n
+\t Process completed.</string>
+    <string name="Content3_1Body_22"> \n ตัวดำเนินการระดับบิต (Bitwise operators) </string>
+    <string name="Content3_1Body_23"> \n ตารางที่ 3.3 ตัวดำเนินการระดับบิต </string>
+    <string name="Content3_1Body_24"> \t ตัวดำเนินการระดับบิต เป็นตัวดำเนินการที่นำบิตของเลขฐานสองมาดำเนินการกัน โดยการนำข้อมูลมาแปลงเป็นเลขฐานสองก่อนแล้วนำมากระทำกับตัวดำเนินการ </string>
+    <string name="Content3_1Body_25"> \n\t\t ตัวดำเนินการ ＆ (AND) </string>
+    <string name="Content3_1Body_99"> เปรียบเทียบบิตเพื่อให้ค่า 1 ก็ต่อเมื่อค่าของบิตในตำแหน่งเดียวกันมีค่าเป็น 1 ของตัวแปรทั้งคู่ นอกจากนั้นผลที่ได้จะเป็น 0 </string>
+    <string name="Content3_1Body_26"> \n\t\t ตัวดำเนินการ | (OR) </string>
+    <string name="Content3_1Body_98"> เปรียบเทียบบิตเพื่อให้ค่า 1 ก็ต่อเมื่อค่าของบิตในตำแหน่งเดียวกับมีค่าเป็น 1 ของตัวแปรทั้งคู่ และให้ค่า 0 ก็ต่อเมื่อค่าของบิตในตำแหน่งเดียวกันของตัวแปรมีค่าเป็น 0 ทั้งคู่ </string>
+    <string name="Content3_1Body_27"> \n\t\t ตัวดำเนินการ ~ (NOT) </string>
+    <string name="Content3_1Body_97">  จะแปลงค่าบิตจาก 0 เป็น 1 และจาก 1 เป็น 0 </string>
+    <string name="Content3_1Body_28"> \n\t\t ตัวดำเนินการ ^ (Exclusive -OR) </string>
+    <string name="Content3_1Body_96">  เปรียบเทียบบิตให้ค่า 0 ก็ต่อเมื่อค่าของบิตในตำแหน่งใดตำแหน่งหนึ่งมีค่าเป็น 1 หรือ 0 ของตัวแปรทั้งคู่ </string>
+    <string name="Content3_1Body_29"> \n\t\t ตัวดำเนินการ 〈〈 (Shift Left) </string>
+    <string name="Content3_1Body_95">  เลื่อนบิตไปทางซ้ายตามค่าของบิตที่นำมาเปรียบเทียบ </string>
+    <string name="Content3_1Body_30"> \n\t\t ตัวดำเนินการ >> (Shift Right) </string>
+    <string name="Content3_1Body_94"> เลื่อนบิตไปทางขวาตามค่าของบิตที่นำมาเปรียบเทียบ </string>
+    <string name="Content3_1Body_31"> \n ลำดับการทำงานชองตัวดำเนินการ </string>
+    <string name="Content3_1Body_32"> \t\t ในนิพจน์ต่างๆ อาจมีตัวดำเนินการประกอบอยู่มากว่าหนึ่งตัว การหาผลลัพธ์ของนิพจน์คอมไพเลอร์จะต้องพิจารณาว่าจะทำตัวดำเนินการใดก่อนหลัง ในภาษาจาวามีการจัดลำดับความสำคัญของตัวดำเนินการ โดยเรียงลำดับความสำคัญจากบนลงล่าง </string>
+    <string name="Content3_1Body_33"> \n ตารางที่ 3.4 ลำดับความสำคัญของตัวดำเนินการ </string>
+    <string name="Content3_1Body_34"> \t\tจากตารางจะเห็นว่า วงเล็บจะมีลำดับความสำคัญสูงสุด ส่วนตัวดำเนินการที่ใช้สำหรับกำหนดค่าจะมีลำดับความสำคัญต่ำสุด ถ้าหากมีตัวดำเนินการที่มีลำดับความสำคัญเท่ากันอยู่ในนิพจน์เดียวกัน ลำดับความสำคัญจะเรียงจากซ้ายไปขวา
+ในการเขียนโปรแกรมถ้าหากมีการประมวลผลซับซ้อนผู้เขียนโปรแกรมควรใส่วงเล็บให้ประมวลผลก่อน เพื่อป้องกันการสับสน </string>
+
+    <!--CHAPTER 3-2-->
+    <string name="Content3_2Header"> 3.2 การเลือกทำแบบทางเดียว (if Statement) </string>
+    <string name="Content3_2Body_1"> \t\t ในภาษาจาวาจะใช้คำสั่ง if เลือกทำแบบทางเดียวเพื่อจะตรวจสอบว่าชุดคำสั่งที่ตามมาจะทำหรือไม่ ในการทำงานของคำสั่งคอมพิวเตอร์จะตรวจสอบเงื่อนไขก่อน ถ้าเงื่อนไขเป็นจริงจะทำคำสั่งหรือสเตตเมนต์
+ที่ตามหลังหรือเป็นสเตตเมนต์รวมที่อยู่ในเครื่องหมาย { } แต่ถ้าเงื่อนไขเป็นเท็จคอมพิวเตอร์จะกระโดดข้ามคำสั่งหรือสเตตเมนต์ตามมาและไปทำคำสั่งหรือสเตตเมนต์ต่อไป รูปแบบคำสั่งเป็นดังต่อไปนี้ \n </string>
+    <string name="Content3_2Body_2"> รูปแบบ </string>
+    <string name="Content3_2Body_3"> if (condition) {action statement}  </string>
+    <string name="Content3_2Body_4"> \n\t\t โดยการตรวจสอบเงื่อนไขจะเป็นการกระทำแบบบูลีน ผลลัพธ์ที่ได้จะเป็นจริงหรือเท็จเท่านั้น ถ้าหากมีการใช้ตัวดำเนินการจะใช้ตัวดำเนินการที่ให้ผลลัพธ์เป็นแบบบูลีน สำหรับการทำงานของคำสั่ง if สารถเขียนเป็นผังงานได้ดังนี้ </string>
+    <string name="Content3_2Body_5"> \t\t ตัวอย่าง โปรแกรมต่อไปนี้จะตรวจสอบว่า x มากกว่า y จริงหรือไม่ ถ้าหาก x มากกว่า y จริงโปรแกรมจะทำคำสั่งต่อมา \n </string>
+    <string name="Content3_2Body_6"> \t int x = 0, y = 10; \n
+\t if (x > y) \n
+\t\t System.out.println(x + “ is greater than ” + y) </string>
+
+    <!--CHAPTER 3-3-->
+    <string name="Content3_3Header">3.3 คำสั่งเลือกทำอย่างใดอย่างหนึ่ง (if - else) </string>
+    <string name="Content3_3Body_1"> \t\t จากคำสั่ง if ที่ผ่านมาจะใช้ในการเขียนโปรแกรมที่ใช้ทดสอบว่าจะเลือกทำหรือไม่ ถ้าเงื่อนไขเป็นจริงจะทำคำสั่งหลัว if ในกรณีคอมพิวเตอร์ต้องเลือกทำอย่างใดอย่างหนึ่ง โดยตรวจสอบเงื่อนไขที่กำหนดจะใช้คำสั่ง if – else
+ถ้าเงื่อนไขเป็นจริงจะทำคำสั่งหลัง if แต่ถ้าเงื่อนไขเป็นเท็จจะทำคำสั่งหลัง else โดยนิพจน์การตรวจสอบเงื่อนไขที่ตามหลัง if จะเป็นข้อมูลทางตรรกะ รูปแบบคำสั่งดังนี้ \n </string>
+    <string name="Content3_3Body_2"> รูปแบบ </string>
+    <string name="Content3_3Body_3"> \t if (condition) {statement} \n
+\t\t else {statement}  </string>
+    <string name="Content3_3Body_4"> \n\t\t การทำงานของคำสั่งนี้สามารถเขียนเป็นผังงานได้ ดังนี้ </string>
+    <string name="Content3_3Body_5"> \n โปรแกรมที่ 3.2 โปรแกรมคำนวณหาพื้นที่วงกลม </string>
+    <string name="Content3_3Body_6"> \t\t วิธีทำ พื้นที่วงกลมหาได้จาก พ.ท. = Pi * รัศมียกกำลังสองในการออกแบบโปรแกรมจะให้รับค่ารัศมีเข้าไปโดยตรวจสอบว่ารัศมีนั้นต้องมากกว่า 0 \n </string>
+    <string name="Content3_3Body_7"> สำหรับโปรแกรมเขียนได้ดังนี้ \n </string>
+    <string name="Content3_3Body_8"> import java.util.Scanner \n
+\t public class CircleArea { \n
+\t\t public static void main(String[] args) \n
+\t\t { \n
+\t\t Scanner reader = new Scanner(System,in); \n
+\t\t System.out.println(“Enter the radius: ”); \n
+\t\t double radius = reader.nextDouble(); \t //รับค่ารัศมีมีตัวแปรแบบ double \n
+\t\t if (radius **** 0) \t //ตรวจสอบว่ารัศมีมีน้อยกว่า 0 หรือไม่ \n
+\t\t System.out.println(“Error: Radius must be >= 0”); \n
+\t\t else{ \t //ถ้ารัศมีไม่น้อยกว่า 0 ให้คำนวณพื้นที่ \n
+\t\t double area = 3.141*radius*radius; \n
+\t\t Syatem.out.println(“The area is ”+area); \n
+\t\t\t } \n
+\t\t } \n
+\t } </string>
+
+    <!--CHAPTER 3-4-->
+    <string name="Content3_4Header"> 3.4 การใช้คำสั่ง if-else-if </string>
+    <string name="Content3_4Body_1"> \t\t การเขียนคำสั่งแบบเลือกทำสองทางที่ใช้ if-else นั้นจะพบว่าชุดคำสั่งที่อยู่หลัง else จะถูกทำงานถ้าหากประโยคเงื่อนไขของ if
+เป็นเท็จ แต่ถ้าอยากให้หากต้องการให้ตรวจสอบเงื่อนไขอื่นๆ ก่อนที่จะทำชุดคำสั่งหลัง else จะต้องใช้คำสั่ง if-else-if แทน </string>
+    <string name="Content3_4Body_2"> \n รูปแบบ การใช้คำสั่ง if-else-if </string>
+    <string name="Content3_4Body_3"> \t if (condition) \n
+\t\t\t {statement} \n
+\t\t else if (condition) \n
+\t\t\t {statement} \n
+\t\t ………. \n
+\t\t else {statement} </string>
+    <string name="Content3_4Body_4"> \n โปรแกรมที่ 3.2 TestGrade.java โปรแกรมตัดเกรด \n </string>
+    <string name="Content3_4Body_5"> import java.util.Scanner; \n
+\t public class TestGrade { \n
+\t public static void main(String[ ] args) { \n
+\t\t int testScore; \n
+\t\t Scanner sc = new Scanner(System.in); \n
+\t\t System.out.print(“Enter your numeric test score and l will tell you the grade:”); \n
+\t\t testScore = sx.nextint(); \t //รับค่าคะแนนทางอินพุต \n
+\t\t if(testScore 〈〈 60) \t //ตรวจสอบว่าคะแนนน้อยกว่า 60 หรือไม่ \n
+\t\t\t System.out.println(“Your grade id F.”); //น้อยกว่า 60 ได้เกรด F \n
+\t\t else if(testScore 〈〈 70) \t //ถ้าไม่น้อยกว่า 60 แล้วน้อยกว่า 70 หรือไม่ \n
+\t\t\t System.out.println(“Your grade id D.”); \n
+\t\t else if(testScore 〈〈 80) \t //ถ้าไม่น้อยกว่า 70 แล้วน้อยกว่า 80 หรือไม่ \n
+\t\t\t System.out.println(“Your grade id C.”); \n
+\t\t else if(testScore 〈〈 90) \t //ถ้าไม่น้อยกว่า 80 แล้วน้อยกว่า 90 หรือไม่ \n
+\t\t\t System.out.println(“Your grade id B.”); \n
+\t\t else if(testScore 〈〈 100) \t //ถ้าไม่น้อยกว่า 90 แล้วน้อยกว่าหรือเท่ากับ 100 หรือไม่ \n
+\t\t\t System.out.println(“Your grade id A.”); \n
+\t\t else \t //ถ้าไม่อยู่ในเงื่อนไขใดๆ เลยให้ทำคำสั่งต่อไป \n
+\t\t\t System.out.println(“lnvalid score.”); \n
+\t\t\t } \n
+\t\t } </string>
+    <string name="Content3_4Body_6"> \n ผลลัพธ์ </string>
+    <string name="Content3_4Body_7"> Enter your numeric test score and I vill tell you the grade: 75 \n
+Your grade is C. \n\n
+Process completed </string>
+
+    <!--CHAPTER 3-5-->
+    <string name="Content3_5Header"> 3.5 การเลือกทำแบบ switch </string>
+    <string name="Content3_5Body_1"> \t\t การเขียนโปรแกรมที่ต้องมีการเลือกทำหลายทางเลือก เราสามารถนำประโยคคำสั่ง if – else มาซ้อนกันได้ แต่ถ้าเงื่อนไขที่ต้องตัดสินใจขึ้นกับตัวแปรเดียว
+เราสามารถใช้คำสั่ง switch..case แทนได้ คำสั่ง switch มีความซับซ้อนน้อยกว่าการนำ if – else มาเขียนซ้อนกัน และสามารถเปลี่ยนเงื่อนไขได้มากอีกด้วย เช่น ถ้าเขียนโปรแกรมมีลักษณะเมนู ดังนี้ \n </string>
+    <string name="Content3_5Body_2"> \t\t MENU \n
+\t\t 1. \t คำนวณบวกเลข \n
+\t\t 2. \t คำนวณคูณเลข \n
+\t\t 3. \t คำนวณหารเลข \n
+\t\t 4. \t คำนวณลบเลข \n
+\t\t โปรดเลือกการคำนวณ…. </string>
+    <string name="Content3_5Body_3"> \n คำสั่ง switch..case มีรูปแบบดังนี้ \n </string>
+    <string name="Content3_5Body_4"> \t switch (variable) \n
+\t { \n
+\t\t case constant_1 : \t statement; \n
+\t\t\t\t break; \n
+\t\t case constant_2: \t statement; \n
+\t\t\t\t break; \n
+\t\t case constant_3: \t statement; \n
+\t\t\t\t break; \n
+\t\t ………………. \t ……… \n
+\t\t case constant_n : \t statement; \n
+\t\t\t\t break;\n
+\t\t default : statement;\n
+\t\t\t }  </string>
+    <string name="Content3_5Body_5"> \n\t\t สำหรับตัวแปรที่เลือกใช้ทำอยู่หลัง switch จะต้องเป็นตัวแปรประเภทจำนวนเต็ม ซึ่งจะทำให้คอมพิวเตอร์สามารถคาดเดาได้ค่าได้ และค่าคงที่ตัวแปรประเภทเดียวกันกับตัวแปรที่ตามหลัง case การทำงานของคำสั่ง case อาจเขียนเป็นผังได้ ดังนี้ \n </string>
+    <string name="Content3_5Body_6"> โปรแกรมที่ 3.3 SwitchDemo.java เป็นโปรแกรมทดสอบการเลือกทำแบบ switch โดยจะให้ป้อนตัวเลขเข้าไป \n </string>
+    <string name="Content3_5Body_7"> \t Import java.util.Scanner; \n
+\t Public class SwitchDemo{ \n
+\t\t Public static void main(String[ ] args) { \n
+\t\t Int nimber; \n
+\t\t Scanner keyboard = new Scanner(System.inj); \n
+\t\t System.out.print(“Enter 1, 2 or 3: ”); \n
+\t\t Number =keyboard.nextlnt(); \t //รับค่าตัวเลขมาเก็บในตัวแปร number \n
+\t\t Switch (number) \n
+\t\t\t { \n
+\t\t\t Case 1: \t //ตรวจสอบว่า number เท่ากับ 1 หรือไม่ \n
+\t\t\t System.out.println(“You entered 1. ”); \n
+\t\t\t Break; \n
+\t\t\t Case 2: \t //ตรวจสอบว่า number เท่ากับ 2 หรือไม่ \n
+\t\t\t System.out.println(“You entered 2. ”); \n
+\t\t\t Break; \n
+\t\t\t Case 3: \t //ตรวจสอบว่า number เท่ากับ 3 หรือไม่ \n
+\t\t\t System.out.println(“You entered 3. ”); \n
+\t\t\t Break; \n
+\t\t\t Default: \t //ถ้าไม่เท่ากับค่าคงที่ใดเลย ให้ทำคำสั่งต่อไป \n
+\t\t\t System.out.println(“That’s not 1, 2, or 3!”); \n
+\t\t\t\t } \n
+\t\t\t } \n
+\t\t } </string>
+    <string name="Content3_5Body_8"> \n เมื่อรันโปรแกรมแล้วป้อนข้อมูลเลข 2 แล้วกดคีย์ Enter จะได้ผลลัพธ์ดังนี้ </string>
+    <string name="Content3_5Body_9"> Enter 1, 2, or 3: 2 \n
+You entered 2. \n\n
+Process completed  </string>
+
+    <!--CHAPTER 3-6-->
+    <string name="Content3_6Header"> 3.6 การควบคุมการทำซ้ำด้วยคำสั่ง for</string>
+    <string name="Content3_6Body_1"> \t\t การทำซ้ำแบบ for หรือลูป for จะเป็นการให้โปรแกรมทำซ้ำจนกว่าค่าตัวแปรจะครบตามที่ตั้งไว้หรือตามเงื่อนไขที่กำหนด เริ่มแรกโปรแกรมจะกำหนดค่าเริ่มต้นให้กับตัวแปรเริ่มต้น
+(initialization) จากนั้นจะตรวจสอบเงื่อนไข ถ้าเงื่อนไขเป็นจริงจะทำสเตตเมนต์ที่ตามมา และปรับค่าตัวแปรควบคุม มีรูปแบบ ดังนี้ \n </string>
+    <string name="Content3_6Body_2"> รูปแบบ </string>
+    <string name="Content3_6Body_3"> \t for(initialization; condition; update) \n
+\t\t { statement }  </string>
+    <string name="Content3_6Body_4"> \n\t\t สำหรับในส่วนของการกำหนดค่าเริ่มต้น และ update มักจะเขียนเป็นคำสั่งเดียว แต่ถ้าต้องการใช้หลายคำสั่งจะต้องใช้เครื่องหมาย comma คั่นระหว่างคำสั่ง ตัวอย่างคำสั่งดังต่อไปนี้ \n </string>
+    <string name="Content3_6Body_5"> \t\t เริ่มแรกโปรแกรมจะส่งค่าเริ่มต้น 1 ลงในตัวแปร number จากนั้นจะทดสอบเงื่อนไขเป็นจริงหรือไม่ ถ้าเป็นจริงจะทำสเตตเมนต์และเพิ่มค่า number ขึ้นหนึ่งค่า \n </string>
+    <string name="Content3_6Body_6"> \t\t ถ้าหากเขียนคำสั่ง for ดังต่อไปนี้ \n </string>
+    <string name="Content3_6Body_7"> \t\t for(counter = 1 ; counter 〈= 10 ; counter++) \n
+\t\t System.out.printf(counter+“ ”);  </string>
+    <string name="Content3_6Body_8"> \n\t\t โปรแกรมจะพิมพ์ค่า counter ตั้งแต่ 1 ถึง 10 โดยเริ่มแรกจะใส่ค่าให้กับตัวแปร counter ซึ่งเป็นตัวแปรเริ่มต้นก่อน จากนั้นจะตรวจสอบเงื่อนไขว่า counter
+น้อยกว่า 10 หรือเท่ากับ 10 จริงหรือไม่ ถ้าจริงจะพิมพ์ค่าใน counter และเพิ่มค่า counter ขึ้นอีกหนึ่งค่า จากนั้นตรวจสิบเงื่อนไขใหม่ เขียนเป็นผังงานได้ดังนี้ </string>
+    <string name="Content3_6Body_9"> \n โปรแกรม 3.4 โปรแกรมบวกเลขตั้งแต่ 1 ถึงค่าที่อินพุตเข้าไป \n </string>
+    <string name="Content3_6Body_10"> \t Import java.util.Scanner; \n
+\t public calss TestSum { \n
+\t\t public static void main (String[ ] args){ \n
+\t\t int Sum = 0; \n
+\t\t int Num; \n
+\t\t Scanner in = new Scanner(System.in); \n
+\t\t System.out.print(“Input Number : ”); \n
+\t\t Num = in.nextlnt(); \n
+\t\t for(int i= 1; i 〈= Num; i++) \n
+\t\t\t Sum =Sum+i; \n
+\t\t System.out.println(“Sum = ”+Sum); \n
+\t\t\t } \n
+\t\t } </string>
+
+    <!--CHAPTER 3-7-->
+    <string name="Content3_7Header"> 3.7 ลูป WHILE </string>
+    <string name="Content3_7Body_1"> \t\t ประโยคคำสั่งลูปแบบ while จะใช้ให้โปรแกรมทำงานซ้ำโดยตรวจสอบเงื่อนไขก่อน ถ้าเงื่อนไขเป็นจริงจะทำซ้ำ และจะวนรอบจนกว่าเงื่อนไขจะเป็นเท็จ ลูปแบบนี้จะต่างจากลูปแบบ for
+เพราะจำนวนครั้งที่ทำซ้ำจะไม่แน่นอนขึ้นกับเงื่อนไข รูปแบบคำสั่งเป็นดังนี้ \n </string>
+    <string name="Content3_7Body_2"> \t while (test condition) \t //การตรวจสอบเงื่อนไขจะต้องให้ค่าเป็นแบบบูลีน \n
+\t\t statement;  </string>
+    <string name="Content3_7Body_3"> \n\t\t การทำงานของคำสั่งลูป while เขียนเป็นผังงานได้ดังนี้ </string>
+    <string name="Content3_7Body_4"> \n โปรแกรมที่ 3.5 WhileLoop.java เป็นตัวอย่างการใช้ลูป While แสดงคำว่า Hello จำนวน 5 ครั้งโดยสร้างตัวแปรสำหรับนับรอบขึ้นมา \n </string>
+    <string name="Content3_7Body_5"> \t public class WhileLoop{ \n
+\t public static void main(String[ ] args) { \n
+\t\t int number = 1; \t //ประกาศตัวแปร number และกำหนดให้มีค่าเป็น 1 \n
+\t\t while (number 〈= 5) \t //ทดสอบว่าตัวแปร number ให้มีค่าน้อยกว่าหรือ \n
+\t\t\t\t เท่ากับ 5 จริงหรือไม่ \n
+\t\t\t { \n
+\t\t\t System.out.println(“Hello”); \n
+\t\t\t number++; //เพิ่มค่าตัวแปรทีละ 1 \n
+\t\t\t } \n
+\t\t System.out.println(“That’s all!); //แสดงผลเมื่อออกจากลูป \n
+\t\t } </string>
+    <string name="Content3_7Body_6"> \n ผลลัพธ์ </string>
+    <string name="Content3_7Body_7">Hello \n
+Hello \n
+Hello \n
+Hello \n
+Hello \n\n
+Process completed.  </string>
+
+    <!--CHAPTER 3-8-->
+    <string name="Content3_8Header"> 3.8 ลูป do-while </string>
+    <string name="Content3_8Body_1"> \t\t คำสั่งนี้จะทำการตรวจสอบเงื่อนไขภายหลังการทำงานของลูป โดยโปรแกรมจะทำลูปซ้ำไปเรื่อยๆ ถ้าเงื่อนไขเป็นจริงจะทำโปรแกรมซ้ำต่อไป จนกระทั่งเงื่อนไขที่เปรียบเทียบอยู่นั้นเป็นเท็จจึงหยุดทำ
+เนื่องจากลูปแบบนี้จะตรวจสอบเงื่อนไขหลังจากทำลูป จึงทำให้ประโยคในลูปถูกทำหนึ่งครั้งเสมอ ซึ่งต่างจากรูปแบบอื่นๆ มีรูปแบบคำสั่งดังนี้ \n </string>
+    <string name="Content3_8Body_2"> รูปแบบ </string>
+    <string name="Content3_8Body_3"> \t\t Do \n
+\t\t\t { \n
+\t\t\t Statement; \n
+\t\t\t } while (condition); </string>
+    <string name="Content3_8Body_4"> \n โปรแกรมที่ 3.6 โปรแกรมนี้เป็นตัวอย่างการใช้คำสั่งลูป do-while พิมพ์ตังเลขตั้งแต่ 1 ถึง 10 \n </string>
+    <string name="Content3_8Body_5"> \t public class Testdowhile { \n
+\t public static void main(String[ ] args) { \n
+\t\t int counter = 1; \t //ประกาศตัวแปรและกำหนดค่าเริ่มต้นเป็น 1 \n
+\t\t do{ \n
+\t\t\t System.out.print(counter+“ ”); \n
+\t\t }while(++counter 〈=10); \t //ทำซ้ำ ถ้าหาก counter น้อยกว่าหรือเท่ากับ 10 \n
+\t\t\t } \n
+\t\t } </string>
+    <string name="Content3_8Body_6"> \n ผลลัพธ์ </string>
+    <string name="Content3_8Body_7"> 1 2 3 4 5 6 7 8 9 10 \n\n
+Process completed. </string>
+
+    <!--CHAPTER 3-9-->
+    <string name="Content3_9Header"> 3.9 ลูปซ้อนลูป (Nested Loops) </string>
+    <string name="Content3_9Body_1"> กล่องข้อความในการเขียนโปรแกรมนั้นสามารถนำคำสั่งลูปแบบต่างๆ ให้ทำงานซ้อนกันได้เรียกว่าลูปแบบซ้อนลูป ตัวอย่างดังต่อไปนี้ \n </string>
+    <string name="Content3_9Body_2"> \t public class Nedtefloop1 { \n
+    \t public static void main(String[ ] args) \n
+    \t\t { \n
+    \t\t for(int I = 1; i 〈= 3; i++) \n
+    \t\t for(int j = 1;〈= 3; j++) \n
+    \t\t\t System.out.print(j + “ ”); \n
+    \t\t\t} \n
+    \t\t } </string>
+    <string name="Content3_9Body_3"> \n ผลลัพธ์ </string>
+    <string name="Content3_9Body_4"> 1 2 3 1 2 3 1 2 3 \n\n
+Process completed. </string>
+
+    <!--CHAPTER 3-10-->
+    <string name="Content3_10Header"> 3.10 คำสั่ง break และ continue </string>
+    <string name="Content3_10Body_1"> \t\t คำสั่งนี้สามารถสามารถใช่ร่วมกับ while, for, do/while หรือ switch ได้ สำหรับหรับคำสั่งที่ทำงานตรงข้ามกับคำสั่ง break คือคำสั่ง continue ซึ่งสามารถใช้ได้ใน while,
+for หรือ do/while ไดเช่นกัน เมื่อโปรแกรมทำงานมาถึงคำสั่ง continue จะทำลูปต่อไปโดยไม่ทำสเตตเมนต์ที่ตามหลัง continue โปรแกรมที่ 3.7 แสดงตัวอย่างการใช้ break โดยถ้าเงื่อนไขของ
+if เป็นจริงจะออกนอกลูปทันที ส่วนโปรแกรมที่ 3.8 จะแสดงตัวอย่างการใช้ continue \n </string>
+    <string name="Content3_10Body_2"> โปรแกรมที่ 3.7 โปรแกรมนี้จะสร้างลูป for ขึ้นมาทำงานแบบนับวนซ้ำโดยนับตัวแปร I ตั้งแต่ 0 ไปถึง 10 ในการวนซ้ำแต่ละครั้งจะตรวจสอบเงื่อนไขของ if ว่าตัวแปร i ยกกำลังสองมีค่ามากว่า num จริงหรือไม่ ถ้าเป็นจริงจะออกนอกลูป \n </string>
+    <string name="Content3_10Body_3"> \t public class BreakDemo { \n
+\t public static void main(String[ ] argd){ \n
+\t\t int num = 100; \n
+\t\t for(int I = 0;I 〈num; i++){ \n
+\t\t if(i*I >= num) break; \t //ถ้า i*i มากกว่า 100 ให้ออกนอกลูป \n
+\t\t System.out.print(i+“ ”); \t //แสดงตัวเลข \n
+\t\t\t} \n
+\t\tSystem.out.print(“Loop complete. ”); \n
+\t\t} \n
+\t}  </string>
+    <string name="Content3_10Body_4"> \n ผลลัพธ์ </string>
+    <string name="Content3_10Body_5"> 0 1 2 3 4 5 6 7 8 9 Loop complete \n\n
+Process completed.  </string>
+    <string name="Content3_10Body_6"> \n โปรแกรมที่ 3.8 ตัวอย่างการใช้คำสั่ง continue โดยจะวนลูปตั้งแต่ 0 ถึง 10 \n </string>
+    <string name="Content3_10Body_7"> \t for(int i=0; i 〈 100; i++) \t //วนลูปตั้งแต่ 0 ถึง 100 \n
+\t { \n
+\t\t if((i%2)!=0) continue; \t //ตรวจสอบว่า i เป็นเลขคี่หรือไม่ \n
+\t\t System.out.println(i); \t //แสดงผลตัวเลข i \n
+\t }  </string>
+
+
+    <!--CHAPTER 4-1-->
+    <string name="Content4_1Leader">บทที่ 4\nเมธอด</string>
+    <string name="Content4_1Header"> เมธอด (Methods)</string>
+    <string name="Content4_1Body_1"> \t\t ในการเขียนโปรแกรมคอมพิวเตอร์ที่มีขนาดใหญ่ หรือมีความซับซ้อนมากขึ้นจะต้องมีการแบ่ง โปรแกรมหรือชุดคําสั่งต่างๆ ออกเป็นส่วนๆ โดยให้แต่ละส่วนจะประกอบด้วยคําสั่งย่อยๆ ซึ่งจะทําให้แต่ละชุดคําสั่งที่แบ่งมานี้ทํางานในหน้าที่ที่ต่างกัน การแบ่งโปรแกรมเป็นส่วนๆ
+นี้เรียกว่า เมธอด (Methods) แต่ละเมธอดจะแบ่งหน้าที่การทํางาน แต่ก็สามารถทํางานร่วมกันได้ และสามารถเรียกใช้ได้หลายครั้ง \n </string>
+    <string name="Content4_1Body_2"> การใช้เมธอดสำหรับแบ่งส่วนโปรแกรม \n </string>
+
+    <!--CHAPTER 4-2-->
+    <string name="Content4_2Header"> 4.1 โครงสร้างของเมธอด </string>
+    <string name="Content4_2Body_1"> \t\t โปรแกรมทุกโปรแกรมจะต้องมีเมธอดที่ชื่อว่า main ซึ่งถือว่าเป็นเมธอดหลักของโปรแกรมในเมธอดหนึ่งๆ จะประกอบด้วยสองส่วนใหญ่ๆ คือ ส่วนหัว (Header) และส่วนสเตทเม้นต์หรือที่เรียกว่า Body
+ซึ่งเก็บการทำงานต่างๆ เอาไว้ ดังตัวอย่างเมธอด main() ดังต่อไปนี้ \n </string>
+    <string name="Content4_2Body_2"> \t\t โดยส่วนหัวจะเขียนบรรทัดบนสุดของเมธอด ส่วน Body จะเป็นการรวมการทำงานต่างๆ ซึ่งจะเขียนไว้บนเครื่องหมายปีกกา นอกจากนี้ส่วนหัวของเมธอดยังมีส่วนประกอบย่อยๆ อีก สำหรับโครงสร้างทั่วไปของเมธอดมีรูปแบบดังนี้ \n </string>
+    <string name="Content4_2Body_3"> รูปแบบ </string>
+    <string name="Content4_2Body_4"> \t\t Modifier Return_Type Method Name(parameter_list) \n
+\t\t\t { \n
+\t\t ชุดคั่งหรือสเตทเม้นต์ต่างๆ \n
+\t\t return (ตัวแปร หรือข้อมูล); \n
+\t\t\t }  </string>
+    <string name="Content4_2Body_5"> \n\t\t - Method modifiers เป็นส่วนที่บอกว่าเมธอดนี้สามารถเรียกใช้ในระดับใด ในการเขียนโปรแกรมแบบพื้นฐานแล้ว ในส่วนนี้ประกอบด้วยสองคำคือ public static \n
+\t\t - Return_Type ส่วนนี้จะบอกว่าเมื่อเมธอดนี้ถูกเรียกใช้แล้วจะมีการส่งค่ากลับมาหรือไม่ ถ้าส่งกลับเป็นข้อมูลประเภทใด ถ้าหากเมธอดนี้ไม่มีการส่งกลับจะใช้คำว่า void \n
+\t\t - MethodName เป็นชื่อเมธอด ถ้าหากส่วนใดต้องการใช้เมธอดนี้ก็ให้เรียกชื่อของเมธอดได้เลย สำหรับการตั้งชื่อจะเป็นไปตามกฎการตั้งชื่อให้กับตัวแปร \n
+\t\t - parameter เป็นตัวแปรที่ใช้ส่งข้อมูลเข้าไปในเมธอด ถ้าหากมีตัวแปรหลายตัวจะใช้เครื่องหมายคอมมา (;) คั่นระหว่างตัวแปร ถ้าไม่มีการส่งตัวแปรจะใช้วงเล็บ \n
+\t\t - return เป็นส่วนที่ใช้ส่งคากลับให้กับชื่อเมธอด ถ้าเมธอดนี้ไม่มีการส่งคากลับ ก็จะไม่มีส่วนนี้ สำหรับตัวแปรที่ส่งกลับจะต้องเป็นตัวแปรประเภทเดียวกับที่ประกาศไว้ในส่วนหัวข้อของเมธอด \n </string>
+    <string name="Content4_2Body_6"> ประเภทของเมธอด </string>
+    <string name="Content4_2Body_7"> \t ในภาษาจาวาเมธอดต่างๆ จะมีทั้งแบบที่ถูกสร้างไว้แล้วให้ผู้เขียนโปรแกรมสามารถเรียกใช้ได้และแบบที่ผู้เขียนโปรแกรมสร้างขึ้นมาเอง และในภาษาจาวาแบ่งเมธอดออกเป็นประเภทย่อยๆ ได้ดังนี้ \n
+\t\t Static Method เป็นเมธอดที่ใช้คำว่า static นำหน้า หมายความว่าเมธอดนี้สามารถเรียกขึ้นมาใช้ได้ทันทีโดยไม่ต้องสร้างออบเจ็กต์ขึ้นใหม่ \n
+\t\t Instance Method เป็นเมธอดที่ไม่มีคำว่า static นำหน้า การใช้งานจะต้องสร้างออบเจ็กต์ขึ้นมาก่อนจึงจะใช้งานได้ \n
+\t\t Overloading Method เป็นเมธอดหลายๆ เมธอดที่มีชื่อเดียว แต่มีจำนวนพารามิเตอร์ต่างกัน \n </string>
+    <string name="Content4_2Body_8"> การเรียกใช้เมธอด </string>
+    <string name="Content4_2Body_9"> \t\t โปรแกรมทุกโปรแกรมเมธอดที่มีชื่อว่า main() จะถูกเรียกใช้โดยอัตโนมัติเมื่อเริ่มต้นสำหรับทำโปรแกรม สำหรับเมธอดแบบ static
+นั้นถ้าหากต้องการใช้งานเมธอดก็สามารถเรียกชื่อเมธอดขึ้นมาใช้งานทันที ถ้าหากเมธอดที่เรียกใช้ต้องมีพารามิเตอร์เข้าไปด้วย การเรียกใช้เมธอดจะต้องระบุค่าพารามิเตอร์ด้วย ตัวอย่างเช่น \n </string>
+    <string name="Content4_2Body_10"> \t\t displayMessage(); </string>
+    <string name="Content4_2Body_11"> \n\t\t การเรียกใช้เมธอด displayMessage() ไม่ต้องมีการส่งพารามิเตอร์เข้าไป เมื่อโปรแกรมทำงานมาถึงบรรทัดนี้ โปรแกรมจะกระโดดไปทำงานยังเมธอดที่สร้างขึ้นทันที \n </string>
+    <string name="Content4_2Body_12"> โปรแกรมที่ 4.1 SimpleMethod.java เป็นโปรแกรมเรียกใช้เมธอดอย่างง่าย \n </string>
+    <string name="Content4_2Body_13"> \t public class SimpleMethod{ \t //ปีกกาเริ่มคลาสของโปรแกรม \n
+\t public static void main(String[ ] args){ \t //เมธอดหลัก \n
+\t\t System.out.println(“Hello from the main method.”); \n
+\t\t displayMessage(); \t //เรียกเมธอด displayMessage() ที่สร้างขึ้น \n
+\t\t System.out.println(“Back on the main method.”); \n
+\t\t\t } \n
+\t\t public static void displayMessage() \t //เมธอดใหม่ที่สร้างขึ้น \n
+\t\t\t { \n
+\t\t System.out.println(“Hello from the displayMessage.”);\n
+\t\t\t } \n
+\t\t }  </string>
+    <string name="Content4_2Body_14"> \n ผลลัพธ์ </string>
+    <string name="Content4_2Body_15"> Hello from the main method. \n
+Hello from the displaymessage method. \n
+Back in the man method. \n\n
+Process completed.  </string>
+
+    <!--CHAPTER 4-3-->
+    <string name="Content4_3Header"> 4.2 การส่งค่าอาร์กิวเมนต์ของเมธอด </string>
+    <string name="Content4_3Body_1"> \t\t จากหัวข้อที่ผ่านมาเป็นการสร้างเมธอดที่ไม่มีการส่งข้อมูลเข้าไปในเมธอด ถ้าหากเมธอดมีการส่งข้อมูลเข้าไป ค่าของข้อมูลที่ส่งเข้าไปในเมธอดเรียกว่าอาร์กิวเมนต์ (arguments) ตังอย่างเช่นสเตทเม้นต์ต่อไปนี้ \n </string>
+    <string name="Content4_3Body_2"> \t\t\t System.out.println(“Hello”); </string>
+    <string name="Content4_3Body_3"> \n\t\t ซึ่งโปรแกรมจะเรียกใช้เมธอด System.out.println โดยจะส่งค่า Hello เป็นอาร์กิวเมนต์แบบสตริงไปยังเมธอด เช่น \n </string>
+    <string name="Content4_3Body_4"> \t\t\t number = lnteger.patseln(str);  </string>
+    <string name="Content4_3Body_5"> \n\t\t จะเป็นการส่งอาร์กิวเมนต์ผ่านตัวแปร str ตัวแปรที่นำมารับอาร์กิวเมนต์ในลักษณะนี้เรียกว่า ตัวแปรพารามิเตอร์ (parameter variable) ซึ่งจะเป็นตัวแปรพิเศษในการผ่านข้อมูลเข้าไปยังเมธอด พิจารณาสเตทเม้นต์ต่อไปนี้ \n </string>
+    <string name="Content4_3Body_6"> \t\t public static void displayValue(int.num) \n
+\t\t\t { \n
+\t\t\t System.out.println(“The value is ”+num); \n
+\t\t\t }  </string>
+    <string name="Content4_3Body_7"> \n\t\t เมธอดที่สร้างขึ้นจะมีการประกาศตัวแปรในวงเล็บว่า int num ถ้าหากมีการส่งค่าอาร์กิวเมนต์เข้าไปจะต้องส่งผ่านตัวแปรนี้ เช่น ถ้าหากเรียกใช้เมธอดนี้แล้วส่งค่า 5 เข้าไป \n </string>
+    <string name="Content4_3Body_8"> \t\t\t displayValue(5); </string>
+    <string name="Content4_3Body_9"> \n\t\t เมื่อทำเมธอดนี้ค่า 5 ที่ผ่านตัวแปรพารามิเตอร์ num จะถูกนำไปแสดงผล ดังการทำงานในรูปแบบดังนี้ \n </string>
+    <string name="Content4_3Body_10"> \t\t ถ้าหากเมธอดที่สร้างขึ้นต้องการส่งอาร์กิวเมนต์เข้าไปจำนวนสองตัว ก็ทำได้เช่นกัน ตัวอย่างเช่น \n </string>
+    <string name="Content4_3Body_11"> \t\t public static void showSum(double num1, num2) \n
+\t\t } \n
+\t\t\t double sum; \n
+\t\t\t sum = num + num2; \n
+\t\t\t System.out.println(“The sum is ”+sum); \n
+\t\t\ } </string>
+    <string name="Content4_3Body_12"> \n\t\t ตัวอย่างนี้จะมีพารามิเตอร์สองตัวในการเขียนจะใช้เครื่องหมายคอมมาคั่น เมธอดนี้จะนำตัวแปรพารามิเตอร์สองตัวคือ num1 และ num2 มาบวกกัน แล้วเก็บไวในตัวแปร sum
+จากนั้นจะแสดงผลออกมา และถ้าหากต้องการเรียกใช้เมธอดนี้ก็ต้องส่งอาร์กิวเมนต์เข้าไปสองตัว ตัวอย่างเช่น \n </string>
+    <string name="Content4_3Body_13"> \t\t จากตัวอย่างด้านบนจะเห็นว่าเมธอดที่สร้างขึ้นจะมีตัวแปรพารามิเตอร์ที่เป็นข้อมูลประเภท double แต่ในการเรียกใช้เมธอดจะส่งค่า 5 และ 10 เข้าไป ซึ่งเป็นตัวแปรประเภทจำนวนเต็ม
+แต่จาวาจะเปลี่ยนข้อมูลเลขจำนวนเต็มให้เป็น double ได้ เนื่องจากข้อมูลแบบ double มีขนาดโตกว่าแต่ผลลัพธ์จากการทำเมธอดได้ค่า sum เป็นข้อมูลแบบ double \n </string>
+
+    <!--CHAPTER 4-4-->
+    <string name="Content4_4Header"> 4.3 เมธอดที่มีการส่งค่ากลับ </string>
+    <string name="Content4_4Body_1"> \t\t จากเมธอด showSum ในตัวอย่างที่ผ่านมาการแสดงผลบวกจะเขียนไว้ในเมธอดโดยตรง ซึ่งเมธอดนั้นจะไม่มีการส่งค่ากลับ ถ้าดูในส่วนหัวของเมธอดจะเห็นคำว่า void ประกอบอยู่
+สามารถนำเมธอดนี้มาสร้างเป็นเมธอดแบบมีการส่งค่ากลับได้ โดยใช้คำว่า return ในการส่งค่ากลับมาให้ชื่อเมธอด โดยประเภทของข้อมูลที่ส่งกลับมาจะต้องประกาศไว้ที่ส่วนหัวของเมธอด ถ้าหากนำเมธอด showSum มาปรับปรุงจะได้ดังนี้ \n </string>
+    <string name="Content4_4Body_2"> \t\t การเรียกใช้เมธอดแบบนี้มีการส่งกลับคล้ายกับการเรียกใช้เมธอดที่ไม่มีการส่งค่า แต่เมธอดประเภทนี้จะมีค่าข้อมูลอยู่ในชื่อของเมธอดด้วย ดังนั้นจะต้องสร้างตัวแปรขึ้นมาสำหรับรับข้อมูลที่ถูกส่งกลับมาด้วย
+ตัวอย่างเช่น ประกาศตัวแปรชื่อ total ให้เป็นข้อมูลประเภท double ซึ่งเป็นข้องมูลประเภทเดียวกับที่เมธอดส่งกลับ มารับข้อมูล เมื่อเขียนสเตทเม้นต์แล้วเรียกใช้เมธอดก็จะมีข้อมูลส่งกลับมา \n </string>
+
+    <!--CHAPTER 4-5-->
+    <string name="Content4_5Header"> 4.4 ตัวแปรแบบ Local </string>
+    <string name="Content4_5Body_1"> \t\t ตัวแปรที่ประกาศใช้ในเมธอดเรียกว่าตัวแปรแบบท้องถิ่น หรือตัวแปรโลคอล (local variable) โดยจะใช้ได้เฉพาะสเตทเม้นต์ภายในเมธอดเท่านั้น สเตทเม้นต์ต่างๆ ที่อยู่นอกเมธอดที่ประกาศตัวแปร นี้จะไม่สามารถเรียกใช้ตัวแปรนี้ได้
+การประกาศตัวแปรแบบโลคอลนี้ จะทําให้เมธอดหลายๆ เมธอดใช้ ชื่อตัวแปรชื่อเดียวกันได้ ดังตัวอย่างในโปรแกรมที่ 4.1 โดยโปรแกรมนี้จะให้เมธอด main() เรียกใช้ เมธอดที่สร้างขึ้นสองเมธอดคือ phuket และ rayong โดยทั้งสองเมธอดนี้จะมีตัวแปรแบบโลคอลชื่อ
+เดียวกันคือ birds \n </string>
+    <string name="Content4_5Body_2"> โปรแกรมที่ 4.1 LocalVars.java \n </string>
+    <string name="Content4_5Body_3"> \t public class LocalVars{ \n
+\t public static void main(String[ ] args) { \n
+\t\t phuket(); \t //เรียกใช้เมธอด phuket \n
+\t\t rayong(); \t //เรียกใช้เมธอด rayong \n
+\t\t\t } \n
+\t\t public static void phuket() \n
+\t\t\t { \n
+\t\t\t int birds = 5000; \t //ประกาศตัวแปรโคลอนชื่อ birds และใส่ค่าลงไป \n
+\t\t\t System.out.println(“In phuket there are ” + birds + “birds.”); \n
+\t\t\t public static void rayong() \n
+\t\t\t { \n
+\t\t\t int birds = 3500; \t //ประกาศตัวแปรโคลอนชื่อ birds และใส่ค่าลงไป \n
+\t\t\t System.out.println(“In rayong there are ” + birds + “birds.”); \n
+\t\t\t } \n
+\t\t }  </string>
+    <string name="Content4_5Body_4"> \n ผลลัพธ์ </string>
+    <string name="Content4_5Body_5"> In phuket there are 5000 birds. \n
+In rayong there are 3500 birds. \n\n
+Process completed.  </string>
+
+
+    <!--CHAPTER 5-1-->
+    <string name="Content5_1Leader">บทที่ 5\nข้อมูลอาร์เรย์และสตริง </string>
+    <string name="Content5_1Header"> 5.1 ตัวแปรอาร์เรย์ 1 มิติ</string>
+    <string name="Content5_1Body_1"> \t\t ลักษณะของตัวแปรอาร์เรย์แบบ 1 มิติจะเก็บข้อมูลต่อเนื่องกันเป็นแถว การประกาศตัวแปรทำได้สองรูปแบบ คือเริ่มจากประเภทของข้อมูลที่เก็บในอาร์เรย์ ตามด้วยเครื่องหมาย [ ] และตามด้วยชื่อของตัวแปรที่ต้องการ อีกรูปแบบจะนำเครื่องหมาย [ ] ไว้หลังชื่อตัวแปร รูปแบบดังนี้ \n </string>
+    <string name="Content5_1Body_2"> รูปแบบ  </string>
+    <string name="Content5_1Body_3"> \t\t type [ ]var_name; \n
+\t\t type name[ ]; </string>
+    <string name="Content5_1Body_4"> \n\t\t Type จะเป็นประเภทข้อมูลในภาษาจาวาที่จะเก็บ var_name เป็นชื่อของตัวแปรอาร์เรย์ \n </string>
+    <string name="Content5_1Body_5"> ตัวอย่าง การประกาศตัวแปรชื่อ salary \n </string>
+    <string name="Content5_1Body_6"> \t\t int [ ] salary; \n
+\t\t intsalary[ ]; </string>
+    <string name="Content5_1Body_7"> \n\t\t เนื่องจากตัวแปรอาร์เรย์เป็นการเก็บข้อมูลแบบอ้างอิงตำแหน่งหน่วยความจำ ดังนั้นการประกาศตัวแปรอาร์เรย์จะต้องจองเนื้อที่หน่วยความจำสำหรับเก็บข้อมูลของสมาชิกแต่ละตัว ซึ่งจะใช้คำสั่ง new ซึ่งมีรูปแบบดังนี้ \n </string>
+    <string name="Content5_1Body_8"> รูปแบบ  </string>
+    <string name="Content5_1Body_9"> \t\t var_name = new type[size]; </string>
+    <string name="Content5_1Body_10"> \n\t\t โดย size เป็นจำนวนสมาชิกของอาร์เรย์ที่ต้องการประกาศขึ้น หรือจองหน่วยความจำไปพร้อมกับการประกาศตัวแปรก็ได้ รูปแบบดังนี้ \n </string>
+    <string name="Content5_1Body_11"> รูปแบบ  </string>
+    <string name="Content5_1Body_12"> \t\t type [ ] name = new type[size];  </string>
+    <string name="Content5_1Body_13"> \n ตัวอย่าง </string>
+    <string name="Content5_1Body_14"> \t\t int [ ] numbers; \t //ประกาศตัวแปร number เป็นตัวแปรอาร์เรย์เก็บข้อมูลแบบ int \n
+\t\t numbers = new int[6]; //จองหน่วยความจำให้ตัวแปร number เก็บข้อมูลจำนวน 6 เซล </string>
+    <string name="Content5_1Body_15"> \n\t\t ถ้าหากมีการประกาศตัวแปรอาร์เรย์และใช้คำสั่ง new จองหน่วยความจำให้อาร์เรย์แล้ว แต่ยังไม่ได้ใส่ค่าข้อมูลลงไปในอาร์เรย์ โปรแกรมจะกำหนดให้มีค่าเป็นศูนย์โดยอัตโนมัติ ถ้าอาร์เรย์นั้นเป็นอาร์เรย์สำหรับเก็บตัวเลขหรือตัวอักขระ
+แต่ถ้าเป็นอาร์เรย์ที่เก็บค่าแบบบูลีน โปรแกรมจะกำหนดให้มีค่าเริ่มต้นเป็น false สามารถทดลองได้โดยการเขียนคำสั่งดังต่อไปนี้ \n </string>
+    <string name="Content5_1Body_16"> \t\t double x[ ] = new double[3]; \n
+\t\t for (inti = 0; i--; i++) \n
+\t\t System.out.println(x[i]); </string>
+    <string name="Content5_1Body_17"> \n ผลลัพธ์จะแสดงดังนี้ </string>
+    <string name="Content5_1Body_18"> \t 0.0 \n
+\t 0.0 \n
+\t 0.0 </string>
+    <string name="Content5_1Body_19"> \n โปรแกรมที่ 5.1 TestArray.java ตัวอย่างเบื้องต้นการใช้อาร์เรย์ โดยประกาศตัวแปรอาร์เรย์ออกมาแต่ใส่ข้อมูลลงไปไม่ครบถ้วน \n </string>
+    <string name="Content5_1Body_20"> \t public class TestArray{ \n
+\t public static void main(String[ ] args) \n
+\t\t { \n
+\t\t int[ ] num = new int[8]; \t //ประกาศตัวแปรชื่อ num เป็นอาร์เรย์ขนาด 8 เซล \n
+\t\t num[0] = 2; \t //ใส่ค่า 2 ลงในเซล 0 \n
+\t\t num[0] = 4; \t //ใส่ค่า 4 ลงในเซล 1 \n
+\t\t num[0] = 6; \t //ใส่ค่า 6 ลงในเซล 2 \n
+\t\t num[0] = 8; \t //ใส่ค่า 8 ลงในเซล 3 \n
+\t\t System.out.println(“num[0] = :”+num[0]); \t //แสดงค่าเซล [0] \n
+\t\t System.out.println(“num[1] = :”+num[1]); \t //แสดงค่าเซล [1] \n
+\t\t System.out.println(“num[2] = :”+num[2]); \t //แสดงค่าเซล [2] \n
+\t\t System.out.println(“num[3] = :”+num[3]); \t //แสดงค่าเซล [3] \n
+\t\t System.out.println(“num[4] = :”+num[4]); \t //แสดงค่าเซล [4] \n
+\t\t num[3] = num[1+1]+num[0] \t //นำค่าใน num[2] บวกกับ num[0] \n
+\t\t System.out.println(“num[3] = :”+num[3]); \t //แสดงค่า num[3] \n
+\t\t System.out.println(“Length = :”+num.length); \t //แสดงจำนวนเซล </string>
+    <string name="Content5_1Body_21"> \n ผลลัพธ์ </string>
+    <string name="Content5_1Body_22"> \t num [ 0 ] = :2 \n
+\t num [ 1 ] = :4 \n
+\t num [ 2 ] = :6 \n
+\t num [ 3 ] = :8 \n
+\t num [ 4 ] = :0 \n
+\t num [ 3 ] = :8 \n
+\t Length = :8 \n\n
+\t Process completed. </string>
+
+    <!--CHAPTER 5-2-->
+    <string name="Content5_2Header"> 5.2 การกำหนดค่าเริ่มต้นให้อาร์เรย์ 1 มิติ </string>
+    <string name="Content5_2Body_1"> \t\t ในการประกาศตัวแปรอาร์เรย์นั้นสามารถกำหนดค่าเริ่มต้นให้กับแต่ละเซลในตัวแปรได้ โดยไม่ต้องใช้คำสั่ง new มีรูปแบบดังนี้ \n </string>
+    <string name="Content5_2Body_2"> รูปแบบ </string>
+    <string name="Content5_2Body_3"> \t\t type [ ] var_name = {value1, value2, value3,….}; </string>
+    <string name="Content5_2Body_4"> \n ตัวอย่างเช่น </string>
+    <string name="Content5_2Body_5"> \t\t int [ ] days = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}; \t //ค่าเริ่มต้นเป็นตัวเลข \n
+\t\t String [ ] puppy = {“nilla”, “buffer”, “darby”, “galen”}; \t //สตริงจำนวน 5 ตัว \n
+\t\t int [ ] unit = {1}; \t //ค่าเริ่มต้นหนึ่งตัว </string>
+    <string name="Content5_2Body_6"> \n การใช้ตัวดำเนินการ = และ = = </string>
+    <string name="Content5_2Body_7"> \t\t ตัวดำเนินการกำหนดค่า หรือ assignment operator (=) นอกจากการใช้สำหรับการกำหนดค่าต่างๆ ในนิพจน์แล้วยังสามารถนำมาใช้กับตัวแปรแบบอาร์เรย์ เพื่ออ้างอิงไปยังหน่วยความจำที่เก็บข้อมูลได้ด้วย
+พิจารณาการเขียนคำสั่งต่อไปนี้ \n </string>
+    <string name="Content5_2Body_8"> \t 1. int [ ] a = {5, 4, 3, 2, 1}; \n
+\t 2. int [ ] b = new int[5]; \n
+\t 3. b = a; \n
+\t 4. a[0] = 100; \n
+\t 5. System.out.println(“a[ ]I is ” + a[0] + “and b[ ] is” + b[0]) </string>
+    <string name="Content5_2Body_9"> \n เมื่อโปแกรมทำงานตามคำสั่ง ผลลัพธ์ที่ได้จะเป็น </string>
+    <string name="Content5_2Body_10"> \t\t a[0] is 100 and b[0] is 100 </string>
+
+    <!--CHAPTER 5-3-->
+    <string name="Content5_3Header"> 5.3 การประมวลผลอาร์เรย์ </string>
+    <string name="Content5_3Body_1"> \t\t การเก็บข้อมูลแบบอาร์เรย์นั้นสามารถนําไปประยุกต์ในงานต่างๆ ได้มากมาย ตัวอย่างเช่น ถ้า มีตัวแปรเก็บข้อมูลชั่วโมงทํางานของพนักงานแต่ละคนไว้ในอาร์เรย์ชื่อ hours
+ถ้าหากให้อัตราค่าจ้างต่อชั่วโมงทํางานเป็น payRate การคิดค่าจ้างของพนักงานแต่ละคนจะหาได้จาก \n </string>
+    <string name="Content5_3Body_2"> \t\t grossPay = hours[index] * payRate: \t //จํานวนชั่วโมงคูณกับค่าจ้าง </string>
+    <string name="Content5_3Body_3"> \n\t\t โดยที่ index เป็นตัวระบุว่าต้องการคิดค่าจ้างให้กับพนักงานคนใด ซึ่งเก็บจํานวนชั่วโมงเอาไว้ ในอาร์เรย์ \n </string>
+    <string name="Content5_3Body_4"> ลูปแบบ for กับอาร์เรย์ </string>
+    <string name="Content5_3Body_5"> \t\t เนื่องจากอาร์เรย์สามารถเก็บข้อมูลได้หลายเซล จากตัวอย่างที่ผ่านๆ มาจะเห็นการนําลูป for มาใช้กับอาร์เรย์บ้างแล้ว โดยนําตัวนับลูปมาเป็นอินเด็กซ์ให้กับอาร์เรย์ ในจาวาเวอร์ชันใหม่ได้มีคําสั่ง
+ลูปสําหรับอาร์เรย์แบบใหม่เรียกว่า enhanced for loop โดยมีรูปแบบดังนี้ </string>
+    <string name="Content5_3Body_6"> \t\t การใช้ลูปแบบนี้มีข้อดีตรงที่ไม่ต้องมีอินเด็กซ์ชี้ไปยังอาร์เรย์ ดังตัวอย่างการเขียนคําสั่งต่อไปนี้ </string>
+    <string name="Content5_3Body_7"> \t\t intlnumbers = {3, 6, 9}; //กําหนดค่าเริ่มต้น \n
+\t\t for (int val : numbers) \n
+\t\t\t System.out.println(val): </string>
+    <string name="Content5_3Body_8"> \n ผลลัพธ์ </string>
+    <string name="Content5_3Body_9"> \t 3 \n
+\t 6 \n
+\t 9 \n </string>
+
+    <!--CHAPTER 5-4-->
+    <string name="Content5_4Header"> 5.4 ตัวแปรอาร์เรย์ 2 มิติ </string>
+    <string name="Content5_4Body_1"> \t\t อาร์เรย์แบบ 2 มิติ จะเป็นการเก็บข้อมูลในแนวแถว และคอลัมน์ การอ้างถึงเซลในอาร์เรย์จะต้องใช้อินเด็กซ์ที่อ้าง ไปที่แถวและคอลัมน์ การเก็บข้อมูลบางประเภทตัวแปรอาร์เรย์แบบมิติเดียวจะทํางานไม่สะดวก
+ซึ่งอาจต้องใช้ตัวแปรอาร์เรย์ แบบ 2 มิติ เช่น การเก็บคะแนนของนักศึกษา 4 คน แต่ละ คนมีคะแนน 4 วิชา เป็นต้น \n </string>
+    <string name="Content5_4Body_2"> \t\t การประกาศตัวแปรอาร์เรย์ 2 มิติ จะใช้ดัชนี 2 ตัว เพื่อระบุจำนวนสมาชิกในแต่ละหลักและแถว ดังรูปแบบต่อไปนี้ \n </string>
+    <string name="Content5_4Body_3"> รูปแบบ </string>
+    <string name="Content5_4Body_4"> \t type [ ][ ] array_name; \t หรือ \t type array_name [ ][ ]; </string>
+    <string name="Content5_4Body_5"> \n จากนั้นจะต้องจองหน่วยความจำด้วยคำสั่ง new และระบุจำนวนสมาชิกในอาร์เรย์ โดยมีรูปแบบดังนี้ \n </string>
+    <string name="Content5_4Body_6"> รูปแบบ </string>
+    <string name="Content5_4Body_7"> \t\t array_name = new [Row][Column]; </string>
+    <string name="Content5_4Body_8"> \n นอกจากนั้นสามารถประกาศตัวแปรอาร์เรย์พร้อมทั้งจองหน่วยความจำทันทีโดยมีรูปแบบดังนี้ \n </string>
+    <string name="Content5_4Body_9"> รูปแบบ </string>
+    <string name="Content5_4Body_10"> \t\t type [ ][ ] array_name = new type [Row][Column]; </string>
+    <string name="Content5_4Body_11"> \n โดย \t type \t เป็นประเภทข้อมูลที่ต้องการเก็บ \n
+\t\t array_name \t เป็นชื่อของตัวแปรอาร์เรย์ \n
+\t\t Row \t เป็นจำนวนแถวของสมาชิกในอาร์เรย์ \n
+\t\t Column \t เป็นจำนวนคอลัมน์ของสมาชิกในอาร์เรย์ \n </string>
+    <string name="Content5_4Body_12"> ตัวอย่าง </string>
+    <string name="Content5_4Body_13"> ตัวอย่าง </string>
+    <string name="Content5_4Body_14"> int [ ][ ] AB = new int[2][3]; </string>
+    <string name="Content5_4Body_15"> \n หมายความว่าตัวแปร AB ที่ใช้เก็บจำนวนเต็ม มีสมาชิกทั้งหมด 6 ตัว (2 × 3) การอ้างสมาชิกแต่ละตัวทำได้ดังนี้ \n </string>
+    <string name="Content5_4Body_16"> \t แถวที่ 0 \t AB[0][0], AB[0][1], AB[0][2] \n
+\t แถวที่ 1 \t AB[1][0], AB[1][1], AB[1][2] \n </string>
+    <string name="Content5_4Body_17"> โปรแกรมที่ 5.2 ตัวอย่างการใช้งานอาร์เรย์สองมิติ โดยจะใช้ลูปซ้อนลูปเก็บข้อมูลลงในอาร์เรย์ จากนั้นให้ใช้ลูปซ้อนลูปแสดงผลออกทางจอภาพ \n </string>
+    <string name="Content5_4Body_18"> \t public class TwoDArray{ \n
+\t public static void main(String[ ] args){ \n
+\t\t int [ ][ ] table = new int [5][10]; \t //ประกาศตัวแปรอาร์เรย์ 5 แถว 10 คอลัมน์ \n
+\t\t for(int row = 0; row 〈 table.length; row++) \n
+\t\t for(int col = 0; col 〈 table[row].length; col++) \n
+\t\t table[row][col] = row*10+col; \t //เก็บข้อมูลลงในเซล \n
+\t\t for(int row = 0;row 〈 table.length;row++) \t //วนลูปแสดงผล \n
+\t\t { \n
+\t\t\t for(int col = 0; col  〈 table[row].length;col++) \n
+\t\t\t System.out.print(table[row][col]+“\t”): \n
+\t\t\t System.out.println(); \n
+\t\t\t } \n
+\t\t } \n
+\t\t } </string>
+    <string name="Content5_4Body_19"> \n ผลลัพธ์ </string>
+    <string name="Content5_4Body_20"> \t 0  1  2  3  4  5  6  7  8  9 \n
+\t 10 11 12 13 14 15 16 17 18 19 \n
+\t 20 21 22 23 24 25 26 27 28 29 \n
+\t 30 31 32 33 34 35 36 37 38 39 \n
+\t 40 41 42 43 44 45 46 47 48 49 \n\n
+\t Process completed </string>
+
+    <!--CHAPTER 5-5-->
+    <string name="Content5_5Header"> 5.5 สตริง (String) </string>
+    <string name="Content5_5Body_1"> \t\t ข้อมูลประเภทสตริงนั้นในภาษาจาวาจะต้องสร้างออบเจ็กต์ของคลาสสตริง โดยในการสร้างออบเจ็กต์นั้นจะต้องประกาศตัวแปรอ้างอิงขึ้นมาแล้วใช้คําว่า new ใน การสร้างออบเจ็กต์ ตัวอย่างเช่น \n </string>
+    <string name="Content5_5Body_2"> \t String name1 = new String("Coffee”); \t //ประกาศตัวแปรอ้างอิง name1 อ้างถึงออบเจ็กต์
+\t String name2; \t //ประกาศตัวแปรอ้างอิงชนิดสตริงชื่อ name2
+\t name2 = new String(“Espresso”); \t //สร้างออบเจ็กต์สตริงและให้ name2 อ้างถึง </string>
+    <string name="Content5_5Body_3"> \n เมธอดพื้นฐานเกี่ยวกับสตริง </string>
+    <string name="Content5_5Body_4"> \t\t เมื่อมีการสร้างสตริงขึ้นมาแล้ว ในภาษาจาวายังมีเมธอดสำหรับกระทำกับสตริงมากมาย เมธอดพื้นฐานที่ควรรู้จักมีดังต่อไปนี้ </string>
+    <string name="Content5_5Body_5"> \t • เมธอด length() \t ใช้สำหรับหาความยาวของสตริงที่กำหนด \n
+\t • เมธอด charAt() \t ใช้สำหรับหาตัวอักษรในตำแหน่งที่กำหนด \n
+\t • เมธอด indexOf() \t ใช้สำหรับหาตัวอักษรในตำแหน่งสตริง \n
+\t • เมธอด substring() \t ใช้สำหรับหาสตริงในช่วงที่กำหนด </string>
+    <string name="Content5_5Body_6"> \n โปรแกรมที่ 5.3 StringConstructors.java โปแกรมตัวอย่างการสร้างออบเจ็กต์สตริง \n </string>
+    <string name="Content5_5Body_7"> \t public class StringConstructors { \n
+\t public static void main(String[ ] args){ \n
+\t\t String str1 = new String(); \n
+\t\t String str2 = new String(“Good Morning”); \n
+\t\t char data[ ] = {‘H’, ‘o’, ‘ ’, ‘t’, ‘D’, ‘o’, ‘g’}; \t //กำหนดอาร์เรย์ของตัวอักขระ \n
+\t\t String str3 = new String(data); \t //สร้างสตริงจากอาร์เรย์ของตัวอักขระ \n
+\t\t String str4 = new String(data, 4, 3); \t /สร้างสตริงตั้งแต่ตําแหน่งที่ 4 ไป 3 ตัว \n
+\t\t byte bytedata] = { (byte) ‘1’, (byte) ‘i’, \n
+\t\t\t\t (byte) ‘n’, (byte) ‘e’, \n
+\t\t\t\t (byte) ‘a)’, (byte) ‘r’}; \n
+\t\t String str5 = new String(bytedata); \n
+\t\t String str6 = new String(bytedata, 3, 3); \n
+\t\t StringBuffer sb = new StringBuffer(“Have a great day !");
+\t\t String str7 = new String(sb);
+\t\t System.out.println(“str1 is : ”+str1); \t //แสดงข้อความ str1 ซึ่งจะเป็นข้อความว่าง
+\t\t System.out.println(“str2 is : ”+str2);
+\t\t System.out.println(“str3 is : ”+str3);
+\t\t System.out.println(“str4 is : ”+str4);
+\t\t System.out.println(“str5 is : ”+str5);
+\t\t System.out.println(“str6 is :”+str6):;
+\t\t System.out.println(“str7 is : ”+str7);
+\t\t\t }
+\t\t } </string>
+
+
+    <!--CHAPTER 6-1-->
+    <string name="Content6_1Leader"> บทที่ 6 \nคลาสและการเขียนโปรแกรมเชิงวัตถุเบื้องต้น </string>
+    <string name="Content6_1Header"> 6.1 ความหมายของโอโอพี </string>
+    <string name="Content6_1Body_1"> \t\t โอโอพี หรือ OOP เป็นคําย่อของ Object-Oriented Programming หมายถึงการเขียนโปรแกรมเชิงวัตถุ หรือเขียนโปรแกรมแบบออบเจ็กต์
+การเขียนโปรแกรมในลักษณะนี้จะแตกต่างจากการเขียนโปรแกรมที่ประมวลผลแบบเชิงคําสั่งที่มีการทํางานทีละคําสั่ง แต่จะเป็นการสร้างข้อมูลเป็นวัตถุหรือออบเจ็กต์ แล้วเขียนโปรแกรมประมวลผลกับออบเจ็กต์นั้นๆ ให้ทํางานตามต้องการ
+ในออบเจ็กต์หนึ่งออบเจ็กต์จะมีลักษณะ 3 ประการดังต่อไปนี้ \n </string>
+    <string name="Content6_1Body_2"> \t • State เป็นคุณสมบัติของออบเจ็กต์นั้นๆ ที่บอกว่าออบเจ็กต์นั้นเป็นอะไร หรือเรียกอีกอย่างว่าเป็นคุณลักษณะประจํา (Attribute) โดยคุณสมบัตินี้จะขึ้นกับมุมมองของแต่ละคน เช่น ถ้าหากสร้างออบเจ็กต์ของรถ คุณลักษณะประจํานี้ ได้แก่ สีของรถ รถ
+ขนาดของเครื่องยนต์ เป็นต้น และเมื่อเวลาผ่านไปคุณสมบัตินี้อาจเปลี่ยนแปลงได้ เช่น สีซีดลง หรือเปลี่ยนสี เป็นต้น ในการเขียนโปรแกรมเชิงวัตถุ คุณลักษณะนี้มักจะเป็นข้อมูล หรือตัวแปรต่างๆ ของออบเจ็กต์นั้น \n
+\t • Behavior หมายถึง พฤติกรรมของออบเจ็กต์ ตัวอย่างเช่น ถ้าหากสร้างออบเจ็กต์เป็น ตัวรถ พฤติกรรมนี้จะเป็นตัวที่บอกหรือสั่งงานให้รถวิ่ง ถอยหลัง หรือหยุดนิ่ง เป็นต้น ในการเขียนโปรแกรมแบบออบเจ็กต์ ตัวพฤติกรรมนี้จะเป็นการเขียนฟังก์ชัน
+หรือเมธอด (method) ของออบเจ็กต์นั้นๆ \n
+\t • Identity เป็นคุณลักษณะที่ทําให้ออบเจ็กต์แต่ละออบเจ็กต์ต่างกัน เช่น ถ้าหากออบเจ็กต์เป็นรถ คุณลักษณะนี้จะบอกว่า รถคันใดเป็นของเรา รถคันนี้ไม่ใช่ของเรา เป็นต้น \n </string>
+    <string name="Content6_1Body_3"> ตัวอย่างของออบเจ็กต์ </string>
+    <string name="Content6_1Body_4"> \t • รถยนต์ อาจประกอบด้วยคุณลักษณะที่เป็น สี ขนาดของรถ ขนาดของเครื่องยนต์ หมายเลขทะเบียน ส่วนพฤติกรรม ได้แก่ วิ่งไปข้างหน้า หยุดวิ่ง เป็นต้น \n
+\t • ลูกค้า ตัวอย่างของคุณลักษณะ ได้แก่ รหัสลูกค้า ชื่อลูกค้า ยอดสะสมของลูกค้า ส่วนพฤติกรรมที่อาจเป็นได้ เช่น ขอเปิดบัญชีสมาชิก ซื้อสินค้า เป็นต้น \n </string>
+
+    <!--CHAPTER 6-2-->
+    <string name="Content6_2Header"> 6.2 คลาสและออบเจ็กต์ </string>
+    <string name="Content6_2Body_1"> \t\t ส่วนสําคัญสองส่วนของออบเจ็กต์คือ คุณลักษณะ (attribute) ซึ่งเป็นข้อมูลประจําตัวของออบเจ็กต์ และพฤติกรรม (behavior) หรือเมธอด (method)
+ซึ่งบอกว่าออบเจ็กต์กําลังทําสิ่งใดอยู่ ถ้าหากมีการสร้างออบเจ็กต์ขึ้นมาและโปรแกรมต้องการจัดการกับข้อมูลที่เป็นคุณลักษณะของออบเจ็กต์ ก็จะกระทําผ่านเมธอด \n </string>
+    <string name="Content6_2Body_2"> ตัวอย่าง </string>
+    <string name="Content6_2Body_3"> ถ้าหากมองนาฬิกาปลุกเป็นออบเจ็กต์ ตัวอย่างของคุณลักษณะได้แก่ \n
+\t - เวลาเป็นวินาที (ช่วง 0 - 59) \n
+\t - ช่วงเวลาเป็นนาที (ช่วง 0 - 59) \n
+\t - ช่วงเวลาเป็นชั่วโมง (ช่วง 1 - 12) \n </string>
+    <string name="Content6_2Body_4"> \t\t ออบเจ็กต์ต่างๆ ที่กล่าวมาเป็นออบเจ็กต์ที่อาจไม่ต้องการให้สิ่งภายนอกเข้าไปแก้ไข จึงกําหนดวิธีการเข้าถึงคุณลักษณะเหล่านั้นให้เป็นแบบส่วนตัวหรือ private แต่ถ้าหากต้องการกระทํากับค่าคุณลักษณะดังกล่าวจะกระทําผ่านเมธอด
+โดยเมธอดของออบเจ็กต์นี้อาจเป็นดังนี้ \n </string>
+    <string name="Content6_2Body_5"> \t - Set time \t เป็นเมธอดที่ใช้ตั้งเวลา \n
+\t - Set alarm \t เป็นเมธอดที่ใช้ตั้งเวลาปลุก \n
+\t - Turn alarm on \t เป็นเมธอดที่ให้ปลุกได้ \n
+\t - Turn alarm off \t เป็นเมธอดที่ไม่ให้ปลุก \n </string>
+    <string name="Content6_2Body_6"> \t\t สำหรับในการเขียนโปรแกรมเชิงวัตถุด้วยภาษาต่างๆนั้น จะมีคลาสมาตรฐานให้ผู้เขียนโปรแกรมใช้งาน และผู้เขียนโปรแกรมก็ต้องเข้าใจวิธีการสร้างคลาสขึ้นมาเองด้วย ดังนั้น
+ในการเขียนโปรแกรมเชิงวัตถุจะต้องพยายามจำแนกว่าวัตถุที่เราสนใจนั้นต้องมีตัวแปรใดที่สามารถแยกแยะวัตถุแต่ละตัวได้ และวัตถุดังกล่าวมีพฤติกรรมอย่างไร จากนั้นนำมารวมเป็นคลาส และสร้างคลาสนั้นขึ้นมา ตัวอย่างเช่น
+ถ้าหากสร้างคลาสเก็บข้อมูลนักเรียน ตัวแปรหรือคุณของออบเจ็กต์ ได้แก่ รหัสประจำตัวนักเรียน(id) ชื่อนักเรียน (name) และเกรดของนักเรียน (gpa) ดังนั้น อาจสร้างคลาสชื่อ Student ขึ้นมา และสร้างออบเจ็กต์ของนักเรียนแต่ละคนขึ้นมาได้ </string>
+    <string name="Content6_2Body_7"> \t\t ตัวอย่าง ถ้าหากสร้างคลาสของสี่เหลี่ยมขึ้นมาให้ชื่อว่า Rectangle เราสามารถสร้างออบเจ็กต์เป็นสี่เหลี่ยมขนาดต่างๆ ออกมาได้ สำหรับคลาส Rectangle นี้อาจประกอบด้วยคุณลักษณะดังนี้ \n </string>
+    <string name="Content6_2Body_8"> \t - length \t เป็นลักษณะความยาวของสี่เหลี่ยม \n
+\t - width \t เป็นลักษณะความกว้างของสี่เหลี่ยม \n </string>
+    <string name="Content6_2Body_9"> \t\t จากนั้นสามารถสร้างออบเจ็กต์ที่เป็นสี่เหลี่ยมรูปต่างๆ ตามมาได้ สำหรับเมธอดที่กระทำกับคลาส Rectangle นี้ได้แก่ \n </string>
+    <string name="Content6_2Body_10"> \t - setLength \t สำหรับใช้กำหนดความยาวของออบเจ็กต์สี่เหลี่ยม \n
+\t - setWidth \t สำหรับใช้กำหนดความกว้างของออบเจ็กต์สี่เหลี่ยม \n
+\t - getLength \t สำหรับอ่านขนาดความยาวของออบเจ็กต์สี่เหลี่ยม \n
+\t - getWidth \t สำหรับอ่านขนนาดความกว้างของออบเจ็กต์สี่เหลี่ยม \n
+\t - getArea \t สำหรับอ่านค่าพื้นที่ของออบเจ็กต์สี่เหลี่ยม \n </string>
+    <string name="Content6_2Body_11"> จากคลาส Rectangle สามารถเขียนแผนภาพได้ดังนี้ \n </string>
+    <string name="Content6_2Body_12"> การนิยามคลาส </string>
+    <string name="Content6_2Body_13"> \t\t ในภาษาจาวาสามารถนิยามคลาสหรือประกาศคลาสขึ้นมาได้โดยมีรูปแบบดังนี้ \n </string>
+    <string name="Content6_2Body_14"> รูปแบบ </string>
+    <string name="Content6_2Body_15"> \t [AccessSpecifier] class Name \n
+\t\t { \n
+\t\t Members \n
+\t\t } </string>
+    <string name="Content6_2Body_16"> \n\t • AccessSpecifier \t ความสามารถในการเข้าถึงคลาสนั้น ซึ่งในตำราเล่มนี้จะใช้คำว่า public ถ้าหากให้โปรแกรมภายนอกใช้คลาสนี้ได้ \n
+\t • class \t เป็นคีย์เวิร์ดในภาษาเพื่อใช้ในการประกาศคลาส \n
+\t • Name \t เป็นชื่อคลาสที่ประกาศขึ้น \n
+\t • Members \t เป็นคุณลักษณะหรือเมธอดต่างๆ ของคลาสที่นิยามขึ้น สำหรับคุณลักษณะและเมธอดต่างๆ ในภาษาจาวาก็มีรูปแบบในการประกาศเช่นกัน สำหรับคุณลักษณะนั้น ได้แก่ ตัวแปรหรือค่าคงที่ต่างๆ ซึ่งมีรูปแบบในการประกาศดังนี้ \n
+\t • AccessSpecifier \t เป็นความสามารถในการเข้าถึงคุณลักษณะหรือตัวแปรนี้ ซึ่งจะใช้คำว่า public ถ้าหากต้องต้องการให้ออบเจ็กต์นอกคลาสสามารถใช้งานได้ ใช้คำว่า private ถ้าหากไม่ต้องการให้ออบเจ็กต์นอกคลาสใช้งาน เป็นงาน \n
+\t • dataType \t เป็นประเภทของข้อมูลของคุณลักษณะหรือตัวแปรนี้ ซึ่งคือประเภทของข้อมูลในภาษจาวาทั่วไป \n
+\t • Name \t เป็นชื่อของคุณลักษณะหรือตัวแปรดังนี้ \n </string>
+    <string name="Content6_2Body_17"> \t\t สำหรับการประกาศเมธอดที่อยู่ในคลาสมีรูปแบบดังนี้ \n </string>
+    <string name="Content6_2Body_18"> รูปแบบ </string>
+    <string name="Content6_2Body_19"> \t\t [AccessSpecifieer] return_type Name([arguments]) \n
+\t\t\t { \n
+\t\t\t Method \n
+\t\t\t } </string>
+    <string name="Content6_2Body_20"> \n\t • AccessSpecifier \t เป็นความสามารถในการเข้าถึงเมธอด ซึ่งจะใช้คำว่า public หรือ private หรือคำอื่นๆ ที่จะได้ศึกษาต่อไป \n
+\t • return_type \t เป็นประเภทของข้อมูลที่ส่งกลับมาเมื่อการทำเมธอดเสร็จสิ้นลง \n
+\t • Name \t เป็นชื่อเมธอดซึ่งสอดคล้องกับกฎการตั้งชื่อ โดยทั่วไปแล้วมักจะเริ่มต้นด้วย คำกริยาเช่น set, get เป็นต้น \n
+\t • arguments \t เป็นตัวแปรอาร์กิวเมนต์ที่ใช้สำหรับเก็บข้อมูลเข้าสู่เมธอด ซึ่งอาจจะไม่มีก็ได้ \n </string>
+    <string name="Content6_2Body_21"> ตัวอย่าง หากต้องการนิยามคลาส Rectangle ซึ่งภายในประกอบด้วยคุณลักษณะที่เป็นความกว้างกับความยาวสามารถเขียนได้ดังนี้ \n </string>
+    <string name="Content6_2Body_22"> \t\t public class Rectangle \n
+\t\t\t { \n
+\t\t\t private double length; \n
+\t\t\t private double width; \n
+\t\t\t } </string>
+    <string name="Content6_2Body_23"> \n การสร้างออบเจ็กต์ </string>
+    <string name="Content6_2Body_24"> \t\t หลักจากนิยามคลาสขึ้นมาแล้ว ถ้าหากโปรแกรมต้องการใช้งานจะต้องสร้างออบเจ็กต์ขึ้นมา เพื่อบอกว่าออบเจ็กต์เป็นของคลาสใด โดยจะต้องประกาศออบเจ็กต์ขึ้นมาก่อนซึ่งมีรูปแบบดังนี้ </string>
+    <string name="Content6_2Body_25"> \n\t\t ตัวอย่างเช่น ถ้าหากสร้างออบเจ็กต์ชื่อ box ให้เป็นของคลาส Rectangle ที่นิยามไว้แล้วจะเขียนดังนี้ \n </string>
+    <string name="Content6_2Body_26"> \t\t\t Rectangle box; </string>
+    <string name="Content6_2Body_27"> \n \t\t การประกาศออบเจ็กต์นี้จะทำให้คอมไพเลอร์รับทราบว่ามีตัวแปรชื่อ box แต่จะยังไม่มีหน่วยความจำสำหรับเก็บข้อมูลของออบเจ็กต์ที่ประกาศขึ้น ซึ่งจะต้องสร้างออบเจ็กต์ขึ้นมาก่อนโดยใช้ว่า new ซึ่งรูปแบบดังนี้ \n </string>
+    <string name="Content6_2Body_28"> รูปแบบ </string>
+    <string name="Content6_2Body_29"> ตัวอย่างเช่น </string>
+    <string name="Content6_2Body_30"> \t\t box = new Rectangle(); </string>
+    <string name="Content6_2Body_31"> \n\t\t ถ้าหากต้องการประกอบออบเจ็กต์และสร้างออบเจ็กต์และสร้างออบเจ็กต์ทันทีจะเขียนได้ดังนี้ \n </string>
+    <string name="Content6_2Body_32"> \t\t\t Rectangle box = new Rectangle(); </string>
+    <string name="Content6_2Body_33"> \n\t\t หมายความว่าให้สร้างออบเจ็กต์box ที่เป็นของคลาส Rectangle ซึ่งจะทำให้คอมพิวเตอร์จองหน่วยความจำให้กับ box สำหรับเก็บข้อมูลต่างๆ เกี่ยวกับสี่เหลี่ยมตามนิยามนิยามของคลาสที่นิยามขึ้น \n </string>
+    <string name="Content6_2Body_34"> โปแกรมที่ 6.1 Rectagie.java </string>
+    <string name="Content6_2Body_35"> \t public class Rectangle{ \n
+\t\t private double length; \t //ประกาศตัวแปรเก็บความยาวของสี่เหลี่ยม \n
+\t\t private double width; \t //ประกาศตัวแปรเก็บความกว้างของสี่เหลี่ยม \n
+\t\t\t {
+ length = len; \t //ส่งค่าไปให้ตัวแปรยาว
+ } \n
+\t\t public void setWidth(double w) \t //เมธอดกำหนดความกว้าง \n
+\t\t\t {
+ width = w;
+} \n
+\t\t public double getLength() \t //เมธอดสำหรับอ่านความยาวของออบเจ็กต์ \n
+\t\t\t {
+ return length; \t //คืนค่าความยาวของออบเจ็กต์
+ } \n
+\t\t public double getWidth() \t //เมธอดสำหรับอ่านค่าความกว้างของออบเจ็กต์ \n
+\t\t\t {
+ return width;
+ } \n
+\t\t public double get Area() \t //เมธอดสำหรับอ่านค่าพื้นที่ของออบเจ็กต์ \n
+\t\t\t {
+ return length*width; \t //คืนค่าพื้นที่ของออบเจ็กต์
+ } \n
+\t\t } \t //สิ้นสุดคลาส </string>
+    <string name="Content6_2Body_36"> \n โปรแกรมที่ 6.2 ตัวอย่างการสร้างออบเจ็กต์ของคลาส Rectangle </string>
+    <string name="Content6_2Body_37"> \t public class RectangleDemo { \n
+\t public static void main(String[] args) { \n
+\t\t rectangle box = new Rectangle(); \t //สร้างออบเจ็กต์ชื่อ box ให้เป็นสี่เหลี่ยม \n
+\t\t box.setLength(10.0); \t //กำหนดความยาวของ box \n
+\t\t box.setWidth(20.0); \t //กำหนดความกว้างของ box \n
+\t\t System.out.println(“The box’s length is”+ box.getLength()); \t //แสดงความยาวของ box \n
+\t\t System.out.println(“The box’s width is”+ box.getWidth()); \t //แสดงความกว้างของ box \n
+\t\t System.out.println(“The box’s area is”+ box.getArea()); \t //แสดงพื้นที่ของ box \n
+\t\t\t } \n
+\t\t } </string>
+    <string name="Content6_2Body_38"> \n ผลลัพธ์ </string>
+    <string name="Content6_2Body_39"> \t The box ’ s length is 10.0 \n
+\t The box ’ s width is 20.0 \n
+\t The box ’ s area is 200.0 \n\n
+\t Process completed. </string>
+    <string name="Content6_2Body_40"> \n จากตัวอย่างที่ได้ศึกษามา อาจมองโครงสร้างของคลาสง่ายๆ ได้ดังรูปต่อไปนี้ \n </string>
+    <string name="Content6_2Body_41"> \t\t public class ClassName \n
+\t\t\t { \n
+\t\t Field declarations \t //ส่วนคุณลักษณะหรือตัวแปรต่างๆ \n
+\t\t Method declarations \t //ส่วนพฤติกรรมหรือเมธอดต่างๆ \n
+\t\t\t } </string>
+    <string name="Content6_2Body_42"> \n\t\t ในการเขียนโปรแกรมอาจสร้างคลาสไว้รวมกับโปรแกรมหลักที่มีเมธอด main อยู่ด้วยก็ได้ แต่ชื่อของโปรแกรมจะต้องเป็นชื่อของคลาสที่มีเมธอด main ประกอบอยู่ </string>
+
+    <!--CHAPTER 6-3-->
+    <string name="Content6_3Header"> 6.3 สแตติก (Static) </string>
+    <string name="Content6_3Body_1"> \t\t จากตัวอย่างที่ผ่านมาได้รู้จักการสร้างคลาสขึ้นมาใช้งานแล้ว ในจาวาเองก็มีคลาสต่างๆ ให้ใช้งานมากมายเช่นกัน ตัวอย่างเช่น คลาส String หรือคลาส Math ที่ได้เคยใช้มาแล้ว การสร้างคลาสขึ้นมาใหม่นี้ทําให้เราสามารถสร้างเมธอดใหม่ๆ
+ขึ้นมาใช้งานแล้วรวมกันเป็นคลาสได้ และที่ผ่านมาในบทนี้จะเห็นว่าถ้าหากมีการประกาศออบเจ็กต์ขึ้นมาแล้วต้องการใช้งานจะต้องสร้างออบเจ็กต์ด้วยคําสั่ง new ในขณะที่การสร้างออบเจ็กต์ขึ้นมาใช้งานในบางคลาสไม่ต้องใช้คําสั่ง new
+เช่น คลาส Suring หรือคลาส Math เมธอดในคลาสที่ไม่ต้องสร้างออบเจ็กต์ขึ้นมาใช้งานจะเรียกว่าเมธอดแบบสแตติก (Static Method) ซึ่งจะใช้คําว่า static นําหน้าชื่อเมธอด \n </string>
+    <string name="Content6_3Body_2"> โปรแกรมที่ 6.3 </string>
+    <string name="Content6_3Body_3"> \t\t ในตัวอย่างนี้มีสองคลาส คือคลาสที่เป็นโปรแกรมชื่อ Cal_Max และสร้างคลาสขึ้นมาใหม่สำหรับเก็บเมธอดที่ใช้หาค่าเลขที่มากที่สุด ชื่อ TestMax
+โดยคลาสนี้ใช้เก็บเมธอดเท่านั้นไม่มีส่วนที่เป็นคุณลักษณะ สำหรับเมธอดในคลาส TestMax จะเป็นเมธอดแบบ static ซึ่งสามารถเรียกใช้ได้ทันทีโดยไม่ต้องสร้างออบเจ็กต์ใหม่ \n </string>
+    <string name="Content6_3Body_4"> \t import java.util.Scannetr; \n
+\t public class ////cal_Max { \n
+\t public static void main(String args[ ]) \n
+\t\t { \n
+\t\t int num1, num2; \t //ประกาศตัวแปรสองตัวสำหรับเก็บเลข \n
+\t\t Scanner stdom = new Scanner(System.in); \t //สร้างออบเจ็กต์ของคลาส Scnner \n
+\t\t System.out.print(“Input Numer 1: ”); \n
+\t\t num1 = stdin.nextlnt(); \t //เรียกเมธอด nextlnt() สำหรับรับข้อมูล \n
+\t\t System.out.print(“Input Number 2 :”); \n
+\t\t num2 = stdin.nextlnt(); \t //เรียกเมธอด nextlnt() สำหรับรับข้อมูล \n
+\t\t int larger = TesMax.max(num 1, num 2); \t //แสดงข้อมูลเข้าไปในคลาส TestMax \n
+\t\t System.out.println(“Max Data is ”+larger); \t //แสดงค่าสูงสุดออกมา \n
+\t\t\t } \n
+\t\t } \n
+\t class testMax \t //คลาสใหม่ที่สร้างขึ้น \n
+\t\t { \n
+\t\t static int max(int num1 , int num2) \t //เมธอดหาค่าสูงสุดเป็นแบบ static \n
+\t\t\t { \t //โดยรับข้อมูลเข้าไปสองค่า \n
+\t\t if(num1 > num2) \t //ถ้า num1 มากกว่า num2 \n
+\t\t return nm1; \t //ค่า num1 คือค่าสูงสุด \n
+\t\t else \t //ถ้า num1 ไม่มากกว่า num2 \n
+\t\t return num2; \t //ค่า num1 คือค่าสูงสุด \n
+\t\t\t } \n
+\t\t } </string>
+    <string name="Content6_3Body_5"> \n ผลลัพธ์ </string>
+    <string name="Content6_3Body_6"> \t Input Number 1 : 32 \n
+\t Input Number 2 : 64 \n
+\t Max Data is 64 \n\n
+\t Process completed. </string>
+    <string name="Content6_3Body_7"> \n\t\t จากโปรแกรมนี้จะเห็นว่าเมธอดในคลาส Scanner ที่ใช้รับข้อมูลจะไม่เก็บเป็นแบบ static ซึ่งจะสร้างออบเจ็กต์ขึ้นมา แต่เมธอดชื่อ max ในคลาส TestMax ที่สร้างขึ้นเป็นแบบ static
+จึงเรียกชื่อคลาสและตามด้วยเมธอดมาใช้งานได้ทันทีโดยไม่ต้องสร้างออบเจ็กต์ เมื่อรันโปรแกรมคอมพิวเตอร์จะให้ป้อนข้อมูลตัวเลขสองค่า จากนั้นจะแสดงค่าสูงสุดออกมา </string>
+
+    <!--CHAPTER 6-4-->
+    <string name="Content6_4Header"> 6.4 คอนสตรัคเตอร์ (Constructors) </string>
+    <string name="Content6_4Body_1"> \t\t เมื่อมีการสร้างออบเจ็กต์ของคลาสใดขึ้นมาแล้วต้องการให้มีเมธอดหนึ่งทํางานได้ทันที การทํางานแบบนี้จะต้องใช้คอนสตรัคเตอร์ (Constructor) ในการนิยามคลาสนั้น
+ถ้าหากต้องการให้เมธอดใดทํางานพร้อมกับการสร้างออบเจ็กต์จะต้องสร้างเมธอดนั้นให้มีชื่อเดียวกับคลาส เรียกว่า คอนสตรัคเตอร์เมธอด (ConstructorMethod) โดยเมธอดนี้จะไม่มีส่วนที่เป็น
+return_type การสร้างคอนสตรัคเตอร์มีรูปแบบดังนี้ \n </string>
+    <string name="Content6_4Body_2"> รูปแบบ </string>
+    <string name="Content6_4Body_3"> \t\t [AccessSpecifier] Name([Parameters,]) \n
+\t\t\t { \n
+\t\t\t Method \n
+\t\t\t } </string>
+    <string name="Content6_4Body_4"> \n โปรแกรมที่ 6.4 Rectangle.java เพิ่มส่วนที่เป็นคอนสตรัคเตอร์ โดยเมธอดจะนี้จะรับพารามิเตอร์ที่เป็นความกว้างและความยาวของสี่เหลี่ยม \n </string>
+    <string name="Content6_4Body_5"> \t public class Rectangle{ \n
+\t\t private double length; \n
+\t\t private double width; \n
+\t\t public Rectangle(double len, double w) \t //สร้างเมธอดคอนสตรัคเตอร์ \n
+\t\t\t { \n
+\t\t\t lerngth = len \t //กําหนดความยาว \n
+\t\t\t width = w; \t //กําหนดความกว้าง \n
+\t\t\t } </string>
+    <string name="Content6_4Body_6"> \n โปรแกรมที่ 6.5 ConstructorDemo.java เป็นตัวอย่างโปรแกรมการใช้งานคอนสตรัคเตอร์ \n </string>
+    <string name="Content6_4Body_7"> \t public class Constructor Demo { \n
+\t\t public static void main(String[ ] args) { \n
+\t\t Rectangle box = new Rectangle(8.0,12.0); \t //สร้างออบเจ็กต์ box ของคลาส \n
+\t\t\t\t //Rectangle \n
+\t\t\t } \n
+\t\t } </string>
+    <string name="Content6_4Body_8"> \n จะเห็นได้ว่าในการประกาศตัวแปร box ให้เป็นออบเจ็กต์ของคลาส Rectangle จะเขียนดังนี้ \n </string>
+    <string name="Content6_4Body_9"> \t\t\t Rectangle box = new Rectangle(8.0,12.0); </string>
+    <string name="Content6_4Body_10"> \n\t\t ซึ่งเป็นการสร้างออบเจ็กต์แล้วส่งอาร์กิวเมนต์ให้กับคอนสตรัคเตอร์ด้วย โดยค่านี้จะเป็นค่าความกว้างและความยาวของสี่เหลี่ยม box จากนั้นโปรแกรมจะเรียกเมธอดต่างๆ ออกมา \n
+\t\t การสร้างคอนสตรัคเตอร์นี้มีประโยชน์อย่างมากในกรกำหนดคาเริ่มต้นให้กับออบเจ็กต์ อย่างเช่นสร้างคลาสของวงกลมขึ้นมา เมื่อมีการสร้างออบเจ็กต์ก็กำหนดรัศมีให้เป็น 0 ทันที เป็นต้น \n
+\t\t สำหรับโปรแกรมขนาดใหญ่ คลาสที่สร้างขึ้นอาจมีคอนสตรัคเตอร์ได้มากกว่าหนึ่งตัว เรียกว่าโอเวอร์โหลดดิ้งคอนสตรัคเตอร์ (Overloading Constructors) \n </string>
+
+    <!--CHAPTER 7-1-->
+    <string name="Content7_1Leader"> บทที่ 7 \nวิธีการเชิงวัตถุและการออกแบบคลาส </string>
+    <string name="Content7_1Header"> 7.1 คีย์เวิร์ด static </string>
+    <string name="Content7_1Body_1"> \t\t ในการออกแบบคลาสนั้นถ้าหากต้องการให้มีตัวแปรหนึ่ง เป็นตัวแปรของคลาสสำหรับเก็บคุณลักษณะประจำ หรือพฤติกรรมต่าง ๆ โดยที่ตัวแปรนี้จะเก็บอยู่ในหน่วยความจำที่เดียวกัน ใช้ค่าเดียวกัน ไม่ว่าจะสร้างออบเจ็กต์ขึ้นมากี่ตัว
+ ตัวแปรนี้เรียกว่า class variables หรือ static variables โดยการ สร้างตัวแปรนี้จะใช้คำว่า static นำหน้า ทุกออบเจ็กต์ที่สร้างขึ้นจะใช้ตัวแปรนี้เป็นตัวเดียวกัน  \n </string>
+    <string name="Content7_1Body_2">  โปรแกรมที่ 7.1 สร้างคลาส Dice ใหม่โดยเพิ่มตัวแปรสำหรับคลาสเข้าไป \n </string>
+    <string name="Content7_1Body_3"> \t Import java.util.*; \n
+ \t public class Dice { \n
+     \t private int numDice; \n
+           \t private Random random; \n
+    \t static private int numDiceObjects = 0; \t //เพิ่มตัวแปรของคลาสและกำหนดค่าเริ่มต้นให้เป็น 0 \n
+ \t public Dice(int n) \n
+ \t\t { \n
+ \t\t numDice = n; \n
+   \t\t random = new Random(); \n
+    \t\t numDiceObjects++; \n
+ \t } </string>
+    <string name="Content7_1Body_4"> \n\t\tจากคลาสที่สร้างขึ้นจะพบว่ามีการเพิ่มตัวแปรของคลาสสำหรับใช้เก็บจำนวนออบเจ็กต์ และกำหนดให้มีค่าเริ่มต้นเป็นปี 0 โดยเขียนเป็น \n </string>
+    <string name="Content7_1Body_5"> \t\t\t static private intnumDiceObjects = 0; </string>
+    <string name="Content7_1Body_6"> \n\t\t ถ้าหากทดลองสร้างออบเจ็กต์ Dice ขึ้นมาสามออบเจ็กต์จะทำให้ตัวแปร numDiceObjects มีค่าเป็น 3 เช่นการเขียนคำสั่งเป็น \n </string>
+    <string name="Content7_1Body_7"> \t\t\t Dice d1 = new Dice(3); \n
+ \t\t\t Dice d2 = new Dice(7); \n
+ \t\t\t Dice d3 = new Dice(5);  </string>
+    <string name="Content7_1Body_8"> \n\t\t เมื่อโปรแกรมทำงานจะมีขั้นตอนดังรูปต่อไปนี้ เมื่อสร้างออบเจ็กต์ d1 ขึ้นมาเป็นออบเจ็กต์แรก จะทำให้ตัวแปร nurnDiceObjects ชี้ไปยังหน่วยความจำตำแหน่งหนึ่งและเก็บค่า 1 ลงไป จากนั้นเมื่อสร้างออบเจ็กต์ d2
+ จะทำให้ d2 ชี้ไปยังออบเจ็กต์ใหม่ที่สร้างขึ้น แต่ตัวแปร numDiceObjects ยังชี้ไปยังตำแหน่งเดิมแต่จะเก็บค่าเป็น 2 และเมื่อสร้างออบเจ็กต์ d3 ขึ้นมาก็จะสร้างออบเจ็กต์ใหม่เช่นกัน แต่ตัวแปร numDiceObjects จะเก็บค่า 3  \n </string>
+    <string name="Content7_1Body_9"> \n\t\t\t หลังจากทำคำสั่งแรก Dice d1 = new Dice(3); \n </string>
+    <string name="Content7_1Body_10"> \n\t\t\t หลังจากทำคำสั่งแรก Dice d2 = new Dice(7); \n </string>
+    <string name="Content7_1Body_11"> \n\t\t\t หลังทำคำสั่งที่สาม Dice d3 = new Dice(5); \n </string>
+
+    <!--CHAPTER 7-2-->
+    <string name="Content7_2Header"> 7.2 คุณลักษณะของวิธีการเชิงวัตถุ (class) </string>
+    <string name="Content7_2Body_1"> \t\t วิธีการเชิงวัตถุจะสมบูรณ์ได้จะต้องประกอบด้วยคุณสมบัติ 3 ประการ ฯ  \n
+ \t\t\t - การห่อหุ้ม (Encapsulation) \n
+ \t\t\t - การสืบทอด (Inheritance) \n
+ \t\t\t - การมีได้หลายรูปแบบ (Polymorphism) </string>
+    <string name="Content7_2Body_2"> \n การห่อหุ้ม (Encapsulation)  </string>
+    <string name="Content7_2Body_3"> \t\t ลักษณะที่สำคัญอย่างหนึ่งของการเขียนโปรแกรมเชิงวัตถุก็คือ ข้อมูลหรือคุณลักษณะบางที่สร้างขึ้นในคลาสสามารถปกป้องหรือถูกห่อหุ้มอยู่ภายในไม่ให้ออบเจ็กต์สามารถเข้าใช้งานหรือเข้าแก้ไขข้อมูลได้ \n
+ \t\t การกำหนดการเข้าถึงได้จะกำหนดในส่วน AccessSpecifier ถ้าหากกำหนดเป็น private หมายความว่าส่วนนี้ถูกห่อหุ้มอยู่ แต่ถ้าหากกำหนดเป็น public หมายความว่าส่วนนี้สามารถเรียกใช้จากภายนอกได้ ส่วนที่เป็นข้อมูลจะกำหนดให้เป็น
+ private ส่วนที่เป็นเมธอดจะกำหนดให้เป็น public \n </string>
+    <string name="Content7_2Body_4"> ตัวอย่าง หากสร้างคลาสของวงกลมชื่อว่า Circle อาจออกแบบได้ดังนี้ \n
+  \t\t ให้คุณลักษณะประกอบด้วย ตัวแปรเก็บค่า pi (CL) และ r สำหรับเก็บรัศมีของวงกลม \n
+  \t\t ให้มีเมธอดเป็น setR() กำหนดค่ารัศมีของวงกลม เมธอด getLength() หาความยาวเส้นรอบวงกลม  </string>
+    <string name="Content7_2Body_5"> \t\t สร้างคลาสขึ้นมาแล้ว สามารถสร้างวงกลมหลายๆ วงได้ โดยกำหนดค่ารัศมีผ่านทางเมธอด setR() เช่นสร้างออบเจ็กต์ c1 ให้มีค่า รัศมีเป็น 2 หน่วย และสร้างออบเจ็กต์ c2
+ ให้มี รัศมี 5 หน่วย จากตัวอย่างนี้จะเห็นว่าตัวแปรหรือ คุณลักษณะ pi และ r จะถูกปกป้องไว้ โดย pi จะ ไม่สามารถเข้าไปทำการแก้ไขตัวแปรได้ \n </string>
+    <string name="Content7_2Body_6"> การสืบทอด (Inheritance)  </string>
+    <string name="Content7_2Body_7"> \t\t เป็นการนำออบเจ็กต์มาสร้างลำดับความสัมพันธ์เป็นลำดับชั้น เป็นคุณลักษณะเด่นอย่างหนึ่งทำให้สามารถนำคลาสที่มีอยู่แล้ว นำกลับมาใช้ใหม่ได้อีก คลาสที่เป็นต้นแบบจะเรียกว่า superclass หรือ base class
+ หรือ เรียกสั้นๆ ว่า คลาสแม่ ส่วนคลาสที่สืบทอดมาจะเรียกว่า subclass หรือ child class หรือเรียกสั้นๆ ว่า คลาสลูก \n
+ \t\t การสืบทอดคลาสนี้ทำให้เราสามารถสร้าง คลาสที่ใช้คุณลักษณะต่าง ๆ เหมือนคลาสเดิม แต่ เพิ่มคุณลักษณะพิเศษเพิ่มเติมเข้าไปได้  </string>
+    <string name="Content7_2Body_8"> \n การมีได้หลายรูปแบบ (Polymorphism)  </string>
+    <string name="Content7_2Body_9"> \t\t โพลีมอร์ฟิซึม หรือการมีได้หลายรูปแบบ เป็นการยอมให้คลาสทั่ว ๆ ไปมีฟังก์ชันที่ทำงานร่วมกันได้ คุณสมบัตินี้จะทำให้ออบเจ็กต์ต่าง ๆ ที่มีในโปรแกรมสามารถทำงานจากคำสั่งเดียวกันในโปรแกรมได้
+ จากนั้นแต่ละออบเจ็กต์ก็จะไปทำตามรูปแบบที่กำหนดไว้ในตัวเอง </string>
+
+    <!--CHAPTER 7-3-->
+    <string name="Content7_3Header"> 7.3 การสืบทอด (Inheritance)  </string>
+    <string name="Content7_3Body_1"> \t\t ในการเขียนโปรแกรมด้วยภาษาจาวาการสร้างคลาสจะใช้คำว่า extends ในการบอกว่าคลาสที่ สร้างขึ้นมีการสืบทอดมาจากคลาสใด \n
+ \t\t ตัวอย่างเช่น ถ้าหากสร้างคลาสชื่อ TwoDShape เป็นคลาสของรูปร่างสองมิติดังต่อไปนี้ \n </string>
+    <string name="Content7_3Body_2"> \t class TwoDShape{ \n
+     \t\t double width; \t //ตัวแปร width เก็บความกว้างของรูปร่าง \n
+     \t\t double heingt; \t //ตัวแปร height เก็บความสูงของรูปร่าง \n
+      \t\t void showDim(){ \n
+ \t\t System.out.println(“Width and height aer”“+width+”and “+height”); \n
+      \t\t\t } \n
+ \t\t } </string>
+    <string name="Content7_3Body_3"> \n\t\t และหากต้องการสร้างชื่อคลาส Triangle เป็นคลาสของรูปร่างสามเหลี่ยมให้สืบทอดมากกว่าคลาส TwoDShape \n </string>
+    <string name="Content7_3Body_4"> \t class Triangle  extends TwoDShape { \t //บอกว่า Triangle สืบทอมาจาก TwoDShape \n
+      \t string style; \n
+      \t double area(){ \t //เมธอดสำหรับคำนวณพื้นที่ โดยนำตัวแปร width \n
+ \t\t return width*height/2; \t //และตัวแปร height จากคลาสแม่มาคำนวณ \n
+          \t\t } \n
+      \t void showStyle(){ \t //เมธอดสำหรับแสดง style \n
+ \t System.out.println(“Triangle is ”+style); \n
+     \t\t\t } \n
+ \t\t } </string>
+
+    <!--CHAPTER 7-4-->
+    <string name="Content7_4Header"> 7.4 คอนสตรัคเตอร์และการสืบทอด  </string>
+    <string name="Content7_4Body_1"> \t\t คลาสลูกที่มีการสืบทอดมาจากคลาสแม่สามารถมีคอนสตรัคเตอร์ได้เช่นกัน \n </string>
+    <string name="Content7_4Body_2"> \t class Triangle extends TwoDShape{ \n
+      \t private String style; \n
+      \t Triangle(String s, double w, double h) { \t //คอนสตรัคเตอร์ของคลาส Triangle \n
+ \t\t setWidth(w); \t //กำหนดความกว้างโดยเรียกเมธอดคลาสแม่ \n
+ \t\t setHeight(h); \n
+ \t\t style = s; \t //เรียกใช้ตัวแปร width และ height ในคลาสแม่ \n
+       \t\t } </string>
+    <string name="Content7_4Body_3"> \n\t\t จากตัวอย่าง ถ้าหากกำหนดให้คอนสตรัคเตอร์กำหนดความกว้างและความสูงอยู่ในคลาสแม่ แล้วให้คอนสตรัคเตอร์ของคลาสลูกเรียกใช้คอนสตรัคเตอร์ที่อยู่ในคลาสแม่ก็สามารถทำได้เช่นกัน โดยใช้คำว่า super โดยมีรูปแบบดังนี้ \n </string>
+    <string name="Content7_4Body_4"> รูปแบบ </string>
+    <string name="Content7_4Body_5"> \t\t super(parameter-list); </string>
+    <string name="Content7_4Body_6"> \n\t\t พารามิเตอร์ของ super คือค่าที่กำหนดให้กับคอนสตรัคเตอร์ของคลาสแม่ ตัวอย่างคลาส TwoDShape และ Triangle โดยสร้างคอนสตรัคเตอร์ให้กับคลาสแม่ และให้คลาสลูกเรียกใช้ดอนสตรัคเตอร์ของคลาสแม่ได้ดังนี้ \n </string>
+    <string name="Content7_4Body_7">\t class TwoDShape{ \n
+ \t private double width; \n
+ \t privat double height; \n
+ \t TwoDShape(double w, double h){ \t //สร้างคอนสตรัคเตอร์กำหนดความกว้างและความสูง \n
+      \t width = w; \n
+       \t height = h; \n
+ \t\t } \n
+ \t double getWidth() { return width; } \n
+ \t double getHeight() { return height; } \n
+ \t void setWidth(double w) { width = w;} \n
+ \t void setHeight(double h) {height = h; } \n
+ \t void showDim({ \n
+      \t\t System.out.println("Width and height are "+width+" and "+height); \n
+ \t\t\t } \n
+      \t\t } \n
+     \t class Triangle extends TwoDShape \t //สร้างคลาส Triangle ให้สืบทอดมาจาก \n
+ \t\t\t\t //คลาส TwoDShape \n
+ \t private String style; \n
+ \t Triangle(String s, double w, double h){ \t //สร้างคอนสตรัคเตอร์ของคลาสนี้ \n
+      \t\t\t super(w, h); \t \\เรียกใช้คอนสตรัคเตอร์ในคลาสแม่ \n
+       \t\t\t style = s; \n
+ \t\t} \n
+ \t double area){ \n
+      \t\t returngetWidth()*getHeight()/2; \n
+ \t\t } \n
+ \t voidshowStyle \n
+      \t\t System.out.println("Triangle is "+style); \n
+ \t\t\t } \n
+      \t\t } </string>
+
+    <!--CHAPTER 7-5-->
+    <string name="Content7_5Header"> 7.5 การออกแบบโปรแกรมเชิงวัตถุ  </string>
+    <string name="Content7_5Body_1"> \t\t ในการเขียนโปรแกรมเชิงวัตถุนั้นจะต้องเริ่มจากการจำแนกความแตกต่างของวัตถุที่ใช้ใน โปรแกรมออกมา รวมทั้งพิจารณาถึงพฤติกรรมของวัตถุนั้นด้วย จากนั้นพยายามรวบรวมออกมาเป็น คลาสให้ได้ หากออกแบบคลาสได้แล้วควรเขียนไดอะแกรมของคลาส
+ (Class Diagram) ออกมา โดย ทั่วไปแล้วมักจะใช้ภาษารูปแบบกราฟิกที่เรียกว่า UML คำนี้ย่อมาจาก Unified Modeling Language ซึ่งถือว่าเป็นภาษามาตรฐานในการจำลองระบบซอฟต์แวร์ \n
+ \t\t ไดอะแกรมคลาสจะประกอบด้วยส่วนต่าง ๆ สามส่วนคือ ชื่อคลาส คุณลักษณะของคลาส และเมธอดของคลาส โดยในไดอะแกรมจะระบุความสามารถในการเข้าถึงคุณลักษณะและ ตัวแปรต่าง ๆ ด้วย ถ้าหากตัวแปรหรือเมธอดใดเป็นแบบ private จะใช้เครื่องหมายลบ (-)
+ แต่ถ้าหาก ตัวแปรหรือเมธอดใดเป็นแบบ public จะใช้เครื่องหมายบวก (+) \n </string>
+
+    <!--CHAPTER 7-6-->
+    <string name="Content7_6Header"> 7.6 อินเทอร์เฟส  </string>
+    <string name="Content7_6Body_1"> \t\t ในการเขียนโปรแกรมบางครั้งคลาสที่มีการสืบทอดต่อ ๆ กันมาหลายทาง คลาสลูกเหล่านั้นอาจ มีเมธอดที่มีชื่อเดียวกัน แต่มีการทำงานต่างกันก็ได้ในภาษาจาวายอมให้กำหนดโครงสร้างของเมธอดที่ จำเป็นต้องมีขึ้นมาก่อน โดยใช้อินเทอร์เฟส (Interface)
+ ซึ่งโครงสร้างของเมธอดที่กำหนดขึ้นจะยังไม่มีการ กำหนดรายละเอียดให้ทำงานใด ๆ โดยเมธอดทุกเมธอดจะเป็นเมธอดนามธรรม (abstract method) ซึ่งจะ ไม่อนุญาตให้เรียกทำงาน  \n
+ \t\t ภายในอินเทอร์เฟสยังสามารถประกาศตัวแปรขึ้นมาภายในอินเทอร์เฟสได้ด้วย แต่มีข้อจำกัด คือตัวแปรทุกตัวที่ประกาศจะต้องขึ้นต้นด้วย public static final เท่านั้น ตัวแปรนี้ จะทำหน้าที่เป็นค่าคงที่ตลอดไปทั้งโปรแกรม \n
+ \t\t เช่น ถ้าหากต้องการสร้างคลาสชื่อ Geometry เก็บรูปทรงเรขาคณิตต่าง ๆ และกำหนดค่าคงที่และเมธอดต่าง ๆ ที่จะต้องมีในคลาสลูกขึ้นมาก่อน ทำได้โดยใช้คำว่า interface ในการสร้างคลาส \n </string>
+    <string name="Content7_6Body_2"> \t public interface Geometry \n
+ \t\t { \n
+ \t\t public static final double PI = 3.14159; \n
+     \t\t public abstract double area(); \n
+      \t\t public abstract double perimeter(); \n
+ \t\t } </string>
+    <string name="Content7_6Body_3"> \n\t\t จากคลาสที่สร้างจะกำหนดค่าของ PI ใช้เป็นค่าคงที่ในการคำนวณ เมธอดทุกเมธอด จะกำหนดเป็น abstract คลาสที่สืบทอดต่อลงไปจะกำหนดการทำงานของเมธอดต่าง ๆ อีกครั้งหนึ่ง \n </string>
+    <string name="Content7_6Body_4"> \t\t สำหรับการเรียกใช้อินเทอร์เฟส คลาสที่เรียกใช้จะใช้คำว่า implements แล้วตามด้วยชื่ออินเทอร์เฟสที่ต้องการ \n </string>
+    <string name="Content7_6Body_5"> โปรแกรมที่ 7.2 จะสร้างคลาสรูปทรงเรขาคณิตขึ้นมาสองคลาส โดยคลาส Circle เป็นคลาสสำหรับสร้างวงกลม คลาส Square เป็นคลาสสำหรับสร้างรูปสี่เหลี่ยมจัตุรัส ภายในคลาสจะสร้างเมธอด area()
+ และ perimeter() ขึ้นมา ซึ่งเมธอดทั้งสองได้ประกาศไว้ในอินเทอร์เฟสแล้ว \n </string>
+    <string name="Content7_6Body_6"> \t\t จากคลาสที่สร้างขึ้นจะใช้คำว่า implements เพื่อบอกว่าต้องการเรียกอินเทอร์เฟสจากส่วนใด คลาสแต่ละคลาสจะมีเมธอดที่คืนค่าเส้นรอบรูปออกมา เช่น คลาส Circle เป็นคลาสของวงกลม เมื่อเรียกใช้เมธอดคืนค่าเส้นรอบวงกลมออกมา
+  ส่วนเมธอด area จะคืนค่าพื้นที่ของรูปเรขาคณิตที่สร้าง ขึ้นจากคลาสนั้น  \n </string>
+    <string name="Content7_6Body_7"> \t\t ถ้าหากต้องการเขียนโปรแกรมทดสอบสามารถเขียนได้ดังตัวอย่างต่อไปนี้ \n </string>
+    <string name="Content7_6Body_8"> \t public class TestGeometry { \n
+   \t public static void main(String[] args) { \n
+ \t\t Circle c1 = new Circle(4.0); \t //สร้างวงกลม \n
+ \t\t Square s1 = new Square(4.0); \t //สร้างสามเหลี่ยม \n
+ \t\t System.out.printin("Area of c1 = "+c1.area()); \n
+   \t\t System.out.println("Area of s1 ="+s1. area)); \n
+ \t\t System.out.println("Area of T1 = "+T1.area()); \n
+ \t\t\t } \n
+     \t\t } </string>
+    <string name="Content7_6Body_9"> \n ผลลัพธ์  </string>
+    <string name="Content7_6Body_10"> \t\t Area of c1 = 50.26544 \n
+ \t\t Area of s1 = 16.0 \n\n
+ \t\t Process completed. </string>
+    <string name="Content7_6Body_11"> \n ในการสร้างอินเทอร์เฟสขึ้นมาใช้งานมีข้อควรทราบดังนี้  \n
+ \t 1. ไม่สามารถใช้คำว่า new สำหรับสร้างออบเจ็กต์จากอินเทอร์เฟสได้ \n
+ \t 2. ตัวแปรทุกตัวในอินเทอร์เฟสจะต้องระบุเป็น public static final \n
+ \t 3. เมธอดที่อยู่ภายในอินเทอร์เฟสต้องระบุเป็น abstract method \n
+ \t 4. คลาสที่อิมพลีเมนต์จากอินเทอร์เฟสจะต้องสร้างเมธอดที่มีอยู่ในอินเทอร์เฟสออกมาให้ครบทุกเมธอด  </string>
+
+    <!--CHAPTER 7-7-->
+    <string name="Content7_7Header"> 7.7 การมีได้หลายรูปแบบ </string>
+    <string name="Content7_7Body_1"> \t\t การเขียนโปรแกรมในลักษณะให้เมธอดหรือคอนสตรัคเตอร์มีชื่อเดียวกัน แต่มีอาร์กิวเมนต์ แตกต่างกัน หรือทำให้เกิดการโอเวอร์โหลด (Overload) นั้นจะทำให้มีคุณสมบัติการพ้องรูป หรือ Polymorphism เกิดขึ้น \n
+ \t\t ในการเขียนโปรแกรมที่ต้องมีการสืบทอดคลาสนั้น ถ้าหากต้องการให้คลาสแม่เป็นตัวเก็บตัวแปร หรือเมธอดของคลาสลูกทั้งหลายไว้ และให้คลาสลูกทุกคลาสเป็นคลาสประเภทเดียวกัน เราสามารถนำแนวคิดของ คลาสนามธรรม (abstract class)
+ มาใช้ได้ ในคลาสนามธรรมจะใช้คำว่า abstract นำหน้าคำว่า class โดยมีรูปแบบดังนี้ \n </string>
+    <string name="Content7_7Body_2"> \n รูปแบบ </string>
+    <string name="Content7_7Body_3"> \t\t [modifier] abstract class ชื่อคลาส { \n
+ \t\t\t [ส่วนประกาศคุณสมบัติ] \n
+ \t\t\t [ส่วนประกาศเมธอด]  </string>
+    <string name="Content7_7Body_4"> \n ข้อแตกต่างระหว่างคลาสนามธรรมและอินเทอร์เฟสมีดังนี้</string>
+    <string name="Content7_7Body_5"> \t 1. อินเทอร์เฟสจะไม่มีคอนสตรัคเตอร์ แต่คลาสนามธรรมมีคอนสตรัคเตอร์ ทำให้คลาสลูก สามารถเรียกมาใช้งานได้ \n
+         \t 2. เมธอดทุกเมธอดในอินเทอร์เฟสจะประกาศเป็น abstract แต่ในคลาสนามธรรมจะประกาศเป็นบางเมธอดได้ จะมีเมธอดนามธรรมประกอบอยู่หรือไม่ก็ได้  \n
+ \t 3. ตัวแปรในอินเทอร์เฟสจะประกาศเป็น public static final แต่ตัวแปรในคลาสนามธรรมจะ ประกาศได้โดยไม่มีข้อจำกัด </string>
+
+
+    <!--CHAPTER 8-1-->
+    <string name="Content8_1Leader"> บทที่ 8 \nการจัดการข้อผิดพลาดและการประมวลผลไฟล์ </string>
+    <string name="Content8_1Header"> 8.1 ข้อผิดพลาดของโปรแกรม </string>
+    <string name="Content8_1Body_1"> \t\t การเขียนโปรแกรมหนึ่งๆ แม้ว่าโปรแกรมสามารถคอมไพล์ผ่าน หรือรันได้ แต่โปรแกรมนั้นก็อาจมีข้อผิดพลาดบางประการ เช่น หากเขียนโปรแกรมสำหรับการหารเลขโดยให้ป้อนตัวเลขสองตัวเข้าไป แล้วนำเลยทั้งสองนั้นมาหารกัน หากตัวเลขทั้งสองที่ป้อนเข้า
+ไปสามารถนำมาหารกันได้ เช่น ป้อน 4 กับ 2 ผลลัพธ์ของโปรแกรมจะออกมาถูกต้อง แต่ถ้าหากผู้ใช้โปรแกรมป้อนตัวเลขซึ่งทำให้ ตัวหารเป็นศูนย์ โปรแกรมก็จะทำงานต่อไปไม่ได้ทันที เนื่องจากเป็นการหารด้วยศูนย์
+\n\t\t ในภาษาจาวาหากเกิดข้อผิดพลาด (Exception) ตอนรันโปรแกรมซึ่งส่งผลให้การทำงานของ โปรแกรมไม่เป็นไปตามที่ต้องการแล้ว ภาษาจาวาสามารถตรวจจับความผิดพลาดนั้นได้ ข้อผิดพลาดนี้มีได้หลายกรณี ในการเขียนโปรแกรมภาษาจาวา
+สามารถเพิ่มส่วนการดักจับและจัดการกับข้อผิดพลาดประเภทนี้ได้ เรียกว่า exception handling </string>
+
+    <!--CHAPTER 8-2-->
+    <string name="Content8_2Header"> 8.2 การดักจับ Exception </string>
+    <string name="Content8_2Body_1"> \t\t การดักจับ Exception หรือ exception handling สามารถทำได้หลายวิธี โดยการดักจับจะทำให้แปรแกรมไม่หยุดทำงานไปเฉยๆ หากมีข้อผิดพลาดเกิดขึ้น ในหัวข้อนี้จะกล่าวถึงการใช้คำสั่ง try-catch
+และการใช้คำสั่ง throws </string>
+    <string name="Content8_2Body_2"> \n คำสั่ง try-catch </string>
+    <string name="Content8_2Body_3"> \t\t คำสั่งนี้จะใช้ในการจัดการกับเมธอดหรือคำสั่งต่าง ๆ ที่อาจเกิดข้อผิดพลาดจาการทำงานขึ้นโดยมีรูปแบบคำสั่งดังนี้ \n </string>
+    <string name="Content8_2Body_4"> รูปแบบ </string>
+    <string name="Content8_2Body_5"> \t try \n
+\t\t { \n
+\t\t ชุดคำสั่งอาจเกิด Exception ขึ้น \n
+\t\t } \n
+\t\t\t catch (ExceptionType parameterName) \n
+\t\t { \n
+\t\t\t ชุดคำสั่งที่จะให้ทำเมื่อดักจับ Exception ได้ \n
+\t\t } </string>
+    <string name="Content8_2Body_6"> \n\t\t โดยที่ ExceptionType คือประเภทของคลาสที่ต้องการดักจับ ส่วน parameterName คือ ตัวแปรที่จะนำมารับข้อผิดพลาดที่เกิดขึ้น </string>
+    <string name="Content8_2Body_7"> \n โปรแกรมที่ 8.1 </string>
+    <string name="Content8_2Body_8"> \t\t เป็นตัวอย่างการใช้ try-catch ตรวจจับข้อผิดพลาด โดยเมธอด parseInt เป็นเมธอดที่เปลี่ยนตัวเลขอยู่ในรูปสตริงให้เป็นตัวเลขจำนวนเต็ม \n </string>
+    <string name="Content8_2Body_9"> \t public class ParseIntError \n
+\t\t { \n
+\t\t public static void main(String[] args) \n
+\t\t { \n
+\t\t\t String str = “abcde”; \t //กำหนดข้อมูลให้ตัวแปรสตริง \n
+\t\t\t int number; \t //ประกาศตัวแปร number สำหรับเก็บเลขจำนวนเต็ม \n
+\t\t\t try \t //ดักจับความผิดพลาดคำสั่งที่ตามมา \n
+\t\t\t { \n
+\t\t\t number = Intege.parseInt(str); \n
+\t\t\t } \n
+\t\t\t catch (NumberFormatException e) \t //หากมีความผิดพลาดให้ทำสเตตเมนต์ที่ตามมา \n
+\t\t\t { \n
+\t\t\t System.out.println(“Conversion error:” + e.getMessage()); \n
+\t\t\t } \n
+\t\t } \n
+\t\t } </string>
+    <string name="Content8_2Body_10"> \n\t\t จากตัวอย่างโปรแกรมเนื่องจากตัวแปร str เป็นสตริงที่เป็นตัวอักขระ ทำให้เมธอด parseInt ไม่สามารถเปลี่ยนเป็นเลขจำนวนเต็มได้ จึงเกิดข้อผิดพลาดขึ้น และโปรแกรมจะไปทำชุดคำสั่งหลัง catch
+ซึ่งจะนำออบเจ็กต์ที่ดักจับได้มาแสดงผลด้วย โดยผลลัพธ์ดังนี้ \n </string>
+    <string name="Content8_2Body_11"> ผลลัพธ์ </string>
+    <string name="Content8_2Body_12"> \t Conversion error: For input string: “abcde” \n
+\t Process completed. </string>
+    <string name="Content8_2Body_13"> \n คำสั่ง throws </string>
+    <string name="Content8_2Body_14"> \t\t เป็นการให้เมธอดดักจับ exception ซึ่งจะเขียนคำสั่งนี้ไว้ในการประกาศเมธอด เพื่อเป็นการระบุว่าอาจมีความผิดปกติเกิดขึ้น โดยมีรูปแบบในการเขียนดังนี้ \n </string>
+    <string name="Content8_2Body_15"> รูปแบบ </string>
+    <string name="Content8_2Body_16"> \t\t\t return_type name(parameter) throws ExceptionType </string>
+    <string name="Content8_2Body_17"> \n\t\t คำสั่งบางคำสั่งในภาษาจาวาจะต้องตรวจจับข้อผิดพรากด้วย โดยในคู่มือของ sun จะแจ้งไว้ว่าคำสั่งนั้นๆ ต้องงมีการตรวจจับหรือไม่ ส่วนใหญ่คำสั่งที่ที่สั่งเก็บอยู่ใน java.io.* มักจะต้องใช้ โดยการตรวจจับอาจใช้คำสั่ง try-catch
+หรือ throws ก็ได้ \n </string>
+    <string name="Content8_2Body_18"> โปรแกรมที่ 8.2 </string>
+    <string name="Content8_2Body_19"> \t\t ตัวอย่างการใช้เมธอด read(int [ ]) เพื่อรับข้อมูลมาเก็บในตัวแปรอาร์เรย์ การใช้ System.in.read นี้ต้องเรียก java.io* ขึ้นมาก่อน และเมธอดนี้ต้องตรวจจับข้อผิดพลาดด้วย จึงใช้คำสั่ง throws
+ในการตรวจจับที่เมธอด main \n </string>
+    <string name="Content8_2Body_20"> \t import java.io.*; \n
+\t public class ReadData {
+\t public static void main(String[] args) throw IOException \t //ใช้คำสั่ง throws IOException \n
+\t\t { \n
+\t\t byte[] data = new byte[10]; \n
+\t\t System.out.println(“ป้อนตัวอักขระ”) \n
+\t\t System.in.read(data); \t //รับข้อมูลทางแป้นพิมพ์ \n
+\t\t System.out.print(“คุณพิมพ์ :”); \n
+\t\t for(int I = 0: i〈 data,length;i++) \n
+\t\t System.out.print((char)data[i]) \t //แสดงข้อมูลในอาร์เรย์ออกมาทีละตัว \n
+\t\t\t } \n
+\t\t } </string>
+    <string name="Content8_2Body_21"> \n\t\t เมื่อรันโปรแกรมของเมธอด read จะให้ป้อนข้อมูลเข้าไปแล้วกด Enter ข้อมูลนี้จะถูกเก็บในตัวแปรอาร์เรย์ ซึ้งคำสั่งนี้จะมีการตรวจจับความผิดพลาดอยู่ด้วย จากนั้นจะพิมพ์ข้อมูลทั้งหมดในอาร์เรย์ออกมาทีละตัว \n </string>
+    <string name="Content8_2Body_22"> ผลลัพธ์ </string>
+    <string name="Content8_2Body_23"> \t ป้อนตัวอักขระ : - \n
+\t ABCDEFGHIK \n
+\t คุณพิมพ์ : ABCDEFGHJ \n
+\t Process completed. </string>
+
+    <!--CHAPTER 8-3-->
+    <string name="Content8_3Header"> 8.3 Input/Output Stream </string>
+    <string name="Content8_3Body_1"> \t\t สตรีม (streams) จะเป็นหน่วยของข้อมูลที่เรียงติดกัน โดยข้อมูลแต่ละหน่วยอาจเป็นโครงสร้างหรือข้อมูลชนิดเดียวกันก็ได้ ส่วนไฟล์จะเป็นจุดที่ใช้ติดต่อกับสตรีมซึ้งอาจจะรับหรือส่งข้อมูลก็ได้ \n
+\t\t สตรีมจะแบ่งออกเป็นสองประเภทคือ สตรีมเท็กซ์ (text stream) และสตรีมไบนารี (binary stream) ตัวอย่างเช่น ถ้าเก็บคำว่า “COMPUTER” ข้อมูลจะเก็บเป็นรหัสแอสกีแต่ละตัว ถ้าหากเก็บรหัสการขึ้นบรรทัดใหม่ (newline)
+ข้อมูลจะถูกแปลงเป็นรหัสแอสกีสองตัวคือ carriage-return ซึ่งมีค่าเท่ากับ 13 และ linefeed ซึ่งมีค่าเท่ากับ 10 ส่วนสตรีมแบบไบนารีจะเก็บข้อมูลไปตามลักษณะของข้อมูล \n
+\t\t ลักษณะของไฟล์ที่เก็บข้อมูลนั้นข้อมูลแต่ละไบต์จะถูกเก็บเรียงกันไป และจบท้ายด้วยรหัส EOF (End-Of-File) </string>
+    <string name="Content8_3Body_2"> \t\t ในภาจาวานั้นจะมีคลาสในการอ่านเขียนสตรีม โดยคลาส Reader เป็นคลาสที่ใช้อ่านข้อมูลสตรีม ส่วนคลาส Writer เป็นคลาสสำหรับเขียนข้อมูลสตรีม คลาสทั้งสองจะมีคลาสลูกอยู่หลายคลาสขึ้นกับลักษณะของการใช้งาน </string>
+
+    <!--CHAPTER 8-4-->
+    <string name="Content8_4Header"> 8.4 การอ่านเขียนไฟล์ </string>
+    <string name="Content8_4Body_1"> \t\t 1. ไฟล์อักษร (Text Files) หรือเท็กซ์ไฟล์ \n
+\t\t 2. ไฟล์ข้อมูล (Binary Files) หรือไบนารีไฟล์ \n </string>
+    <string name="Content8_4Body_2"> เท็กซ์ไฟล์ </string>
+    <string name="Content8_4Body_3"> \t\t เป็นไฟล์ข้อความ ข้อมูลที่เก็บจะเก็บเป็นรหัสแอสกีของตัวอักขระนั้น ๆ ถ้ามีรหัสควบคุมเช่น การขึ้นบรรทัดใหม่ รหัสควบคุมนี้จะเปลี่ยนเป็นรหัสแอสกีของตัวนั้น ๆ \n </string>
+    <string name="Content8_4Body_4"> ไบนารีไฟล์ </string>
+    <string name="Content8_4Body_5"> \t\t ไฟล์ประเภทนี้จะเก็บข้อมูลเป็นเลขฐานสองของข้อมูลนั้น ๆ จริง ๆ เราไม่สามารถใช้โปรแกรมเปิดไฟล์ประเภทนี้ขึ้นมาอ่านได้ อย่างเช่น ถ้าหากเก็บเลข 2 ไฟล์แบบเท็กซ์ไฟล์จะเก็บรหัสแอสกีของเลข 2
+แต่ไฟล์แบบไบนารีไฟล์จะเป็นค่าเลขฐานสองที่มีค่าเท่ากับ 2 \n </string>
+    <string name="Content8_4Body_6"> พื้นฐานการทำงานกับไฟล์ </string>
+    <string name="Content8_4Body_7"> \t\t ในการเขียนโปรแกรมเพื่อสร้างหรืออ่านไฟล์กับแผ่นดิสก์หรือหน่วยความจำสำรอง มีขั้นตอนกระบวนการกระทำกับไฟล์ดังนี้ \n
+\t\t 1. เปิดไฟล์ เป็นการทำให้ระบบรู้ว่าต้องการติดต่อกับไฟล์ใด มีไฟล์นั้นอยู่ในระบบหรือไม่ ถ้ามีจะติดต่อกับไฟล์เพื่ออ่านหรือเขียนข้อมูล \n
+\t\t 2. กระทำกับไฟล์ หลังจากเปิดไฟล์ได้แล้วจะต้องกระทำกับไฟล์ว่าจะอ่านหรือเขียนข้อมา \n
+\t\t 3. ปิดไฟล์ เมื่ออ่านหรือเขียนข้อมูลแล้วจะต้องปิดไฟล์นั้น \n
+\t\t การดำเนินการกับไฟล์ทุกครั้งจะต้องทำตามสามขั้นตอนที่กล่าวมา นอกจากนี้ยังเป็นไปได้ที่โปรแกรมต้องการสร้างไฟล์หรือเขียนไฟล์แล้วเนื้อที่ในดิสก์ไม่พอซึ่งจะมีข้อผิดพลาดเกิดขึ้น เมธอดต่าง ๆ ที่ใช้กระทำกับไฟล์จะต้องมีการตรวจจับความผิดปกติด้วย </string>
+    <string name="Content8_4Body_8"> \n การเขียนข้อมูลลงไฟล์เบื้องต้น </string>
+    <string name="Content8_4Body_9"> \t\t การเขียนข้อมูลลงไฟล์อย่างง่ายจะต้องสร้างออบเจ็กต์ของคลาสต่อไปนี้ \n
+\t\t - FileWrite เป็นคลาสที่ใช้สำหรับเปิดไฟล์เพื่อเขียนข้อมูล \n
+\t\t - PrintWriter เป็นคลาสสำหรับเขียนข้อมูลลงไฟล์ โดยจะมีเมธอด print และ println ที่คล้ายกับการแสดงผลข้อมูลทางหน้าจอ แต่จะเขียนลงไปในไฟล์แทน แต่การเขียนข้อมูลลงไฟล์นี้ไม่สามารถสร้างไฟล์ใหม่ได้ จึงต้องใช้คลาสนี้ต่อจากคลาส
+FileWrite เช่น การสร้างไฟล์ชื่อ StudentData.txt จะทำได้ดังนี้ \n
+\t\t สร้างออบเจ็กต์ของคลาส FileWrite จากนั้นส่งชื่อไฟล์เป็นคอนสตรัคเตอร์ ดังต่อไปนี้ \n </string>
+    <string name="Content8_4Body_10"> \t\t\t FileWriter fwriter = new FileWriter(“StudentData.txt”); </string>
+    <string name="Content8_4Body_11"> \n\t\t จากนั้น ถ้าหากต้องการเขียนข้อมูลลงไปจะต้องสร้างออบเจ็กต์ของคลาส PrintWriter ขึ้นมาดังตัวอย่างต่อไปนี้ \n </string>
+    <string name="Content8_4Body_12"> \t\t\t PrintWriter outputFile = new PrintWriter(fwriter); </string>
+    <string name="Content8_4Body_13"> \n\t\t จะเป็นการสร้างออบเจ็กต์ชื่อ outputFile ซึ่งเป็นออบเจ็กต์ของคลาส PrintWriter ออบเจ็กต์นี้จะอ้างไปถึง fwriter ซึ่งเชื่อมต่ออยู่กับไฟล์ StudentData.txt ถ้าหากต้องการเขียนข้อมูลลงไปจะใช้เมธอดของ
+PrintWriter คือ print และ println ในการเขียนข้อมูลลงไฟล์ได้ ตัวอย่างเช่น ถ้าหากต้องการเขียนสตริงคําว่า “Twat” ลงในไฟล์จะทำได้ดังนี้ \n </string>
+    <string name="Content8_4Body_14"> \t\t\t outputFile.println(“Twat”); </string>
+    <string name="Content8_4Body_15"> \n\t\t เมื่อโปรแกรมเขียนข้อมูลลงไปแล้วจะต้องเรียกใช้เมธอดปิดไฟล์ดังต่อไปนี้ \n </string>
+    <string name="Content8_4Body_16"> \t\t\t outputFile.close(); </string>
+    <string name="Content8_4Body_17"> \n\t\t เมธอด println ในคลาส PrintWriter จะใช้ในการเขียนสตริงลงในไฟล์ทีละบรรทัด เมื่อเขียนข้อมูลลงไปแล้วเคอร์เซอร์จะขึ้นบรรทัดใหม่ ตัวอย่างเช่น ถ้าหาดสร้างไฟล์ชื่อ StudentData.txt
+สำหรับเก็บชื่อและคะแนนของนักเรียนจะทำได้ดังต่อไปนี้ </string>
+    <string name="Content8_4Body_18"> \n\t\t จากชุดคำสั่งด้านบนจะเป็นการสร้างไฟล์ชื่อ StudentData.txt ไว้ในโฟลเดอร์เดียวกับโปรแกรมที่เรียกขึ้น ถ้าหากใช้โปรแกรม Notepad เปิดไฟล์ StudentData.txt ขึ้นมาจะได้ผลลัพธ์ดังนี้ \n </string>
+    <string name="Content8_4Body_19"> ผลลัพธ์ </string>
+    <string name="Content8_4Body_20"> \t T_wat \n
+\t 95 \n
+\t Kareb \n
+\t 85 \n
+\t Jame Tum \n
+\t 94 </string>
+
+    <!--CHAPTER 8-5-->
+    <string name="Content8_5Header"> 8.5 คลาสสำหรับอ่านเขียนไฟล์ </string>
+    <string name="Content8_5Body_1"> \t\t คลาสอื่นๆ สำหรับอ่านเขียนไฟล์ \n </string>
+    <string name="Content8_5Body_2"> แผนภาพแสดงคลาสและการสืบทอดของคลาสที่ใช้อ่านเขียนสตรีม \n </string>
+    <string name="Content8_5Body_3"> \t\t - คลาส Reader เป็นคลาสแม่ที่ใช้ในการอ่านสตรีมข้อมูล ซึ่งอาจมีอื่นๆ สืบทอดต่อไปอีก \n
+\t\t - คลาส InputStreamReader เป็นคลาสที่สืบทอดมาจาก Reader ออกแบบมาเพื่ออ่านสตรีมข้อมูลอักขระ \n
+\t\t - คลาส FileReader เป็นคลาสที่สืบทอดมาจาก InputStreamReader เพื่อใช้อ่านข้อมูลแบบเท็กซ์ไฟล์ \n </string>
+    <string name="Content8_5Body_4"> ตารางที่ 8.1 ตัวอย่างเมธอดในคลาส FileReader </string>
+    <string name="Content8_5Body_5"> \nตารางที่ 8.2 ตัวอย่างเมธอดในคลาส BufferedReader </string>
+    <string name="Content8_5Body_6"> \nตารางที่ 8.3 ตัวอย่างเมธอดในคลาส FileWriter </string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_chap1_1">Chap1_1Activity</string>
+</resources>
