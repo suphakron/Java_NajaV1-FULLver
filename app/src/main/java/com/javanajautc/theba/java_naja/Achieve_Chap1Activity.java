@@ -1,4 +1,4 @@
-package com.javanajautc.theba.java_naja;
+package com.example.theba.java_naja;
 
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;

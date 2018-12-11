@@ -1517,6 +1517,6 @@ PrintWriter คือ print และ println ในการเขียนข�
     <string name="Content8_5Body_5"> \nตารางที่ 8.2 ตัวอย่างเมธอดในคลาส BufferedReader </string>
     <string name="Content8_5Body_6"> \nตารางที่ 8.3 ตัวอย่างเมธอดในคลาส FileWriter </string>
 
-    <string name="action_javanajautc">javanajautc action</string>
+    <string name="action_example">example action</string>
     <string name="title_activity_chap1_1">Chap1_1Activity</string>
 </resources>

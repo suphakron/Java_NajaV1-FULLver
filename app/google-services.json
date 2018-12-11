@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:396003332163:android:87c4a85e7154fe12",
         "android_client_info": {
-          "package_name": "com.javanajautc.theba.java_naja"
+          "package_name": "com.example.theba.java_naja"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "396003332163-u3h7b76vjgojgg7flsvu1eu9qnrn41l9.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.javanajautc.theba.java_naja",
+            "package_name": "com.example.theba.java_naja",
             "certificate_hash": "40017a82a25c4e850b0a3231efa4a6ad34ce7819"
           }
         },
@@ -26,7 +26,7 @@
           "client_id": "396003332163-lrna0j2g65ojetp6ii17dqv9jv92ib1o.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.javanajautc.theba.java_naja",
+            "package_name": "com.example.theba.java_naja",
             "certificate_hash": "6e7e581fa88790c138792095795df8a2dd8baf5b"
           }
         },
@@ -34,7 +34,7 @@
           "client_id": "396003332163-m577krug726k86b8u6odh9jhllhruu1q.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.javanajautc.theba.java_naja",
+            "package_name": "com.example.theba.java_naja",
             "certificate_hash": "7a6edb3344903e6bb48a1fe975791d2226ecb778"
           }
         },
