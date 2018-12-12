@@ -34,6 +34,7 @@
     <string name="Chapter8">บทที่ 8</string>
     <string name="before_test">แบบทดสอบก่อนเรียน</string>
     <string name="after_test">แบบทดสอบหลังเรียน</string>
+    <string name="total">คะแนนรวมทั้งหมด</string>
     <string name="point1">หน่วยที่ 1</string>
     <string name="point2">หน่วยที่ 2</string>
     <string name="point3">หน่วยที่ 3</string>
@@ -42,7 +43,9 @@
     <string name="point6">หน่วยที่ 6</string>
     <string name="point7">หน่วยที่ 7</string>
     <string name="point8">หน่วยที่ 8</string>
-    <string name="certificate">เกียรติบัตร</string>
+    <string name="point9">หน่วยที่ 9</string>
+    <string name="point10">หน่วยที่ 10</string>
+    <string name="certificate">พิมพ์เกียรติบัตร</string>
 
     <!--CHAPTER 1-1-->
     <string name="Content1_1Leader">บทที่ 1\nภาษาคอมพิวเตอร์และการพัฒนาโปรแกรม</string>

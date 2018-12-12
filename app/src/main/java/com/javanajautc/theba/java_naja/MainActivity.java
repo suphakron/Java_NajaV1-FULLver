@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity
         icon_cert = headerView.findViewById(R.id.icon_cert);
         icon_cert.setVisibility(View.INVISIBLE);
 
-        score = (TextView) navigationView.getHeaderView(0).findViewById(R.id.Score_show);
+        //score = (TextView) navigationView.getHeaderView(0).findViewById(R.id.Score_show);
 //        Userinfomation uInfo = new Userinfomation();
 //        String Score = uInfo.getScore();
 //        score.setText(Score);
@@ -149,10 +149,10 @@ public class MainActivity extends AppCompatActivity
                         public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                             mScore = dataSnapshot.getValue(Integer.class);
                             Score = String.valueOf(mScore);
-                            score.setText(Score);
+                            //score.setText(Score);
 
                             score_percent = mScore * 100;
-                            score_percent = score_percent / 45;
+                            score_percent = score_percent / 94;
                             //Score = Double.toString(Math.floor(score_percent));
                             Score = Integer.toString((int)score_percent);
 
@@ -490,17 +490,17 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_Setting) {
 
-            Map newpost = new HashMap();
+            /*Map newpost = new HashMap();
             newpost.put("UserScore",0);
             current_user_db.updateChildren(newpost);
-            Toast.makeText(MainActivity.this,"Score Reset : 0",Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this,"Score Reset : 0",Toast.LENGTH_SHORT).show();*/
 
         } else if (id == R.id.nav_help) {
 
-            Map newpost = new HashMap();
-            newpost.put("UserScore",45);
+            /*Map newpost = new HashMap();
+            newpost.put("UserScore",94);
             current_user_db.updateChildren(newpost);
-            Toast.makeText(MainActivity.this,"Score Update : 45",Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this,"Score Update : " + newpost,Toast.LENGTH_SHORT).show();*/
 
         } else if (id == R.id.nav_send) {
 

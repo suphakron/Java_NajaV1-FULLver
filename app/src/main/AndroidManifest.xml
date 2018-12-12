@@ -56,10 +56,10 @@
         </activity>
         <activity
             android:name=".RegisterActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBarEDIT"/>
         <activity
             android:name=".ResetPasswordActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBarEDIT"/>
         <activity android:name=".EditProfileActivity" />
         <activity
             android:name=".QuizChap1_1Activity"
@@ -222,72 +222,105 @@
             android:name=".QuizChap4_10Activity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".QuizTrueFalse_Chap4Activity" />
-        <activity android:name=".QuizChap5_7Activity"
+        <activity
+            android:name=".QuizChap5_7Activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".QuizChap5_6Activity"
+        <activity
+            android:name=".QuizChap5_6Activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".QuizChap5_5Activity"
+        <activity
+            android:name=".QuizChap5_5Activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".QuizChap5_4Activity"
+        <activity
+            android:name=".QuizChap5_4Activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".QuizChap5_3Activity"
+        <activity
+            android:name=".QuizChap5_3Activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".QuizChap5_2Activity"
+        <activity
+            android:name=".QuizChap5_2Activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".QuizChap5_1Activity"
+        <activity
+            android:name=".QuizChap5_1Activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".QuizChap6_1Activity"
+        <activity
+            android:name=".QuizChap6_1Activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".QuizChap6_2Activity"
+        <activity
+            android:name=".QuizChap6_2Activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".QuizChap6_3Activity"
+        <activity
+            android:name=".QuizChap6_3Activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".QuizChap6_4Activity"
+        <activity
+            android:name=".QuizChap6_4Activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".QuizChap6_5Activity"
+        <activity
+            android:name=".QuizChap6_5Activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".QuizChap6_6Activity"
+        <activity
+            android:name=".QuizChap6_6Activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".QuizChap6_7Activity"
+        <activity
+            android:name=".QuizChap6_7Activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".QuizChap6_8Activity"
+        <activity
+            android:name=".QuizChap6_8Activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".QuizChap6_9Activity"
+        <activity
+            android:name=".QuizChap6_9Activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".QuizChap6_10Activity"
+        <activity
+            android:name=".QuizChap6_10Activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".QuizChap7_1Activity"
+        <activity
+            android:name=".QuizChap7_1Activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".QuizChap7_2Activity"
+        <activity
+            android:name=".QuizChap7_2Activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".QuizChap7_3Activity"
+        <activity
+            android:name=".QuizChap7_3Activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".QuizChap7_4Activity"
+        <activity
+            android:name=".QuizChap7_4Activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".QuizChap7_5Activity"
+        <activity
+            android:name=".QuizChap7_5Activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".QuizChap7_6Activity"
+        <activity
+            android:name=".QuizChap7_6Activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".QuizChap7_7Activity"
+        <activity
+            android:name=".QuizChap7_7Activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".QuizChap8_1Activity"
+        <activity
+            android:name=".QuizChap8_1Activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".QuizChap8_2Activity"
+        <activity
+            android:name=".QuizChap8_2Activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".QuizChap8_3Activity"
+        <activity
+            android:name=".QuizChap8_3Activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".QuizChap8_4Activity"
+        <activity
+            android:name=".QuizChap8_4Activity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".QuizTrueFalse_Chap5Activity" />
         <activity android:name=".QuizTrueFalse_Chap6Activity" />
         <activity android:name=".QuizTrueFalse_Chap7Activity" />
-        <activity android:name=".QuizTrueFalse_Chap8Activity"></activity>
-
+        <activity android:name=".QuizTrueFalse_Chap8Activity" />
         <activity
             android:name=".CertificateActivity"
             android:configChanges="orientation|screenSize"
             android:screenOrientation="sensorLandscape" />
-
+        <activity android:name=".Achieve_Chap2Activity" />
+        <activity android:name=".Achieve_Chap3Activity" />
+        <activity android:name=".Achieve_Chap4Activity" />
+        <activity android:name=".Achieve_Chap5Activity" />
+        <activity android:name=".Achieve_Chap6Activity" />
+        <activity android:name=".Achieve_Chap7Activity" />
+        <activity android:name=".Achieve_Chap8Activity"></activity>
     </application>
 
 </manifest>

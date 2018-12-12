@@ -22,8 +22,8 @@ public class QuizChapter5 {
             {"ก. 100","ข. 0","ค. -1","ง. เลขจํานวนเต็มน้อยกว่าจํานวนเซลหนึ่งค่า"},
             {"ก. elements","ข. size","ค. delete","ง. width"},
     };
-    private String mCorrestAnwsers [] = {"ค. ตัวแปรตัวสุดท้ายคือ x[9] ","ง. ถูกทุกข้อ ","ข. char [4] x = {'A','1','B','2'}; ","ค. M[2][2] ",
-            "ก. A[4] มีค่าเท่ากับ 93", "ค. -1 ","ก. elements "};
+    private String mCorrestAnwsers [] = {"ค. ตัวแปรตัวสุดท้ายคือ x[9]","ง. ถูกทุกข้อ","ข. char [4] x = {'A','1','B','2'};","ค. M[2][2]",
+            "ก. A[4] มีค่าเท่ากับ 93", "ค. -1","ก. elements"};
 
     public String getQuestion(int a){
         String quiz = mQuizs[a];

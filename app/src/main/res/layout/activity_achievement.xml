@@ -51,22 +51,32 @@
                     android:layout_height="60dp" />
 
                 <ImageView
-                    android:id="@+id/achievement_check"
+                    android:id="@+id/achievement_check1"
                     android:layout_width="50dp"
                     android:layout_height="60dp"
-                    android:layout_marginRight="15dp"
+                    android:layout_marginRight="10dp"
                     android:layout_toLeftOf="@id/block1" />
 
+                <ImageView
+                    android:id="@+id/achievement_cup1"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentLeft="true" />
+
                 <TextView
-                    android:id="@+id/Score_show"
+                    android:id="@+id/Score_show1"
                     android:text="0/3"
                     android:textStyle="bold"
                     android:textSize="22sp"
                     android:layout_alignParentRight="true"
+                    android:textAlignment="viewStart"
+                    android:layout_marginTop="0dp"
                     android:layout_marginRight="10dp"
                     android:gravity="center"
                     android:layout_width="50dp"
-                    android:layout_height="55dp" />
+                    android:layout_height="60dp"
+                    tools:ignore="RtlCompat" />
 
             <TextView
                 android:id="@+id/but_chap2"
@@ -93,9 +103,32 @@
                     android:id="@+id/achievement_check2"
                     android:layout_width="50dp"
                     android:layout_height="60dp"
-                    android:layout_marginRight="15dp"
+                    android:layout_marginRight="10dp"
                     android:layout_below="@id/but_chap1"
                     android:layout_toLeftOf="@id/block2" />
+
+                <ImageView
+                    android:id="@+id/achievement_cup2"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@id/achievement_cup1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentLeft="true" />
+
+
+                <TextView
+                    android:id="@+id/Score_show2"
+                    android:layout_below="@id/Score_show1"
+                    android:text="0/11"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textAlignment="viewStart"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    tools:ignore="RtlCompat" />
 
             <TextView
                 android:id="@+id/but_chap3"
@@ -123,9 +156,31 @@
                     android:id="@+id/achievement_check3"
                     android:layout_width="50dp"
                     android:layout_height="60dp"
-                    android:layout_marginRight="15dp"
+                    android:layout_marginRight="10dp"
                     android:layout_below="@id/but_chap2"
                     android:layout_toLeftOf="@id/block3" />
+
+                <TextView
+                    android:id="@+id/Score_show3"
+                    android:layout_below="@id/Score_show2"
+                    android:text="0/14"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textAlignment="viewStart"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    tools:ignore="RtlCompat" />
+
+                <ImageView
+                    android:id="@+id/achievement_cup3"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@id/achievement_cup2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentLeft="true" />
 
             <TextView
                 android:layout_below="@id/but_chap3"
@@ -152,9 +207,31 @@
                     android:id="@+id/achievement_check4"
                     android:layout_width="50dp"
                     android:layout_height="60dp"
-                    android:layout_marginRight="15dp"
+                    android:layout_marginRight="10dp"
                     android:layout_below="@id/but_chap3"
                     android:layout_toLeftOf="@id/block4" />
+
+                <TextView
+                    android:id="@+id/Score_show4"
+                    android:layout_below="@id/Score_show3"
+                    android:text="0/18"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textAlignment="viewStart"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    tools:ignore="RtlCompat" />
+
+                <ImageView
+                    android:id="@+id/achievement_cup4"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@id/achievement_cup3"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentLeft="true" />
 
             <TextView
                 android:id="@+id/but_chap5"
@@ -182,9 +259,31 @@
                     android:id="@+id/achievement_check5"
                     android:layout_width="50dp"
                     android:layout_height="60dp"
-                    android:layout_marginRight="15dp"
+                    android:layout_marginRight="10dp"
                     android:layout_below="@id/but_chap4"
                     android:layout_toLeftOf="@id/block5" />
+
+                <TextView
+                    android:id="@+id/Score_show5"
+                    android:layout_below="@id/Score_show4"
+                    android:text="0/13"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textAlignment="viewStart"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    tools:ignore="RtlCompat" />
+
+                <ImageView
+                    android:id="@+id/achievement_cup5"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@id/achievement_cup4"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentLeft="true" />
 
             <TextView
                 android:id="@+id/but_chap6"
@@ -197,6 +296,8 @@
                 android:layout_marginRight="-5dp"
                 android:textAlignment="center"
                 android:textColor="@color/colorDarkness"
+
+
                 android:textStyle="bold"
                 android:textSize="22sp"/>
 
@@ -211,9 +312,31 @@
                     android:id="@+id/achievement_check6"
                     android:layout_width="50dp"
                     android:layout_height="60dp"
-                    android:layout_marginRight="15dp"
+                    android:layout_marginRight="10dp"
                     android:layout_below="@id/but_chap5"
                     android:layout_toLeftOf="@id/block6" />
+
+                <TextView
+                    android:id="@+id/Score_show6"
+                    android:layout_below="@id/Score_show5"
+                    android:text="0/17"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textAlignment="viewStart"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    tools:ignore="RtlCompat" />
+
+                <ImageView
+                    android:id="@+id/achievement_cup6"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@id/achievement_cup5"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentLeft="true" />
 
             <TextView
                 android:id="@+id/but_chap7"
@@ -241,9 +364,127 @@
                     android:id="@+id/achievement_check7"
                     android:layout_width="50dp"
                     android:layout_height="60dp"
-                    android:layout_marginRight="15dp"
+                    android:layout_marginRight="10dp"
                     android:layout_below="@id/but_chap6"
                     android:layout_toLeftOf="@id/block7" />
+
+                <TextView
+                    android:id="@+id/Score_show7"
+                    android:layout_below="@id/Score_show6"
+                    android:text="0/13"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textAlignment="viewStart"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    tools:ignore="RtlCompat" />
+
+                <ImageView
+                    android:id="@+id/achievement_cup7"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@id/achievement_cup6"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentLeft="true" />
+
+                <TextView
+                    android:id="@+id/but_chap8"
+                    android:layout_below="@id/but_chap7"
+                    android:text="@string/Chapter8"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:paddingTop="15dp"
+                    android:layout_marginLeft="-5dp"
+                    android:layout_marginRight="-5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorDarkness"
+                    android:textStyle="bold"
+                    android:textSize="22sp"/>
+
+                <TextView
+                    android:id="@+id/block8"
+                    android:layout_below="@id/but_chap7"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp" />
+
+                <ImageView
+                    android:id="@+id/achievement_check8"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@id/but_chap7"
+                    android:layout_toLeftOf="@id/block8" />
+
+                <TextView
+                    android:id="@+id/Score_show8"
+                    android:layout_below="@id/Score_show7"
+                    android:text="0/5"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textAlignment="viewStart"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    tools:ignore="RtlCompat" />
+
+                <ImageView
+                    android:id="@+id/achievement_cup8"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@id/achievement_cup7"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentLeft="true" />
+
+                <TextView
+                    android:id="@+id/block9"
+                    android:layout_below="@id/but_chap8"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp" />
+
+                <ImageView
+                    android:id="@+id/achievement_certcup"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_below="@id/but_chap8"
+                    android:layout_toLeftOf="@id/block9" />
+
+                <TextView
+                    android:id="@+id/but_certificate"
+                    android:layout_below="@id/but_chap8"
+                    android:text="@string/certificate"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:paddingTop="15dp"
+                    android:layout_marginLeft="-5dp"
+                    android:layout_marginRight="-5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorDarkness"
+                    android:background="@drawable/backwithborder2"
+                    android:textStyle="bold"
+                    android:textSize="22sp"/>
+
+                <TextView
+                    android:id="@+id/blockcertificate"
+                    android:layout_below="@id/but_chap8"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp" />
+
+                <ImageView
+                    android:id="@+id/achievement_certificate"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_below="@id/but_chap8"
+                    android:layout_toLeftOf="@id/block8" />
 
             <TextView
                 android:layout_width="match_parent"

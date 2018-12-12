@@ -7,6 +7,8 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
@@ -20,7 +22,8 @@ import com.google.firebase.database.ValueEventListener;
 
 public class Achieve_Chap1Activity extends AppCompatActivity {
 
-    private RatingBar star,star2,star3;
+    private ImageView star,star2,star3;
+    private TextView txt_total;
     FirebaseAuth mAuth;
     private FirebaseDatabase mFirebaseDatabase;
     private DatabaseReference myRef ,current_user_db_score;
@@ -49,14 +52,15 @@ public class Achieve_Chap1Activity extends AppCompatActivity {
 
         current_user_db_score = FirebaseDatabase.getInstance().getReference().child("Users").child(user_id).child("UserScore");
 
-        star = (RatingBar) findViewById(R.id.star);
-        star2 = (RatingBar) findViewById(R.id.star2);
-        star3 = (RatingBar) findViewById(R.id.star3);
+        star = findViewById(R.id.star);
+        star2 = findViewById(R.id.star2);
+        star3 = findViewById(R.id.star3);
+        txt_total = findViewById(R.id.score_total);
 
         current_user_db_score.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                Integer fname = dataSnapshot.getValue(Integer.class);
+                Integer score = dataSnapshot.getValue(Integer.class);
 //                if (fname.equals(1)){
 //                    star.setEnabled(true);
 //                } else if (fname.equals(2)){
@@ -64,24 +68,18 @@ public class Achieve_Chap1Activity extends AppCompatActivity {
 //                } else if (fname.equals(3)){
 //                    star3.setEnabled(true);
 //                }
-                if (fname >= 1) {
-                    star.setEnabled(true);
-                    star.setRating(1);
-                    if (fname >= 2) {
-                        star2.setEnabled(true);
-                        star2.setRating(1);
-                        if (fname >= 3){
-                            star3.setEnabled(true);
-                            star3.setRating(1);
-                        }
-                    }
-                } else {
-                    star.setRating(0);
-                    star.setEnabled(false);
-                    star2.setRating(0);
-                    star2.setEnabled(false);
-                    star3.setRating(0);
-                    star3.setEnabled(false);
+                 if (score == 1) {
+                    star.setImageResource(R.drawable.star);
+                    txt_total.setText("1/3");
+                } else if (score == 2) {
+                    star.setImageResource(R.drawable.star);
+                    star2.setImageResource(R.drawable.star);
+                    txt_total.setText("2/3");
+                } else if (score >= 3) {
+                    star.setImageResource(R.drawable.star);
+                    star2.setImageResource(R.drawable.star);
+                    star3.setImageResource(R.drawable.star);
+                    txt_total.setText("3/3");
                 }
             }
 

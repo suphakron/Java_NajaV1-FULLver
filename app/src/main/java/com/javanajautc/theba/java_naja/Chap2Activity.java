@@ -20,6 +20,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
@@ -52,6 +53,7 @@ public class Chap2Activity extends AppCompatActivity
     private int mScore;
     private Button button_chap2_1, button_chap2_2, button_chap2_3, button_chap2_4, button_chap2_5, button_chap2_6;
     private TextView tv;
+    private ImageView icon_cert;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -98,6 +100,8 @@ public class Chap2Activity extends AppCompatActivity
         score = (TextView) navigationView.getHeaderView(0).findViewById(R.id.Score_show);
         Fname = (TextView) headerView.findViewById(R.id.textFName);
         Lname = (TextView) headerView.findViewById(R.id.textLName);
+        icon_cert = headerView.findViewById(R.id.icon_cert);
+        icon_cert.setVisibility(View.INVISIBLE);
 
         Resources res = getResources();
         Drawable drawable = res.getDrawable(R.drawable.custom_progressbar_drawable);
@@ -117,10 +121,26 @@ public class Chap2Activity extends AppCompatActivity
                         public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                             mScore = dataSnapshot.getValue(Integer.class);
                             Score = String.valueOf(mScore);
-                            score.setText(Score);
+                            //score.setText(Score);
 
+                            double score_percent = mScore * 100;
+                            score_percent = score_percent / 94;
+                            //Score = Double.toString(Math.floor(score_percent));
+                            Score = Integer.toString((int)score_percent);
+
+                            String Score_str = Score.replace(".","");
+
+
+                            mScore = Integer.parseInt(Score_str);
+                            //Toast.makeText(MainActivity.this,"" + mScore,Toast.LENGTH_SHORT).show(); Check integer percent
+                            if(mScore>=100){
+                                icon_cert.setVisibility(View.VISIBLE);
+                            } else {
+                                icon_cert.setVisibility(View.INVISIBLE);
+                            }
                             mProgress.setProgress(mScore);
-                            tv.setText(Score + " %");
+                            //tv.setText(String.format("%.2f %%", score_percent));
+                            tv.setText(mScore + " %");
 
                             if (mScore == 3){
                                 button_chap2_1.getBackground().setColorFilter(Color.parseColor("#bebcbc"), PorterDuff.Mode.MULTIPLY);
@@ -444,15 +464,7 @@ public class Chap2Activity extends AppCompatActivity
 
         } else if (id == R.id.nav_Setting) {
 
-            Map newpost = new HashMap();
-            newpost.put("UserScore",0);
-            current_user_db.updateChildren(newpost);
-
         } else if (id == R.id.nav_help) {
-
-            Map newpost = new HashMap();
-            newpost.put("UserScore",3);
-            current_user_db.updateChildren(newpost);
 
         } else if (id == R.id.nav_send) {
 

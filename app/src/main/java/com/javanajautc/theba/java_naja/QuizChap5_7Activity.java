@@ -37,7 +37,7 @@ public class QuizChap5_7Activity extends AppCompatActivity {
 
     private String mAnwser, user_id, user_Score;
     private int mScore;
-    private int mQuizNumber = 5;
+    private int mQuizNumber = 6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

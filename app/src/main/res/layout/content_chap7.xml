@@ -149,7 +149,7 @@
                     android:layout_width="20dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="3"
-                    android:drawableTop="@mipmap/ic_launcher_round"
+                    android:drawableTop="@drawable/selector_button7_7"
                     android:text="บทที่ 7.7 \nการมีได้หลายรูปแบบ" />
 
                 <TextView
